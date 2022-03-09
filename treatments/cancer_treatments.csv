@@ -1,0 +1,541 @@
+drug_name,oncological_drug
+"['cisplatin', 'docetaxel', 'pemetrexed', 'vinorelbine']","cisplatin, docetaxel, pemetrexed, vinorelbine"
+"['carboplatin', 'dexamethasone', 'lorazepam', 'omeprazole', 'paclitaxel', 'pemetrexed']","carboplatin, paclitaxel, pemetrexed"
+"['antibiotics', 'carboplatin', 'paclitaxel', 'vinorelbine']","carboplatin, paclitaxel, vinorelbine"
+"['cisplatin', 'docetaxel', 'omeprazole', 'pemetrexed']","cisplatin, docetaxel, pemetrexed"
+"['cisplatin', 'gemcitabine', 'vinorelbine']","cisplatin, gemcitabine, vinorelbine"
+"['carboplatin', 'gemcitabine', 'vinorelbine']","carboplatin, gemcitabine, vinorelbine"
+"['allopurinol', 'atenolol', 'carboplatin', 'etoposide', 'furosemide', 'immunoglobulin_g', 'omeprazole', 'simvastatin', 'spironolactone']","carboplatin, etoposide"
+"['acetaminophen', 'amlodipine', 'antibiotics', 'atorvastatin', 'carboplatin', 'enalapril', 'omeprazole', 'paclitaxel', 'simvastatin']","carboplatin, paclitaxel"
+"['allopurinol', 'atorvastatin', 'carboplatin', 'gentamicin', 'metformin', 'omeprazole', 'simvastatin', 'trimethoprim-sulfamethoxazole_combination', 'vinorelbine']","carboplatin, vinorelbine"
+"['allopurinol', 'atorvastatin', 'cisplatin', 'gentamicin', 'metformin', 'omeprazole', 'simvastatin', 'trimethoprim-sulfamethoxazole_combination', 'vinorelbine']","cisplatin, vinorelbine"
+"['acetaminophen', 'allopurinol', 'amlodipine', 'atorvastatin', 'carboplatin', 'insulin', 'omeprazole', 'prednisone', 'vinorelbine']","carboplatin, vinorelbine"
+"['acetaminophen', 'allopurinol', 'amlodipine', 'atorvastatin', 'carboplatin', 'etoposide', 'metformin', 'omeprazole']","carboplatin, etoposide"
+"['acetaminophen', 'atenolol', 'atorvastatin', 'carboplatin', 'etoposide', 'furosemide', 'metformin', 'omeprazole']","carboplatin, etoposide"
+"['atenolol', 'atorvastatin', 'carboplatin', 'furosemide', 'lorazepam', 'metformin', 'omeprazole', 'vinorelbine']","carboplatin, vinorelbine"
+"['carboplatin', 'dexketoprofen', 'etoposide', 'levofloxacin', 'lorazepam', 'lormetazepam', 'omeprazole', 'tramadol']","carboplatin, etoposide"
+"['atenolol', 'atorvastatin', 'carboplatin', 'enalapril', 'etoposide', 'lorazepam', 'metformin', 'omeprazole']","carboplatin, etoposide"
+"['amlodipine', 'atenolol', 'atorvastatin', 'carboplatin', 'omeprazole', 'pemetrexed', 'prednisone']","carboplatin, pemetrexed"
+"['atorvastatin', 'carboplatin', 'enalapril', 'etoposide', 'insulin', 'metformin', 'omeprazole']","carboplatin, etoposide"
+"['amlodipine', 'atorvastatin', 'carboplatin', 'enalapril', 'etoposide', 'insulin', 'omeprazole']","carboplatin, etoposide"
+"['amlodipine', 'atenolol', 'carboplatin', 'enalapril', 'etoposide', 'omeprazole', 'prednisone']","carboplatin, etoposide"
+"['atenolol', 'atorvastatin', 'carboplatin', 'etoposide', 'insulin', 'omeprazole', 'ranitidine']","carboplatin, etoposide"
+"['analgesic', 'carboplatin', 'dexamethasone', 'levofloxacin', 'omeprazole', 'pemetrexed', 'simvastatin']","carboplatin, pemetrexed"
+"['atenolol', 'atorvastatin', 'carboplatin', 'enalapril', 'gemcitabine', 'omeprazole', 'simvastatin']","carboplatin, gemcitabine"
+"['atenolol', 'atorvastatin', 'enalapril', 'ipilimumab', 'nivolumab', 'omeprazole', 'simvastatin']","ipilimumab, nivolumab"
+"['acetaminophen', 'carboplatin', 'corticoids', 'etoposide', 'omeprazole', 'simvastatin']","carboplatin, etoposide"
+"['amlodipine', 'carboplatin', 'levofloxacin', 'omeprazole', 'simvastatin', 'vinorelbine']","carboplatin, vinorelbine"
+"['atorvastatin', 'cisplatin', 'furosemide', 'metformin', 'omeprazole', 'vinorelbine']","cisplatin, vinorelbine"
+"['atorvastatin', 'carboplatin', 'furosemide', 'metformin', 'omeprazole', 'vinorelbine']","carboplatin, vinorelbine"
+"['atorvastatin', 'carboplatin', 'furosemide', 'metformin', 'omeprazole', 'paclitaxel']","carboplatin, paclitaxel"
+"['acetaminophen', 'atorvastatin', 'carboplatin', 'etoposide', 'omeprazole', 'tramadol']","carboplatin, etoposide"
+"['atorvastatin', 'cisplatin', 'enalapril', 'enoxaparin', 'omeprazole', 'vinorelbine']","cisplatin, vinorelbine"
+"['amlodipine', 'atorvastatin', 'carboplatin', 'enalapril', 'metformin', 'paclitaxel']","carboplatin, paclitaxel"
+"['carboplatin', 'enalapril', 'furosemide', 'omeprazole', 'simvastatin', 'vinorelbine']","carboplatin, vinorelbine"
+"['carboplatin', 'enalapril', 'metformin', 'omeprazole', 'simvastatin', 'vinorelbine']","carboplatin, vinorelbine"
+"['allopurinol', 'amlodipine', 'atenolol', 'cisplatin', 'lorazepam', 'vinorelbine']","cisplatin, vinorelbine"
+"['allopurinol', 'amlodipine', 'atenolol', 'carboplatin', 'lorazepam', 'vinorelbine']","carboplatin, vinorelbine"
+"['allopurinol', 'amlodipine', 'atenolol', 'carboplatin', 'lorazepam', 'pemetrexed']","carboplatin, pemetrexed"
+"['allopurinol', 'atorvastatin', 'carboplatin', 'enalapril', 'etoposide', 'furosemide']","carboplatin, etoposide"
+"['allopurinol', 'amlodipine', 'carboplatin', 'metformin', 'pemetrexed', 'simvastatin']","carboplatin, pemetrexed"
+"['atenolol', 'atorvastatin', 'carboplatin', 'enalapril', 'etoposide', 'omeprazole']","carboplatin, etoposide"
+"['amlodipine', 'atorvastatin', 'carboplatin', 'metformin', 'pemetrexed', 'tramadol']","carboplatin, pemetrexed"
+"['atenolol', 'atorvastatin', 'carboplatin', 'enalapril', 'omeprazole', 'vinorelbine']","carboplatin, vinorelbine"
+"['atorvastatin', 'carboplatin', 'enalapril', 'etoposide', 'metformin', 'omeprazole']","carboplatin, etoposide"
+"['antibiotic', 'carboplatin', 'ciprofloxacin', 'omeprazole', 'pemetrexed', 'prednisone']","carboplatin, pemetrexed"
+"['carboplatin', 'dexamethasone', 'fentanyl', 'lorazepam', 'omeprazole', 'paclitaxel']","carboplatin, paclitaxel"
+"['cisplatin', 'dexamethasone', 'enoxaparin', 'metoclopramide', 'omeprazole', 'vinorelbine']","cisplatin, vinorelbine"
+"['atenolol', 'carboplatin', 'dexamethasone', 'omeprazole', 'paclitaxel', 'prednisone']","carboplatin, paclitaxel"
+"['atenolol', 'atorvastatin', 'carboplatin', 'etoposide', 'omeprazole']","carboplatin, etoposide"
+"['antibiotic', 'carboplatin', 'enalapril', 'etoposide', 'omeprazole']","carboplatin, etoposide"
+"['acetaminophen', 'atorvastatin', 'carboplatin', 'etoposide', 'ranitidine']","carboplatin, etoposide"
+"['carboplatin', 'etoposide', 'furosemide', 'metformin', 'omeprazole']","carboplatin, etoposide"
+"['carboplatin', 'etoposide', 'insulin', 'omeprazole', 'simvastatin']","carboplatin, etoposide"
+"['atenolol', 'carboplatin', 'enalapril', 'etoposide', 'omeprazole']","carboplatin, etoposide"
+"['allopurinol', 'carboplatin', 'fentanyl', 'omeprazole', 'paclitaxel']","carboplatin, paclitaxel"
+"['cisplatin', 'enalapril', 'omeprazole', 'simvastatin', 'vinorelbine']","cisplatin, vinorelbine"
+"['atenolol', 'carboplatin', 'enalapril', 'omeprazole', 'pemetrexed']","carboplatin, pemetrexed"
+"['allopurinol', 'atorvastatin', 'carboplatin', 'etoposide', 'furosemide']","carboplatin, etoposide"
+"['ciprofloxacin', 'cisplatin', 'ibuprofen', 'omeprazole', 'pemetrexed']","cisplatin, pemetrexed"
+"['carboplatin', 'enalapril', 'etoposide', 'omeprazole', 'simvastatin']","carboplatin, etoposide"
+"['atenolol', 'cisplatin', 'omeprazole', 'simvastatin', 'vinorelbine']","cisplatin, vinorelbine"
+"['atenolol', 'carboplatin', 'omeprazole', 'paclitaxel', 'simvastatin']","carboplatin, paclitaxel"
+"['allopurinol', 'carboplatin', 'enalapril', 'omeprazole', 'vinorelbine']","carboplatin, vinorelbine"
+"['cisplatin', 'lorazepam', 'omeprazole', 'simvastatin', 'vinorelbine']","cisplatin, vinorelbine"
+"['carboplatin', 'omeprazole', 'paclitaxel', 'ranitidine', 'simvastatin']","carboplatin, paclitaxel"
+"['atorvastatin', 'carboplatin', 'lorazepam', 'omeprazole', 'pemetrexed']","carboplatin, pemetrexed"
+"['atenolol', 'carboplatin', 'insulin', 'omeprazole', 'paclitaxel']","carboplatin, paclitaxel"
+"['atorvastatin', 'carboplatin', 'enalapril', 'etoposide', 'furosemide']","carboplatin, etoposide"
+"['atenolol', 'atorvastatin', 'carboplatin', 'omeprazole', 'vinorelbine']","carboplatin, vinorelbine"
+"['atenolol', 'atorvastatin', 'cisplatin', 'omeprazole', 'vinorelbine']","cisplatin, vinorelbine"
+"['atorvastatin', 'carboplatin', 'etoposide', 'omeprazole', 'simvastatin']","carboplatin, etoposide"
+"['atorvastatin', 'carboplatin', 'enalapril', 'omeprazole', 'paclitaxel']","carboplatin, paclitaxel"
+"['atorvastatin', 'carboplatin', 'enalapril', 'paclitaxel', 'ranitidine']","carboplatin, paclitaxel"
+"['atorvastatin', 'carboplatin', 'omeprazole', 'salbutamol', 'vinorelbine']","carboplatin, vinorelbine"
+"['allopurinol', 'carboplatin', 'enalapril', 'etoposide', 'omeprazole']","carboplatin, etoposide"
+"['atorvastatin', 'carboplatin', 'enalapril', 'omeprazole', 'vinorelbine']","carboplatin, vinorelbine"
+"['carboplatin', 'enalapril', 'etoposide', 'insulin', 'simvastatin']","carboplatin, etoposide"
+"['allopurinol', 'carboplatin', 'omeprazole', 'pemetrexed', 'simvastatin']","carboplatin, pemetrexed"
+"['atorvastatin', 'carboplatin', 'etoposide', 'ibuprofen', 'omeprazole']","carboplatin, etoposide"
+"['amlodipine', 'atorvastatin', 'carboplatin', 'omeprazole', 'paclitaxel']","carboplatin, paclitaxel"
+"['atorvastatin', 'carboplatin', 'omeprazole', 'pemetrexed', 'simvastatin']","carboplatin, pemetrexed"
+"['atorvastatin', 'cisplatin', 'omeprazole', 'pemetrexed', 'simvastatin']","cisplatin, pemetrexed"
+"['amoxicillin', 'carboplatin', 'metformin', 'simvastatin', 'vinorelbine']","carboplatin, vinorelbine"
+"['carboplatin', 'enalapril', 'metformin', 'paclitaxel', 'prednisone']","carboplatin, paclitaxel"
+"['carboplatin', 'enalapril', 'metformin', 'prednisone', 'vinorelbine']","carboplatin, vinorelbine"
+"['carboplatin', 'metformin', 'omeprazole', 'pemetrexed', 'simvastatin']","carboplatin, pemetrexed"
+"['docetaxel', 'metformin', 'omeprazole', 'pemetrexed', 'simvastatin']","docetaxel, pemetrexed"
+"['atenolol', 'atorvastatin', 'ipilimumab', 'nivolumab', 'omeprazole']","ipilimumab, nivolumab"
+"['carboplatin', 'etoposide', 'ibuprofen', 'omeprazole', 'prednisone']","carboplatin, etoposide"
+"['alectinib', 'crizotinib', 'ibuprofen', 'omeprazole', 'prednisone']","alectinib, crizotinib"
+"['alectinib', 'atorvastatin', 'crizotinib', 'enalapril', 'omeprazole']","alectinib, crizotinib"
+"['carboplatin', 'enalapril', 'furosemide', 'omeprazole', 'pemetrexed']","carboplatin, pemetrexed"
+"['amlodipine', 'atorvastatin', 'carboplatin', 'etoposide', 'metformin']","carboplatin, etoposide"
+"['cisplatin', 'enalapril', 'lorazepam', 'omeprazole', 'pemetrexed']","cisplatin, pemetrexed"
+"['allopurinol', 'amlodipine', 'carboplatin', 'etoposide', 'insulin']","carboplatin, etoposide"
+"['amlodipine', 'carboplatin', 'etoposide', 'metformin', 'simvastatin']","carboplatin, etoposide"
+"['analgesic', 'atorvastatin', 'carboplatin', 'omeprazole', 'vinorelbine']","carboplatin, vinorelbine"
+"['cisplatin', 'enalapril', 'levofloxacin', 'simvastatin', 'vinorelbine']","cisplatin, vinorelbine"
+"['acetaminophen', 'carboplatin', 'metformin', 'omeprazole', 'paclitaxel']","carboplatin, paclitaxel"
+"['atorvastatin', 'carboplatin', 'levofloxacin', 'omeprazole', 'paclitaxel']","carboplatin, paclitaxel"
+"['cisplatin', 'lorazepam', 'metformin', 'omeprazole', 'vinorelbine']","cisplatin, vinorelbine"
+"['atorvastatin', 'cisplatin', 'docetaxel', 'enalapril', 'ranitidine']","cisplatin, docetaxel"
+"['acetaminophen', 'amoxicillin', 'carboplatin', 'tramadol', 'vinorelbine']","carboplatin, vinorelbine"
+"['carboplatin', 'corticoids', 'methylprednisolone', 'omeprazole', 'pemetrexed']","carboplatin, pemetrexed"
+"['atenolol', 'atorvastatin', 'carboplatin', 'etoposide', 'simvastatin']","carboplatin, etoposide"
+"['atenolol', 'carboplatin', 'etoposide', 'omeprazole']","carboplatin, etoposide"
+"['ceftriaxone', 'cisplatin', 'levofloxacin', 'vinorelbine']","cisplatin, vinorelbine"
+"['atorvastatin', 'carboplatin', 'etoposide', 'omeprazole']","carboplatin, etoposide"
+"['atorvastatin', 'carboplatin', 'enalapril', 'etoposide']","carboplatin, etoposide"
+"['atenolol', 'cisplatin', 'enalapril', 'vinorelbine']","cisplatin, vinorelbine"
+"['carboplatin', 'enalapril', 'omeprazole', 'pemetrexed']","carboplatin, pemetrexed"
+"['carboplatin', 'omeprazole', 'paclitaxel', 'ranitidine']","carboplatin, paclitaxel"
+"['carboplatin', 'enalapril', 'omeprazole', 'paclitaxel']","carboplatin, paclitaxel"
+"['cisplatin', 'enalapril', 'omeprazole', 'vinorelbine']","cisplatin, vinorelbine"
+"['atenolol', 'carboplatin', 'omeprazole', 'vinorelbine']","carboplatin, vinorelbine"
+"['cisplatin', 'omeprazole', 'simvastatin', 'vinorelbine']","cisplatin, vinorelbine"
+"['amoxicillin', 'carboplatin', 'etoposide', 'simvastatin']","carboplatin, etoposide"
+"['atorvastatin', 'cisplatin', 'enalapril', 'etoposide']","cisplatin, etoposide"
+"['cisplatin', 'omeprazole', 'ranitidine', 'vinorelbine']","cisplatin, vinorelbine"
+"['carboplatin', 'enalapril', 'etoposide', 'omeprazole']","carboplatin, etoposide"
+"['amoxicillin', 'carboplatin', 'etoposide', 'lorazepam']","carboplatin, etoposide"
+"['cisplatin', 'omeprazole', 'pemetrexed', 'simvastatin']","cisplatin, pemetrexed"
+"['atenolol', 'atorvastatin', 'carboplatin', 'vinorelbine']","carboplatin, vinorelbine"
+"['carboplatin', 'enalapril', 'etoposide', 'furosemide']","carboplatin, etoposide"
+"['carboplatin', 'gemcitabine', 'omeprazole', 'simvastatin']","carboplatin, gemcitabine"
+"['carboplatin', 'enalapril', 'etoposide', 'ranitidine']","carboplatin, etoposide"
+"['cisplatin', 'enalapril', 'etoposide', 'simvastatin']","cisplatin, etoposide"
+"['carboplatin', 'enalapril', 'etoposide', 'simvastatin']","carboplatin, etoposide"
+"['enalapril', 'ipilimumab', 'nivolumab', 'simvastatin']","ipilimumab, nivolumab"
+"['carboplatin', 'omeprazole', 'pemetrexed', 'simvastatin']","carboplatin, pemetrexed"
+"['atorvastatin', 'carboplatin', 'omeprazole', 'pemetrexed']","carboplatin, pemetrexed"
+"['acetaminophen', 'carboplatin', 'omeprazole', 'paclitaxel']","carboplatin, paclitaxel"
+"['atenolol', 'atorvastatin', 'carboplatin', 'etoposide']","carboplatin, etoposide"
+"['amoxicillin', 'cisplatin', 'omeprazole', 'pemetrexed']","cisplatin, pemetrexed"
+"['atorvastatin', 'carboplatin', 'enalapril', 'vinorelbine']","carboplatin, vinorelbine"
+"['carboplatin', 'etoposide', 'insulin', 'simvastatin']","carboplatin, etoposide"
+"['acetaminophen', 'ceritinib', 'crizotinib', 'omeprazole']","ceritinib, crizotinib"
+"['carboplatin', 'enalapril', 'pemetrexed', 'simvastatin']","carboplatin, pemetrexed"
+"['acetaminophen', 'cisplatin', 'omeprazole', 'pemetrexed']","cisplatin, pemetrexed"
+"['acetaminophen', 'carboplatin', 'omeprazole', 'pemetrexed']","carboplatin, pemetrexed"
+"['cisplatin', 'docetaxel', 'omeprazole', 'simvastatin']","cisplatin, docetaxel"
+"['atorvastatin', 'carboplatin', 'etoposide', 'metformin']","carboplatin, etoposide"
+"['amlodipine', 'cisplatin', 'omeprazole', 'pemetrexed']","cisplatin, pemetrexed"
+"['atorvastatin', 'azitromicina', 'carboplatin', 'paclitaxel']","carboplatin, paclitaxel"
+"['acetaminophen', 'carboplatin', 'etoposide', 'ranitidine']","carboplatin, etoposide"
+"['acetaminophen', 'carboplatin', 'etoposide', 'omeprazole']","carboplatin, etoposide"
+"['carboplatin', 'lormetazepam', 'omeprazole', 'vinorelbine']","carboplatin, vinorelbine"
+"['cisplatin', 'enalapril', 'metformin', 'pemetrexed']","cisplatin, pemetrexed"
+"['allopurinol', 'atorvastatin', 'carboplatin', 'etoposide']","carboplatin, etoposide"
+"['cisplatin', 'lormetazepam', 'omeprazole', 'vinorelbine']","cisplatin, vinorelbine"
+"['carboplatin', 'gemcitabine', 'lormetazepam', 'omeprazole']","carboplatin, gemcitabine"
+"['antibiotic', 'carboplatin', 'enalapril', 'etoposide']","carboplatin, etoposide"
+"['omeprazole', 'paclitaxel', 'pemetrexed', 'simvastatin']","paclitaxel, pemetrexed"
+"['carboplatin', 'omeprazole', 'paclitaxel', 'tramadol']","carboplatin, paclitaxel"
+"['atorvastatin', 'carboplatin', 'omeprazole', 'vinorelbine']","carboplatin, vinorelbine"
+"['carboplatin', 'omeprazole', 'simvastatin', 'vinorelbine']","carboplatin, vinorelbine"
+"['cisplatin', 'ibuprofen', 'omeprazole', 'vinorelbine']","cisplatin, vinorelbine"
+"['carboplatin', 'ibuprofen', 'omeprazole', 'vinorelbine']","carboplatin, vinorelbine"
+"['analgesic', 'cisplatin', 'omeprazole', 'vinorelbine']","cisplatin, vinorelbine"
+"['carboplatin', 'dexamethasone', 'etoposide', 'tramadol']","carboplatin, etoposide"
+"['cisplatin', 'metformin', 'omeprazole', 'pemetrexed']","cisplatin, pemetrexed"
+"['atenolol', 'cisplatin', 'etoposide', 'omeprazole']","cisplatin, etoposide"
+"['amlodipine', 'cisplatin', 'pemetrexed', 'simvastatin']","cisplatin, pemetrexed"
+"['allopurinol', 'carboplatin', 'metformin', 'pemetrexed']","carboplatin, pemetrexed"
+"['carboplatin', 'metformin', 'omeprazole', 'paclitaxel']","carboplatin, paclitaxel"
+"['cisplatin', 'ibuprofen', 'ondansetron', 'pemetrexed']","cisplatin, pemetrexed"
+"['cisplatin', 'gemcitabine', 'ibuprofen', 'ondansetron']","cisplatin, gemcitabine"
+"['carboplatin', 'etoposide', 'ibuprofen', 'omeprazole']","carboplatin, etoposide"
+"['atorvastatin', 'enalapril', 'ipilimumab', 'nivolumab']","ipilimumab, nivolumab"
+"['carboplatin', 'etoposide', 'insulin', 'omeprazole']","carboplatin, etoposide"
+"['cisplatin', 'enalapril', 'omeprazole', 'pemetrexed']","cisplatin, pemetrexed"
+"['atorvastatin', 'carboplatin', 'simvastatin', 'vinorelbine']","carboplatin, vinorelbine"
+"['atorvastatin', 'ipilimumab', 'nivolumab', 'omeprazole']","ipilimumab, nivolumab"
+"['atorvastatin', 'cisplatin', 'lorazepam', 'vinorelbine']","cisplatin, vinorelbine"
+"['atorvastatin', 'cisplatin', 'omeprazole', 'vinorelbine']","cisplatin, vinorelbine"
+"['amlodipine', 'amoxicillin', 'cisplatin', 'vinorelbine']","cisplatin, vinorelbine"
+"['atenolol', 'atorvastatin', 'cisplatin', 'vinorelbine']","cisplatin, vinorelbine"
+"['cisplatin', 'omeprazole', 'prednisone', 'vinorelbine']","cisplatin, vinorelbine"
+"['alectinib', 'crizotinib', 'omeprazole', 'prednisone']","alectinib, crizotinib"
+"['furosemide', 'ipilimumab', 'nivolumab', 'salbutamol']","ipilimumab, nivolumab"
+"['atorvastatin', 'carboplatin', 'enalapril', 'pemetrexed']","carboplatin, pemetrexed"
+"['carboplatin', 'metformin', 'pemetrexed', 'ranitidine']","carboplatin, pemetrexed"
+"['atenolol', 'carboplatin', 'omeprazole', 'pemetrexed']","carboplatin, pemetrexed"
+"['atenolol', 'ipilimumab', 'nivolumab', 'omeprazole']","ipilimumab, nivolumab"
+"['ipilimumab', 'nivolumab', 'omeprazole', 'simvastatin']","ipilimumab, nivolumab"
+"['atorvastatin', 'carboplatin', 'omeprazole', 'paclitaxel']","carboplatin, paclitaxel"
+"['atenolol', 'carboplatin', 'simvastatin', 'vinorelbine']","carboplatin, vinorelbine"
+"['atenolol', 'carboplatin', 'etoposide', 'simvastatin']","carboplatin, etoposide"
+"['cisplatin', 'omeprazole', 'vinorelbine']","cisplatin, vinorelbine"
+"['atorvastatin', 'carboplatin', 'vinorelbine']","carboplatin, vinorelbine"
+"['atenolol', 'carboplatin', 'vinorelbine']","carboplatin, vinorelbine"
+"['afatinib', 'osimertinib', 'ranitidine']","afatinib, osimertinib"
+"['carboplatin', 'paclitaxel', 'ranitidine']","carboplatin, paclitaxel"
+"['carboplatin', 'enalapril', 'paclitaxel']","carboplatin, paclitaxel"
+"['carboplatin', 'etoposide', 'simvastatin']","carboplatin, etoposide"
+"['cisplatin', 'pemetrexed', 'ranitidine']","cisplatin, pemetrexed"
+"['carboplatin', 'etoposide', 'omeprazole']","carboplatin, etoposide"
+"['atenolol', 'cisplatin', 'vinorelbine']","cisplatin, vinorelbine"
+"['carboplatin', 'omeprazole', 'vinorelbine']","carboplatin, vinorelbine"
+"['atenolol', 'carboplatin', 'paclitaxel']","carboplatin, paclitaxel"
+"['carboplatin', 'pemetrexed', 'simvastatin']","carboplatin, pemetrexed"
+"['carboplatin', 'omeprazole', 'paclitaxel']","carboplatin, paclitaxel"
+"['cisplatin', 'tramadol', 'vinorelbine']","cisplatin, vinorelbine"
+"['carboplatin', 'omeprazole', 'pemetrexed']","carboplatin, pemetrexed"
+"['carboplatin', 'enalapril', 'pemetrexed']","carboplatin, pemetrexed"
+"['carboplatin', 'etoposide', 'metformin']","carboplatin, etoposide"
+"['cisplatin', 'enalapril', 'vinorelbine']","cisplatin, vinorelbine"
+"['carboplatin', 'simvastatin', 'vinorelbine']","carboplatin, vinorelbine"
+"['carboplatin', 'enalapril', 'etoposide']","carboplatin, etoposide"
+"['alectinib', 'crizotinib', 'omeprazole']","alectinib, crizotinib"
+"['afatinib', 'atenolol', 'osimertinib']","afatinib, osimertinib"
+"['atenolol', 'carboplatin', 'etoposide']","carboplatin, etoposide"
+"['cisplatin', 'etoposide', 'omeprazole']","cisplatin, etoposide"
+"['cisplatin', 'corticoids', 'vinorelbine']","cisplatin, vinorelbine"
+"['antibiotics', 'ipilimumab', 'nivolumab']","ipilimumab, nivolumab"
+"['antibiotics', 'carboplatin', 'paclitaxel']","carboplatin, paclitaxel"
+"['ipilimumab', 'nivolumab', 'omeprazole']","ipilimumab, nivolumab"
+"['carboplatin', 'etoposide', 'ranitidine']","carboplatin, etoposide"
+"['enalapril', 'ipilimumab', 'nivolumab']","ipilimumab, nivolumab"
+"['atorvastatin', 'carboplatin', 'pemetrexed']","carboplatin, pemetrexed"
+"['atorvastatin', 'carboplatin', 'etoposide']","carboplatin, etoposide"
+"['carboplatin', 'ibuprofen', 'pemetrexed']","carboplatin, pemetrexed"
+"['cisplatin', 'omeprazole', 'pemetrexed']","cisplatin, pemetrexed"
+"['cisplatin', 'ibuprofen', 'vinorelbine']","cisplatin, vinorelbine"
+"['atorvastatin', 'cisplatin', 'pemetrexed']","cisplatin, pemetrexed"
+"['ipilimumab', 'nivolumab', 'simvastatin']","ipilimumab, nivolumab"
+"['cisplatin', 'simvastatin', 'vinorelbine']","cisplatin, vinorelbine"
+"['atorvastatin', 'cisplatin', 'vinorelbine']","cisplatin, vinorelbine"
+"['cisplatin', 'pemetrexed', 'simvastatin']","cisplatin, pemetrexed"
+"['antibiotic', 'carboplatin', 'paclitaxel']","carboplatin, paclitaxel"
+"['amlodipine', 'cisplatin', 'pemetrexed']","cisplatin, pemetrexed"
+"['amlodipine', 'ipilimumab', 'nivolumab']","ipilimumab, nivolumab"
+"['amlodipine', 'docetaxel', 'pemetrexed']","docetaxel, pemetrexed"
+"['carboplatin', 'enalapril', 'vinorelbine']","carboplatin, vinorelbine"
+"['carboplatin', 'pemetrexed', 'ranitidine']","carboplatin, pemetrexed"
+"['ipilimumab', 'nivolumab', 'ranitidine']","ipilimumab, nivolumab"
+"['atorvastatin', 'ipilimumab', 'nivolumab']","ipilimumab, nivolumab"
+"['carboplatin', 'gemcitabine', 'omeprazole']","carboplatin, gemcitabine"
+"['carboplatin', 'metformin', 'paclitaxel']","carboplatin, paclitaxel"
+"['carboplatin', 'metformin', 'vinorelbine']","carboplatin, vinorelbine"
+"['allopurinol', 'carboplatin', 'pemetrexed']","carboplatin, pemetrexed"
+"['carboplatin', 'furosemide', 'pemetrexed']","carboplatin, pemetrexed"
+"['cisplatin', 'ranitidine', 'vinorelbine']","cisplatin, vinorelbine"
+"['cisplatin', 'gemcitabine', 'omeprazole']","cisplatin, gemcitabine"
+"['atorvastatin', 'carboplatin', 'gemcitabine']","carboplatin, gemcitabine"
+"['antibiotic', 'carboplatin', 'vinorelbine']","carboplatin, vinorelbine"
+"['atorvastatin', 'cisplatin', 'gemcitabine']","cisplatin, gemcitabine"
+"['acetaminophen', 'ipilimumab', 'nivolumab']","ipilimumab, nivolumab"
+"['afatinib', 'enalapril', 'osimertinib']","afatinib, osimertinib"
+"['cisplatin', 'enalapril', 'pemetrexed']","cisplatin, pemetrexed"
+"['carboplatin', 'enalapril', 'gemcitabine']","carboplatin, gemcitabine"
+"['atorvastatin', 'carboplatin', 'paclitaxel']","carboplatin, paclitaxel"
+"['carboplatin', 'etoposide']","carboplatin, etoposide"
+"['ipilimumab', 'nivolumab']","ipilimumab, nivolumab"
+"['cisplatin', 'vinorelbine']","cisplatin, vinorelbine"
+"['cisplatin', 'docetaxel']","cisplatin, docetaxel"
+"['cisplatin', 'pemetrexed']","cisplatin, pemetrexed"
+"['docetaxel', 'pemetrexed']","docetaxel, pemetrexed"
+"['carboplatin', 'pemetrexed']","carboplatin, pemetrexed"
+"['cisplatin', 'etoposide']","cisplatin, etoposide"
+"['alectinib', 'crizotinib']","alectinib, crizotinib"
+"['carboplatin', 'vinorelbine']","carboplatin, vinorelbine"
+"['carboplatin', 'paclitaxel']","carboplatin, paclitaxel"
+"['cisplatin', 'gemcitabine']","cisplatin, gemcitabine"
+"['afatinib', 'osimertinib']","afatinib, osimertinib"
+"['carboplatin', 'gemcitabine']","carboplatin, gemcitabine"
+"['ceritinib', 'crizotinib']","ceritinib, crizotinib"
+"['amlodipine', 'atenolol', 'atorvastatin', 'carboplatin', 'enalapril', 'insulin', 'metformin', 'omeprazole']",carboplatin
+"['acetaminophen', 'amlodipine', 'antibiotics', 'atorvastatin', 'enalapril', 'nivolumab', 'omeprazole', 'simvastatin']",nivolumab
+"['acetaminophen', 'allopurinol', 'amlodipine', 'atorvastatin', 'carboplatin', 'insulin', 'omeprazole', 'prednisone']",carboplatin
+"['acetaminophen', 'allopurinol', 'amlodipine', 'atorvastatin', 'metformin', 'omeprazole', 'paclitaxel']",paclitaxel
+"['atorvastatin', 'carboplatin', 'enalapril', 'insulin', 'metformin', 'omeprazole', 'simvastatin']",carboplatin
+"['atorvastatin', 'enalapril', 'insulin', 'metformin', 'nivolumab', 'omeprazole', 'simvastatin']",nivolumab
+"['acetaminophen', 'amlodipine', 'atorvastatin', 'enalapril', 'omeprazole', 'pemetrexed', 'salbutamol']",pemetrexed
+"['atenolol', 'atorvastatin', 'carboplatin', 'furosemide', 'lorazepam', 'metformin', 'omeprazole']",carboplatin
+"['afatinib', 'atenolol', 'atorvastatin', 'furosemide', 'lorazepam', 'metformin', 'omeprazole']",afatinib
+"['atenolol', 'atorvastatin', 'furosemide', 'lorazepam', 'metformin', 'omeprazole', 'osimertinib']",osimertinib
+"['amlodipine', 'atenolol', 'atorvastatin', 'carboplatin', 'omeprazole', 'prednisone']",carboplatin
+"['amlodipine', 'atenolol', 'atorvastatin', 'omeprazole', 'pemetrexed', 'prednisone']",pemetrexed
+"['amlodipine', 'atenolol', 'atorvastatin', 'carboplatin', 'enalapril', 'omeprazole']",carboplatin
+"['acetaminophen', 'atenolol', 'cisplatin', 'fentanyl', 'omeprazole', 'simvastatin']",cisplatin
+"['acetaminophen', 'atenolol', 'carboplatin', 'fentanyl', 'omeprazole', 'simvastatin']",carboplatin
+"['analgesic', 'dexamethasone', 'levofloxacin', 'omeprazole', 'pembrolizumab', 'simvastatin']",pembrolizumab
+"['atenolol', 'atorvastatin', 'carboplatin', 'enalapril', 'metformin', 'omeprazole']",carboplatin
+"['atenolol', 'atorvastatin', 'docetaxel', 'enalapril', 'metformin', 'omeprazole']",docetaxel
+"['atenolol', 'atorvastatin', 'enalapril', 'nivolumab', 'omeprazole', 'simvastatin']",nivolumab
+"['atorvastatin', 'furosemide', 'gemcitabine', 'metformin', 'omeprazole']",gemcitabine
+"['atorvastatin', 'crizotinib', 'enalapril', 'enoxaparin', 'omeprazole']",crizotinib
+"['enalapril', 'furosemide', 'omeprazole', 'simvastatin', 'vinorelbine']",vinorelbine
+"['atenolol', 'atorvastatin', 'necitumumab', 'omeprazole', 'simvastatin']",necitumumab
+"['carboplatin', 'ibuprofen', 'metoclopramide', 'omeprazole', 'salbutamol']",carboplatin
+"['allopurinol', 'amlodipine', 'atenolol', 'cisplatin', 'lorazepam']",cisplatin
+"['allopurinol', 'amlodipine', 'atenolol', 'docetaxel', 'lorazepam']",docetaxel
+"['amlodipine', 'atorvastatin', 'metformin', 'pembrolizumab', 'tramadol']",pembrolizumab
+"['atenolol', 'enalapril', 'metformin', 'simvastatin', 'vinorelbine']",vinorelbine
+"['atenolol', 'carboplatin', 'enalapril', 'metformin', 'simvastatin']",carboplatin
+"['atenolol', 'enalapril', 'metformin', 'paclitaxel', 'simvastatin']",paclitaxel
+"['atenolol', 'enalapril', 'metformin', 'nivolumab', 'simvastatin']",nivolumab
+"['afatinib', 'dexamethasone', 'fentanyl', 'lorazepam', 'omeprazole']",afatinib
+"['dexamethasone', 'fentanyl', 'lorazepam', 'omeprazole', 'osimertinib']",osimertinib
+"['dexamethasone', 'fentanyl', 'lorazepam', 'omeprazole', 'pemetrexed']",pemetrexed
+"['dexamethasone', 'enoxaparin', 'metoclopramide', 'omeprazole', 'paclitaxel']",paclitaxel
+"['dexamethasone', 'docetaxel', 'enoxaparin', 'metoclopramide', 'omeprazole']",docetaxel
+"['acetaminophen', 'afatinib', 'ibuprofen', 'omeprazole', 'tramadol']",afatinib
+"['acetaminophen', 'afatinib', 'amlodipine', 'lorazepam', 'omeprazole']",afatinib
+"['amlodipine', 'atorvastatin', 'carboplatin', 'metformin', 'omeprazole']",carboplatin
+"['antibiotic', 'cisplatin', 'enalapril', 'omeprazole']",cisplatin
+"['allopurinol', 'cisplatin', 'fentanyl', 'omeprazole']",cisplatin
+"['carboplatin', 'enalapril', 'omeprazole', 'simvastatin']",carboplatin
+"['docetaxel', 'enalapril', 'omeprazole', 'simvastatin']",docetaxel
+"['atenolol', 'nivolumab', 'omeprazole', 'simvastatin']",nivolumab
+"['allopurinol', 'enalapril', 'omeprazole', 'paclitaxel']",paclitaxel
+"['cisplatin', 'lorazepam', 'omeprazole', 'simvastatin']",cisplatin
+"['carboplatin', 'omeprazole', 'ranitidine', 'simvastatin']",carboplatin
+"['omeprazole', 'paclitaxel', 'ranitidine', 'simvastatin']",paclitaxel
+"['bevacizumab', 'omeprazole', 'ranitidine', 'simvastatin']",bevacizumab
+"['omeprazole', 'pemetrexed', 'ranitidine', 'simvastatin']",pemetrexed
+"['gemcitabine', 'omeprazole', 'ranitidine', 'simvastatin']",gemcitabine
+"['nivolumab', 'omeprazole', 'ranitidine', 'simvastatin']",nivolumab
+"['atorvastatin', 'lorazepam', 'nivolumab', 'omeprazole']",nivolumab
+"['cisplatin', 'enalapril', 'omeprazole', 'ranitidine']",cisplatin
+"['afatinib', 'enalapril', 'omeprazole', 'ranitidine']",afatinib
+"['atenolol', 'atorvastatin', 'docetaxel', 'omeprazole']",docetaxel
+"['atorvastatin', 'enalapril', 'nivolumab', 'ranitidine']",nivolumab
+"['enalapril', 'metformin', 'nivolumab', 'omeprazole']",nivolumab
+"['enalapril', 'metformin', 'omeprazole', 'vinorelbine']",vinorelbine
+"['afatinib', 'atorvastatin', 'omeprazole', 'simvastatin']",afatinib
+"['atorvastatin', 'enalapril', 'nivolumab', 'omeprazole']",nivolumab
+"['atorvastatin', 'enalapril', 'omeprazole', 'vinorelbine']",vinorelbine
+"['acetaminophen', 'enalapril', 'simvastatin', 'vinorelbine']",vinorelbine
+"['atorvastatin', 'docetaxel', 'omeprazole', 'simvastatin']",docetaxel
+"['atenolol', 'omeprazole', 'pembrolizumab', 'simvastatin']",pembrolizumab
+"['amoxicillin', 'carboplatin', 'metformin', 'simvastatin']",carboplatin
+"['amoxicillin', 'metformin', 'nivolumab', 'simvastatin']",nivolumab
+"['amoxicillin', 'gemcitabine', 'metformin', 'simvastatin']",gemcitabine
+"['amoxicillin', 'metformin', 'paclitaxel', 'simvastatin']",paclitaxel
+"['cisplatin', 'enalapril', 'metformin', 'prednisone']",cisplatin
+"['dexamethasone', 'lorazepam', 'omeprazole', 'pemetrexed']",pemetrexed
+"['docetaxel', 'metformin', 'omeprazole', 'simvastatin']",docetaxel
+"['atenolol', 'atorvastatin', 'cisplatin', 'omeprazole']",cisplatin
+"['atenolol', 'atorvastatin', 'nivolumab', 'omeprazole']",nivolumab
+"['amlodipine', 'atenolol', 'atorvastatin', 'carboplatin']",carboplatin
+"['carboplatin', 'ibuprofen', 'prednisone', 'ranitidine']",carboplatin
+"['crizotinib', 'ibuprofen', 'omeprazole', 'prednisone']",crizotinib
+"['alectinib', 'ibuprofen', 'omeprazole', 'prednisone']",alectinib
+"['omeprazole', 'pemetrexed', 'simvastatin', 'tramadol']",pemetrexed
+"['omeprazole', 'pembrolizumab', 'simvastatin', 'tramadol']",pembrolizumab
+"['atorvastatin', 'enalapril', 'simvastatin', 'vinorelbine']",vinorelbine
+"['atorvastatin', 'crizotinib', 'enalapril', 'omeprazole']",crizotinib
+"['alectinib', 'atorvastatin', 'enalapril', 'omeprazole']",alectinib
+"['alectinib', 'enalapril', 'furosemide', 'omeprazole']",alectinib
+"['enalapril', 'lorazepam', 'nivolumab', 'omeprazole']",nivolumab
+"['acetaminophen', 'lorazepam', 'paclitaxel', 'simvastatin']",paclitaxel
+"['acetaminophen', 'carboplatin', 'lorazepam', 'simvastatin']",carboplatin
+"['acetaminophen', 'lorazepam', 'nivolumab', 'simvastatin']",nivolumab
+"['lorazepam', 'omeprazole', 'pembrolizumab', 'simvastatin']",pembrolizumab
+"['amlodipine', 'carboplatin', 'enalapril', 'metformin']",carboplatin
+"['amlodipine', 'enalapril', 'metformin', 'vinorelbine']",vinorelbine
+"['analgesic', 'atorvastatin', 'omeprazole', 'vinorelbine']",vinorelbine
+"['analgesic', 'atorvastatin', 'bevacizumab', 'omeprazole']",bevacizumab
+"['docetaxel', 'enalapril', 'levofloxacin', 'simvastatin']",docetaxel
+"['atorvastatin', 'levofloxacin', 'nivolumab', 'omeprazole']",nivolumab
+"['acetaminophen', 'atorvastatin', 'omeprazole', 'paclitaxel']",paclitaxel
+"['bevacizumab', 'enalapril', 'metformin']",bevacizumab
+"['docetaxel', 'enalapril', 'omeprazole']",docetaxel
+"['carboplatin', 'omeprazole', 'ranitidine']",carboplatin
+"['bevacizumab', 'enalapril', 'omeprazole']",bevacizumab
+"['enalapril', 'omeprazole', 'pembrolizumab']",pembrolizumab
+"['cisplatin', 'enalapril', 'omeprazole']",cisplatin
+"['atorvastatin', 'pembrolizumab', 'simvastatin']",pembrolizumab
+"['omeprazole', 'paclitaxel', 'ranitidine']",paclitaxel
+"['carboplatin', 'enalapril', 'metformin']",carboplatin
+"['cisplatin', 'enalapril', 'metformin']",cisplatin
+"['carboplatin', 'enalapril', 'furosemide']",carboplatin
+"['nivolumab', 'omeprazole', 'simvastatin']",nivolumab
+"['acetaminophen', 'afatinib', 'omeprazole']",afatinib
+"['lorazepam', 'omeprazole', 'vinorelbine']",vinorelbine
+"['atorvastatin', 'docetaxel', 'omeprazole']",docetaxel
+"['acetaminophen', 'omeprazole', 'osimertinib']",osimertinib
+"['acetaminophen', 'omeprazole', 'pemetrexed']",pemetrexed
+"['afatinib', 'enalapril', 'omeprazole']",afatinib
+"['amoxicillin', 'nivolumab', 'omeprazole']",nivolumab
+"['atorvastatin', 'carboplatin', 'fentanyl']",carboplatin
+"['atorvastatin', 'cisplatin', 'fentanyl']",cisplatin
+"['acetaminophen', 'docetaxel', 'omeprazole']",docetaxel
+"['acetaminophen', 'crizotinib', 'omeprazole']",crizotinib
+"['acetaminophen', 'ceritinib', 'omeprazole']",ceritinib
+"['acetaminophen', 'omeprazole', 'pembrolizumab']",pembrolizumab
+"['acetaminophen', 'nivolumab', 'omeprazole']",nivolumab
+"['acetaminophen', 'omeprazole', 'paclitaxel']",paclitaxel
+"['acetaminophen', 'omeprazole', 'vinorelbine']",vinorelbine
+"['carboplatin', 'enalapril', 'salbutamol']",carboplatin
+"['omeprazole', 'paclitaxel', 'simvastatin']",paclitaxel
+"['atorvastatin', 'cisplatin', 'omeprazole']",cisplatin
+"['carboplatin', 'ibuprofen', 'omeprazole']",carboplatin
+"['afatinib', 'atorvastatin', 'azitromicina']",afatinib
+"['docetaxel', 'enalapril', 'metformin']",docetaxel
+"['enalapril', 'metformin', 'nivolumab']",nivolumab
+"['antibiotic', 'carboplatin', 'omeprazole']",carboplatin
+"['carboplatin', 'lormetazepam', 'omeprazole']",carboplatin
+"['antibiotic', 'carboplatin', 'enalapril']",carboplatin
+"['cisplatin', 'omeprazole', 'simvastatin']",cisplatin
+"['atorvastatin', 'carboplatin', 'omeprazole']",carboplatin
+"['atenolol', 'atorvastatin', 'carboplatin']",carboplatin
+"['carboplatin', 'omeprazole', 'tramadol']",carboplatin
+"['ranitidine', 'simvastatin', 'vinorelbine']",vinorelbine
+"['carboplatin', 'enalapril', 'simvastatin']",carboplatin
+"['enalapril', 'paclitaxel', 'simvastatin']",paclitaxel
+"['necitumumab', 'omeprazole', 'simvastatin']",necitumumab
+"['analgesic', 'omeprazole', 'paclitaxel']",paclitaxel
+"['docetaxel', 'metformin', 'omeprazole']",docetaxel
+"['gemcitabine', 'metformin', 'omeprazole']",gemcitabine
+"['metformin', 'omeprazole', 'vinorelbine']",vinorelbine
+"['metformin', 'nivolumab', 'omeprazole']",nivolumab
+"['atenolol', 'carboplatin', 'omeprazole']",carboplatin
+"['atenolol', 'omeprazole', 'vinorelbine']",vinorelbine
+"['atenolol', 'nivolumab', 'omeprazole']",nivolumab
+"['atenolol', 'gemcitabine', 'omeprazole']",gemcitabine
+"['amlodipine', 'docetaxel', 'simvastatin']",docetaxel
+"['amlodipine', 'nivolumab', 'simvastatin']",nivolumab
+"['allopurinol', 'metformin', 'nivolumab']",nivolumab
+"['afatinib', 'omeprazole', 'ranitidine']",afatinib
+"['bevacizumab', 'omeprazole', 'ranitidine']",bevacizumab
+"['crizotinib', 'enalapril', 'omeprazole']",crizotinib
+"['cisplatin', 'ibuprofen', 'ondansetron']",cisplatin
+"['ibuprofen', 'ondansetron', 'osimertinib']",osimertinib
+"['atorvastatin', 'carboplatin', 'enalapril']",carboplatin
+"['atorvastatin', 'docetaxel', 'enalapril']",docetaxel
+"['enalapril', 'omeprazole', 'vinorelbine']",vinorelbine
+"['enalapril', 'nivolumab', 'omeprazole']",nivolumab
+"['carboplatin', 'omeprazole', 'simvastatin']",carboplatin
+"['omeprazole', 'osimertinib', 'simvastatin']",osimertinib
+"['bevacizumab', 'omeprazole', 'simvastatin']",bevacizumab
+"['ibuprofen', 'omeprazole', 'vinorelbine']",vinorelbine
+"['atorvastatin', 'ipilimumab', 'omeprazole']",ipilimumab
+"['amlodipine', 'amoxicillin', 'carboplatin']",carboplatin
+"['docetaxel', 'omeprazole', 'simvastatin']",docetaxel
+"['enalapril', 'omeprazole', 'osimertinib']",osimertinib
+"['cisplatin', 'omeprazole', 'prednisone']",cisplatin
+"['ceritinib', 'omeprazole', 'prednisone']",ceritinib
+"['crizotinib', 'omeprazole', 'prednisone']",crizotinib
+"['alectinib', 'omeprazole', 'prednisone']",alectinib
+"['atorvastatin', 'carboplatin', 'prednisone']",carboplatin
+"['furosemide', 'pemetrexed', 'salbutamol']",pemetrexed
+"['furosemide', 'nivolumab', 'salbutamol']",nivolumab
+"['carboplatin', 'enalapril', 'omeprazole']",carboplatin
+"['atorvastatin', 'enalapril', 'paclitaxel']",paclitaxel
+"['atorvastatin', 'cisplatin', 'enalapril']",cisplatin
+"['gemcitabine', 'omeprazole', 'simvastatin']",gemcitabine
+"['afatinib', 'atorvastatin', 'omeprazole']",afatinib
+"['carboplatin', 'methylprednisolone', 'omeprazole']",carboplatin
+"['methylprednisolone', 'omeprazole', 'paclitaxel']",paclitaxel
+"['methylprednisolone', 'nivolumab', 'omeprazole']",nivolumab
+"['atenolol', 'carboplatin', 'simvastatin']",carboplatin
+"['omeprazole', 'pembrolizumab', 'simvastatin']",pembrolizumab
+"['atorvastatin', 'nivolumab', 'omeprazole']",nivolumab
+"['crizotinib', 'omeprazole']",crizotinib
+"['carboplatin', 'furosemide']",carboplatin
+"['furosemide', 'paclitaxel']",paclitaxel
+"['atorvastatin', 'carboplatin']",carboplatin
+"['afatinib', 'omeprazole']",afatinib
+"['omeprazole', 'osimertinib']",osimertinib
+"['afatinib', 'ranitidine']",afatinib
+"['pemetrexed', 'ranitidine']",pemetrexed
+"['atenolol', 'carboplatin']",carboplatin
+"['omeprazole', 'pemetrexed']",pemetrexed
+"['cisplatin', 'simvastatin']",cisplatin
+"['cisplatin', 'ranitidine']",cisplatin
+"['gemcitabine', 'ranitidine']",gemcitabine
+"['bevacizumab', 'ranitidine']",bevacizumab
+"['atenolol', 'vinorelbine']",vinorelbine
+"['pemetrexed', 'simvastatin']",pemetrexed
+"['pembrolizumab', 'simvastatin']",pembrolizumab
+"['carboplatin', 'omeprazole']",carboplatin
+"['docetaxel', 'simvastatin']",docetaxel
+"['nivolumab', 'simvastatin']",nivolumab
+"['nivolumab', 'omeprazole']",nivolumab
+"['gemcitabine', 'omeprazole']",gemcitabine
+"['enalapril', 'nivolumab']",nivolumab
+"['docetaxel', 'enalapril']",docetaxel
+"['atenolol', 'pembrolizumab']",pembrolizumab
+"['cisplatin', 'omeprazole']",cisplatin
+"['omeprazole', 'vinorelbine']",vinorelbine
+"['paclitaxel', 'simvastatin']",paclitaxel
+"['carboplatin', 'simvastatin']",carboplatin
+"['simvastatin', 'vinorelbine']",vinorelbine
+"['alectinib', 'omeprazole']",alectinib
+"['omeprazole', 'pembrolizumab']",pembrolizumab
+"['docetaxel', 'omeprazole']",docetaxel
+"['corticoids', 'nivolumab']",nivolumab
+"['antibiotics', 'nivolumab']",nivolumab
+"['antibiotics', 'vinorelbine']",vinorelbine
+"['antibiotics', 'gemcitabine']",gemcitabine
+"['necitumumab', 'omeprazole']",necitumumab
+"['omeprazole', 'paclitaxel']",paclitaxel
+"['analgesic', 'cisplatin']",cisplatin
+"['atorvastatin', 'paclitaxel']",paclitaxel
+"['atorvastatin', 'nivolumab']",nivolumab
+"['atorvastatin', 'vinorelbine']",vinorelbine
+"['bevacizumab', 'omeprazole']",bevacizumab
+"['atorvastatin', 'docetaxel']",docetaxel
+"['carboplatin', 'ranitidine']",carboplatin
+"['carboplatin', 'enalapril']",carboplatin
+"['bevacizumab', 'simvastatin']",bevacizumab
+"['enalapril', 'paclitaxel']",paclitaxel
+"['crizotinib', 'enalapril']",crizotinib
+"['ceritinib', 'enalapril']",ceritinib
+"['antibiotic', 'nivolumab']",nivolumab
+"['osimertinib', 'ranitidine']",osimertinib
+"['amlodipine', 'docetaxel']",docetaxel
+"['atorvastatin', 'pembrolizumab']",pembrolizumab
+"['metformin', 'nivolumab']",nivolumab
+"['paclitaxel', 'ranitidine']",paclitaxel
+"['allopurinol', 'paclitaxel']",paclitaxel
+"['enalapril', 'pemetrexed']",pemetrexed
+"['enalapril', 'osimertinib']",osimertinib
+"['ceritinib', 'omeprazole']",ceritinib
+"['afatinib', 'antibiotic']",afatinib
+"['amlodipine', 'pemetrexed']",pemetrexed
+"['amlodipine', 'nivolumab']",nivolumab
+"['ipilimumab', 'omeprazole']",ipilimumab
+"['afatinib', 'enalapril']",afatinib
+"['enalapril', 'necitumumab']",necitumumab
+"['atorvastatin', 'gemcitabine']",gemcitabine
+"['enalapril', 'pembrolizumab']",pembrolizumab
+['gemcitabine'],gemcitabine
+['carboplatin'],carboplatin
+['docetaxel'],docetaxel
+['paclitaxel'],paclitaxel
+['cisplatin'],cisplatin
+['vinorelbine'],vinorelbine
+['bevacizumab'],bevacizumab
+['afatinib'],afatinib
+['osimertinib'],osimertinib
+['pemetrexed'],pemetrexed
+['nivolumab'],nivolumab
+['pembrolizumab'],pembrolizumab
+['necitumumab'],necitumumab
+['crizotinib'],crizotinib
+['alectinib'],alectinib
+['ceritinib'],ceritinib
