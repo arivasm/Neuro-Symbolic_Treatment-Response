@@ -885,7 +885,8 @@ patient_id,drug_name
 2408531,Omeprazole
 2408531,Atorvastatin
 2408531,Insulin
-2408531,Trimethoprim-sulfamethoxazole_combination
+2408531,Trimethoprim
+2408531,Sulfamethoxazole
 2408531,Prednisone
 2423874,Prednisone
 242648,Enalapril
@@ -1240,7 +1241,8 @@ patient_id,drug_name
 716447,Acetaminophen
 717117,Metformin
 717117,Allopurinol
-717117,Trimethoprim-sulfamethoxazole_combination
+717117,Trimethoprim
+717117,Sulfamethoxazole
 717117,Gentamicin
 718157,Enalapril
 718157,Acetaminophen

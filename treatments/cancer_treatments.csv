@@ -1,541 +1,424 @@
-treatment,n_drug_onco
-"cisplatin, docetaxel, pemetrexed, vinorelbine",4
-"carboplatin, paclitaxel, pemetrexed, dexamethasone, lorazepam, omeprazole",3
-"carboplatin, paclitaxel, vinorelbine, antibiotics",3
-"cisplatin, docetaxel, pemetrexed, omeprazole",3
-"cisplatin, gemcitabine, vinorelbine",3
-"carboplatin, gemcitabine, vinorelbine",3
-"carboplatin, etoposide, allopurinol, atenolol, furosemide, immunoglobulin_g, omeprazole, simvastatin, spironolactone",2
-"carboplatin, paclitaxel, acetaminophen, amlodipine, antibiotics, atorvastatin, enalapril, omeprazole, simvastatin",2
-"carboplatin, vinorelbine, allopurinol, atorvastatin, gentamicin, metformin, omeprazole, simvastatin, trimethoprim-sulfamethoxazole_combination",2
-"cisplatin, vinorelbine, allopurinol, atorvastatin, gentamicin, metformin, omeprazole, simvastatin, trimethoprim-sulfamethoxazole_combination",2
-"carboplatin, vinorelbine, acetaminophen, allopurinol, amlodipine, atorvastatin, insulin, omeprazole, prednisone",2
-"carboplatin, etoposide, acetaminophen, allopurinol, amlodipine, atorvastatin, metformin, omeprazole",2
-"carboplatin, etoposide, acetaminophen, atenolol, atorvastatin, furosemide, metformin, omeprazole",2
-"carboplatin, vinorelbine, atenolol, atorvastatin, furosemide, lorazepam, metformin, omeprazole",2
-"carboplatin, etoposide, dexketoprofen, levofloxacin, lorazepam, lormetazepam, omeprazole, tramadol",2
-"carboplatin, etoposide, atenolol, atorvastatin, enalapril, lorazepam, metformin, omeprazole",2
-"carboplatin, pemetrexed, amlodipine, atenolol, atorvastatin, omeprazole, prednisone",2
-"carboplatin, etoposide, atorvastatin, enalapril, insulin, metformin, omeprazole",2
-"carboplatin, etoposide, amlodipine, atorvastatin, enalapril, insulin, omeprazole",2
-"carboplatin, etoposide, amlodipine, atenolol, enalapril, omeprazole, prednisone",2
-"carboplatin, etoposide, atenolol, atorvastatin, insulin, omeprazole, ranitidine",2
-"carboplatin, pemetrexed, analgesic, dexamethasone, levofloxacin, omeprazole, simvastatin",2
-"carboplatin, gemcitabine, atenolol, atorvastatin, enalapril, omeprazole, simvastatin",2
-"ipilimumab, nivolumab, atenolol, atorvastatin, enalapril, omeprazole, simvastatin",2
-"carboplatin, etoposide, acetaminophen, corticoids, omeprazole, simvastatin",2
-"carboplatin, vinorelbine, amlodipine, levofloxacin, omeprazole, simvastatin",2
-"cisplatin, vinorelbine, atorvastatin, furosemide, metformin, omeprazole",2
-"carboplatin, vinorelbine, atorvastatin, furosemide, metformin, omeprazole",2
-"carboplatin, paclitaxel, atorvastatin, furosemide, metformin, omeprazole",2
-"carboplatin, etoposide, acetaminophen, atorvastatin, omeprazole, tramadol",2
-"cisplatin, vinorelbine, atorvastatin, enalapril, enoxaparin, omeprazole",2
-"carboplatin, paclitaxel, amlodipine, atorvastatin, enalapril, metformin",2
-"carboplatin, vinorelbine, enalapril, furosemide, omeprazole, simvastatin",2
-"carboplatin, vinorelbine, enalapril, metformin, omeprazole, simvastatin",2
-"cisplatin, vinorelbine, allopurinol, amlodipine, atenolol, lorazepam",2
-"carboplatin, vinorelbine, allopurinol, amlodipine, atenolol, lorazepam",2
-"carboplatin, pemetrexed, allopurinol, amlodipine, atenolol, lorazepam",2
-"carboplatin, etoposide, allopurinol, atorvastatin, enalapril, furosemide",2
-"carboplatin, pemetrexed, allopurinol, amlodipine, metformin, simvastatin",2
-"carboplatin, etoposide, atenolol, atorvastatin, enalapril, omeprazole",2
-"carboplatin, pemetrexed, amlodipine, atorvastatin, metformin, tramadol",2
-"carboplatin, vinorelbine, atenolol, atorvastatin, enalapril, omeprazole",2
-"carboplatin, etoposide, atorvastatin, enalapril, metformin, omeprazole",2
-"carboplatin, pemetrexed, antibiotic, ciprofloxacin, omeprazole, prednisone",2
-"carboplatin, paclitaxel, dexamethasone, fentanyl, lorazepam, omeprazole",2
-"cisplatin, vinorelbine, dexamethasone, enoxaparin, metoclopramide, omeprazole",2
-"carboplatin, paclitaxel, atenolol, dexamethasone, omeprazole, prednisone",2
-"carboplatin, etoposide, atenolol, atorvastatin, omeprazole",2
-"carboplatin, etoposide, antibiotic, enalapril, omeprazole",2
-"carboplatin, etoposide, acetaminophen, atorvastatin, ranitidine",2
-"carboplatin, etoposide, furosemide, metformin, omeprazole",2
-"carboplatin, etoposide, insulin, omeprazole, simvastatin",2
-"carboplatin, etoposide, atenolol, enalapril, omeprazole",2
-"carboplatin, paclitaxel, allopurinol, fentanyl, omeprazole",2
-"cisplatin, vinorelbine, enalapril, omeprazole, simvastatin",2
-"carboplatin, pemetrexed, atenolol, enalapril, omeprazole",2
-"carboplatin, etoposide, allopurinol, atorvastatin, furosemide",2
-"cisplatin, pemetrexed, ciprofloxacin, ibuprofen, omeprazole",2
-"carboplatin, etoposide, enalapril, omeprazole, simvastatin",2
-"cisplatin, vinorelbine, atenolol, omeprazole, simvastatin",2
-"carboplatin, paclitaxel, atenolol, omeprazole, simvastatin",2
-"carboplatin, vinorelbine, allopurinol, enalapril, omeprazole",2
-"cisplatin, vinorelbine, lorazepam, omeprazole, simvastatin",2
-"carboplatin, paclitaxel, omeprazole, ranitidine, simvastatin",2
-"carboplatin, pemetrexed, atorvastatin, lorazepam, omeprazole",2
-"carboplatin, paclitaxel, atenolol, insulin, omeprazole",2
-"carboplatin, etoposide, atorvastatin, enalapril, furosemide",2
-"carboplatin, vinorelbine, atenolol, atorvastatin, omeprazole",2
-"cisplatin, vinorelbine, atenolol, atorvastatin, omeprazole",2
-"carboplatin, etoposide, atorvastatin, omeprazole, simvastatin",2
-"carboplatin, paclitaxel, atorvastatin, enalapril, omeprazole",2
-"carboplatin, paclitaxel, atorvastatin, enalapril, ranitidine",2
-"carboplatin, vinorelbine, atorvastatin, omeprazole, salbutamol",2
-"carboplatin, etoposide, allopurinol, enalapril, omeprazole",2
-"carboplatin, vinorelbine, atorvastatin, enalapril, omeprazole",2
-"carboplatin, etoposide, enalapril, insulin, simvastatin",2
-"carboplatin, pemetrexed, allopurinol, omeprazole, simvastatin",2
-"carboplatin, etoposide, atorvastatin, ibuprofen, omeprazole",2
-"carboplatin, paclitaxel, amlodipine, atorvastatin, omeprazole",2
-"carboplatin, pemetrexed, atorvastatin, omeprazole, simvastatin",2
-"cisplatin, pemetrexed, atorvastatin, omeprazole, simvastatin",2
-"carboplatin, vinorelbine, amoxicillin, metformin, simvastatin",2
-"carboplatin, paclitaxel, enalapril, metformin, prednisone",2
-"carboplatin, vinorelbine, enalapril, metformin, prednisone",2
-"carboplatin, pemetrexed, metformin, omeprazole, simvastatin",2
-"docetaxel, pemetrexed, metformin, omeprazole, simvastatin",2
-"ipilimumab, nivolumab, atenolol, atorvastatin, omeprazole",2
-"carboplatin, etoposide, ibuprofen, omeprazole, prednisone",2
-"alectinib, crizotinib, ibuprofen, omeprazole, prednisone",2
-"alectinib, crizotinib, atorvastatin, enalapril, omeprazole",2
-"carboplatin, pemetrexed, enalapril, furosemide, omeprazole",2
-"carboplatin, etoposide, amlodipine, atorvastatin, metformin",2
-"cisplatin, pemetrexed, enalapril, lorazepam, omeprazole",2
-"carboplatin, etoposide, allopurinol, amlodipine, insulin",2
-"carboplatin, etoposide, amlodipine, metformin, simvastatin",2
-"carboplatin, vinorelbine, analgesic, atorvastatin, omeprazole",2
-"cisplatin, vinorelbine, enalapril, levofloxacin, simvastatin",2
-"carboplatin, paclitaxel, acetaminophen, metformin, omeprazole",2
-"carboplatin, paclitaxel, atorvastatin, levofloxacin, omeprazole",2
-"cisplatin, vinorelbine, lorazepam, metformin, omeprazole",2
-"cisplatin, docetaxel, atorvastatin, enalapril, ranitidine",2
-"carboplatin, vinorelbine, acetaminophen, amoxicillin, tramadol",2
-"carboplatin, pemetrexed, corticoids, methylprednisolone, omeprazole",2
-"carboplatin, etoposide, atenolol, atorvastatin, simvastatin",2
-"carboplatin, etoposide, atenolol, omeprazole",2
-"cisplatin, vinorelbine, ceftriaxone, levofloxacin",2
-"carboplatin, etoposide, atorvastatin, omeprazole",2
-"carboplatin, etoposide, atorvastatin, enalapril",2
-"cisplatin, vinorelbine, atenolol, enalapril",2
-"carboplatin, pemetrexed, enalapril, omeprazole",2
-"carboplatin, paclitaxel, omeprazole, ranitidine",2
-"carboplatin, paclitaxel, enalapril, omeprazole",2
-"cisplatin, vinorelbine, enalapril, omeprazole",2
-"carboplatin, vinorelbine, atenolol, omeprazole",2
-"cisplatin, vinorelbine, omeprazole, simvastatin",2
-"carboplatin, etoposide, amoxicillin, simvastatin",2
-"cisplatin, etoposide, atorvastatin, enalapril",2
-"cisplatin, vinorelbine, omeprazole, ranitidine",2
-"carboplatin, etoposide, enalapril, omeprazole",2
-"carboplatin, etoposide, amoxicillin, lorazepam",2
-"cisplatin, pemetrexed, omeprazole, simvastatin",2
-"carboplatin, vinorelbine, atenolol, atorvastatin",2
-"carboplatin, etoposide, enalapril, furosemide",2
-"carboplatin, gemcitabine, omeprazole, simvastatin",2
-"carboplatin, etoposide, enalapril, ranitidine",2
-"cisplatin, etoposide, enalapril, simvastatin",2
-"carboplatin, etoposide, enalapril, simvastatin",2
-"ipilimumab, nivolumab, enalapril, simvastatin",2
-"carboplatin, pemetrexed, omeprazole, simvastatin",2
-"carboplatin, pemetrexed, atorvastatin, omeprazole",2
-"carboplatin, paclitaxel, acetaminophen, omeprazole",2
-"carboplatin, etoposide, atenolol, atorvastatin",2
-"cisplatin, pemetrexed, amoxicillin, omeprazole",2
-"carboplatin, vinorelbine, atorvastatin, enalapril",2
-"carboplatin, etoposide, insulin, simvastatin",2
-"ceritinib, crizotinib, acetaminophen, omeprazole",2
-"carboplatin, pemetrexed, enalapril, simvastatin",2
-"cisplatin, pemetrexed, acetaminophen, omeprazole",2
-"carboplatin, pemetrexed, acetaminophen, omeprazole",2
-"cisplatin, docetaxel, omeprazole, simvastatin",2
-"carboplatin, etoposide, atorvastatin, metformin",2
-"cisplatin, pemetrexed, amlodipine, omeprazole",2
-"carboplatin, paclitaxel, atorvastatin, azitromicina",2
-"carboplatin, etoposide, acetaminophen, ranitidine",2
-"carboplatin, etoposide, acetaminophen, omeprazole",2
-"carboplatin, vinorelbine, lormetazepam, omeprazole",2
-"cisplatin, pemetrexed, enalapril, metformin",2
-"carboplatin, etoposide, allopurinol, atorvastatin",2
-"cisplatin, vinorelbine, lormetazepam, omeprazole",2
-"carboplatin, gemcitabine, lormetazepam, omeprazole",2
-"carboplatin, etoposide, antibiotic, enalapril",2
-"paclitaxel, pemetrexed, omeprazole, simvastatin",2
-"carboplatin, paclitaxel, omeprazole, tramadol",2
-"carboplatin, vinorelbine, atorvastatin, omeprazole",2
-"carboplatin, vinorelbine, omeprazole, simvastatin",2
-"cisplatin, vinorelbine, ibuprofen, omeprazole",2
-"carboplatin, vinorelbine, ibuprofen, omeprazole",2
-"cisplatin, vinorelbine, analgesic, omeprazole",2
-"carboplatin, etoposide, dexamethasone, tramadol",2
-"cisplatin, pemetrexed, metformin, omeprazole",2
-"cisplatin, etoposide, atenolol, omeprazole",2
-"cisplatin, pemetrexed, amlodipine, simvastatin",2
-"carboplatin, pemetrexed, allopurinol, metformin",2
-"carboplatin, paclitaxel, metformin, omeprazole",2
-"cisplatin, pemetrexed, ibuprofen, ondansetron",2
-"cisplatin, gemcitabine, ibuprofen, ondansetron",2
-"carboplatin, etoposide, ibuprofen, omeprazole",2
-"ipilimumab, nivolumab, atorvastatin, enalapril",2
-"carboplatin, etoposide, insulin, omeprazole",2
-"cisplatin, pemetrexed, enalapril, omeprazole",2
-"carboplatin, vinorelbine, atorvastatin, simvastatin",2
-"ipilimumab, nivolumab, atorvastatin, omeprazole",2
-"cisplatin, vinorelbine, atorvastatin, lorazepam",2
-"cisplatin, vinorelbine, atorvastatin, omeprazole",2
-"cisplatin, vinorelbine, amlodipine, amoxicillin",2
-"cisplatin, vinorelbine, atenolol, atorvastatin",2
-"cisplatin, vinorelbine, omeprazole, prednisone",2
-"alectinib, crizotinib, omeprazole, prednisone",2
-"ipilimumab, nivolumab, furosemide, salbutamol",2
-"carboplatin, pemetrexed, atorvastatin, enalapril",2
-"carboplatin, pemetrexed, metformin, ranitidine",2
-"carboplatin, pemetrexed, atenolol, omeprazole",2
-"ipilimumab, nivolumab, atenolol, omeprazole",2
-"ipilimumab, nivolumab, omeprazole, simvastatin",2
-"carboplatin, paclitaxel, atorvastatin, omeprazole",2
-"carboplatin, vinorelbine, atenolol, simvastatin",2
-"carboplatin, etoposide, atenolol, simvastatin",2
-"cisplatin, vinorelbine, omeprazole",2
-"carboplatin, vinorelbine, atorvastatin",2
-"carboplatin, vinorelbine, atenolol",2
-"afatinib, osimertinib, ranitidine",2
-"carboplatin, paclitaxel, ranitidine",2
-"carboplatin, paclitaxel, enalapril",2
-"carboplatin, etoposide, simvastatin",2
-"cisplatin, pemetrexed, ranitidine",2
-"carboplatin, etoposide, omeprazole",2
-"cisplatin, vinorelbine, atenolol",2
-"carboplatin, vinorelbine, omeprazole",2
-"carboplatin, paclitaxel, atenolol",2
-"carboplatin, pemetrexed, simvastatin",2
-"carboplatin, paclitaxel, omeprazole",2
-"cisplatin, vinorelbine, tramadol",2
-"carboplatin, pemetrexed, omeprazole",2
-"carboplatin, pemetrexed, enalapril",2
-"carboplatin, etoposide, metformin",2
-"cisplatin, vinorelbine, enalapril",2
-"carboplatin, vinorelbine, simvastatin",2
-"carboplatin, etoposide, enalapril",2
-"alectinib, crizotinib, omeprazole",2
-"afatinib, osimertinib, atenolol",2
-"carboplatin, etoposide, atenolol",2
-"cisplatin, etoposide, omeprazole",2
-"cisplatin, vinorelbine, corticoids",2
-"ipilimumab, nivolumab, antibiotics",2
-"carboplatin, paclitaxel, antibiotics",2
-"ipilimumab, nivolumab, omeprazole",2
-"carboplatin, etoposide, ranitidine",2
-"ipilimumab, nivolumab, enalapril",2
-"carboplatin, pemetrexed, atorvastatin",2
-"carboplatin, etoposide, atorvastatin",2
-"carboplatin, pemetrexed, ibuprofen",2
-"cisplatin, pemetrexed, omeprazole",2
-"cisplatin, vinorelbine, ibuprofen",2
-"cisplatin, pemetrexed, atorvastatin",2
-"ipilimumab, nivolumab, simvastatin",2
-"cisplatin, vinorelbine, simvastatin",2
-"cisplatin, vinorelbine, atorvastatin",2
-"cisplatin, pemetrexed, simvastatin",2
-"carboplatin, paclitaxel, antibiotic",2
-"cisplatin, pemetrexed, amlodipine",2
-"ipilimumab, nivolumab, amlodipine",2
-"docetaxel, pemetrexed, amlodipine",2
-"carboplatin, vinorelbine, enalapril",2
-"carboplatin, pemetrexed, ranitidine",2
-"ipilimumab, nivolumab, ranitidine",2
-"ipilimumab, nivolumab, atorvastatin",2
-"carboplatin, gemcitabine, omeprazole",2
-"carboplatin, paclitaxel, metformin",2
-"carboplatin, vinorelbine, metformin",2
-"carboplatin, pemetrexed, allopurinol",2
-"carboplatin, pemetrexed, furosemide",2
-"cisplatin, vinorelbine, ranitidine",2
-"cisplatin, gemcitabine, omeprazole",2
-"carboplatin, gemcitabine, atorvastatin",2
-"carboplatin, vinorelbine, antibiotic",2
-"cisplatin, gemcitabine, atorvastatin",2
-"ipilimumab, nivolumab, acetaminophen",2
-"afatinib, osimertinib, enalapril",2
-"cisplatin, pemetrexed, enalapril",2
-"carboplatin, gemcitabine, enalapril",2
-"carboplatin, paclitaxel, atorvastatin",2
-"carboplatin, etoposide",2
-"ipilimumab, nivolumab",2
-"cisplatin, vinorelbine",2
-"cisplatin, docetaxel",2
-"cisplatin, pemetrexed",2
-"docetaxel, pemetrexed",2
-"carboplatin, pemetrexed",2
-"cisplatin, etoposide",2
-"alectinib, crizotinib",2
-"carboplatin, vinorelbine",2
-"carboplatin, paclitaxel",2
-"cisplatin, gemcitabine",2
-"afatinib, osimertinib",2
-"carboplatin, gemcitabine",2
-"ceritinib, crizotinib",2
-"carboplatin, amlodipine, atenolol, atorvastatin, enalapril, insulin, metformin, omeprazole",1
-"nivolumab, acetaminophen, amlodipine, antibiotics, atorvastatin, enalapril, omeprazole, simvastatin",1
-"carboplatin, acetaminophen, allopurinol, amlodipine, atorvastatin, insulin, omeprazole, prednisone",1
-"paclitaxel, acetaminophen, allopurinol, amlodipine, atorvastatin, metformin, omeprazole",1
-"carboplatin, atorvastatin, enalapril, insulin, metformin, omeprazole, simvastatin",1
-"nivolumab, atorvastatin, enalapril, insulin, metformin, omeprazole, simvastatin",1
-"pemetrexed, acetaminophen, amlodipine, atorvastatin, enalapril, omeprazole, salbutamol",1
-"carboplatin, atenolol, atorvastatin, furosemide, lorazepam, metformin, omeprazole",1
-"afatinib, atenolol, atorvastatin, furosemide, lorazepam, metformin, omeprazole",1
-"osimertinib, atenolol, atorvastatin, furosemide, lorazepam, metformin, omeprazole",1
-"carboplatin, amlodipine, atenolol, atorvastatin, omeprazole, prednisone",1
-"pemetrexed, amlodipine, atenolol, atorvastatin, omeprazole, prednisone",1
-"carboplatin, amlodipine, atenolol, atorvastatin, enalapril, omeprazole",1
-"cisplatin, acetaminophen, atenolol, fentanyl, omeprazole, simvastatin",1
-"carboplatin, acetaminophen, atenolol, fentanyl, omeprazole, simvastatin",1
-"pembrolizumab, analgesic, dexamethasone, levofloxacin, omeprazole, simvastatin",1
-"carboplatin, atenolol, atorvastatin, enalapril, metformin, omeprazole",1
-"docetaxel, atenolol, atorvastatin, enalapril, metformin, omeprazole",1
-"nivolumab, atenolol, atorvastatin, enalapril, omeprazole, simvastatin",1
-"gemcitabine, atorvastatin, furosemide, metformin, omeprazole",1
-"crizotinib, atorvastatin, enalapril, enoxaparin, omeprazole",1
-"vinorelbine, enalapril, furosemide, omeprazole, simvastatin",1
-"necitumumab, atenolol, atorvastatin, omeprazole, simvastatin",1
-"carboplatin, ibuprofen, metoclopramide, omeprazole, salbutamol",1
-"cisplatin, allopurinol, amlodipine, atenolol, lorazepam",1
-"docetaxel, allopurinol, amlodipine, atenolol, lorazepam",1
-"pembrolizumab, amlodipine, atorvastatin, metformin, tramadol",1
-"vinorelbine, atenolol, enalapril, metformin, simvastatin",1
-"carboplatin, atenolol, enalapril, metformin, simvastatin",1
-"paclitaxel, atenolol, enalapril, metformin, simvastatin",1
-"nivolumab, atenolol, enalapril, metformin, simvastatin",1
-"afatinib, dexamethasone, fentanyl, lorazepam, omeprazole",1
-"osimertinib, dexamethasone, fentanyl, lorazepam, omeprazole",1
-"pemetrexed, dexamethasone, fentanyl, lorazepam, omeprazole",1
-"paclitaxel, dexamethasone, enoxaparin, metoclopramide, omeprazole",1
-"docetaxel, dexamethasone, enoxaparin, metoclopramide, omeprazole",1
-"afatinib, acetaminophen, ibuprofen, omeprazole, tramadol",1
-"afatinib, acetaminophen, amlodipine, lorazepam, omeprazole",1
-"carboplatin, amlodipine, atorvastatin, metformin, omeprazole",1
-"cisplatin, antibiotic, enalapril, omeprazole",1
-"cisplatin, allopurinol, fentanyl, omeprazole",1
-"carboplatin, enalapril, omeprazole, simvastatin",1
-"docetaxel, enalapril, omeprazole, simvastatin",1
-"nivolumab, atenolol, omeprazole, simvastatin",1
-"paclitaxel, allopurinol, enalapril, omeprazole",1
-"cisplatin, lorazepam, omeprazole, simvastatin",1
-"carboplatin, omeprazole, ranitidine, simvastatin",1
-"paclitaxel, omeprazole, ranitidine, simvastatin",1
-"bevacizumab, omeprazole, ranitidine, simvastatin",1
-"pemetrexed, omeprazole, ranitidine, simvastatin",1
-"gemcitabine, omeprazole, ranitidine, simvastatin",1
-"nivolumab, omeprazole, ranitidine, simvastatin",1
-"nivolumab, atorvastatin, lorazepam, omeprazole",1
-"cisplatin, enalapril, omeprazole, ranitidine",1
-"afatinib, enalapril, omeprazole, ranitidine",1
-"docetaxel, atenolol, atorvastatin, omeprazole",1
-"nivolumab, atorvastatin, enalapril, ranitidine",1
-"nivolumab, enalapril, metformin, omeprazole",1
-"vinorelbine, enalapril, metformin, omeprazole",1
-"afatinib, atorvastatin, omeprazole, simvastatin",1
-"nivolumab, atorvastatin, enalapril, omeprazole",1
-"vinorelbine, atorvastatin, enalapril, omeprazole",1
-"vinorelbine, acetaminophen, enalapril, simvastatin",1
-"docetaxel, atorvastatin, omeprazole, simvastatin",1
-"pembrolizumab, atenolol, omeprazole, simvastatin",1
-"carboplatin, amoxicillin, metformin, simvastatin",1
-"nivolumab, amoxicillin, metformin, simvastatin",1
-"gemcitabine, amoxicillin, metformin, simvastatin",1
-"paclitaxel, amoxicillin, metformin, simvastatin",1
-"cisplatin, enalapril, metformin, prednisone",1
-"pemetrexed, dexamethasone, lorazepam, omeprazole",1
-"docetaxel, metformin, omeprazole, simvastatin",1
-"cisplatin, atenolol, atorvastatin, omeprazole",1
-"nivolumab, atenolol, atorvastatin, omeprazole",1
-"carboplatin, amlodipine, atenolol, atorvastatin",1
-"carboplatin, ibuprofen, prednisone, ranitidine",1
-"crizotinib, ibuprofen, omeprazole, prednisone",1
-"alectinib, ibuprofen, omeprazole, prednisone",1
-"pemetrexed, omeprazole, simvastatin, tramadol",1
-"pembrolizumab, omeprazole, simvastatin, tramadol",1
-"vinorelbine, atorvastatin, enalapril, simvastatin",1
-"crizotinib, atorvastatin, enalapril, omeprazole",1
-"alectinib, atorvastatin, enalapril, omeprazole",1
-"alectinib, enalapril, furosemide, omeprazole",1
-"nivolumab, enalapril, lorazepam, omeprazole",1
-"paclitaxel, acetaminophen, lorazepam, simvastatin",1
-"carboplatin, acetaminophen, lorazepam, simvastatin",1
-"nivolumab, acetaminophen, lorazepam, simvastatin",1
-"pembrolizumab, lorazepam, omeprazole, simvastatin",1
-"carboplatin, amlodipine, enalapril, metformin",1
-"vinorelbine, amlodipine, enalapril, metformin",1
-"vinorelbine, analgesic, atorvastatin, omeprazole",1
-"bevacizumab, analgesic, atorvastatin, omeprazole",1
-"docetaxel, enalapril, levofloxacin, simvastatin",1
-"nivolumab, atorvastatin, levofloxacin, omeprazole",1
-"paclitaxel, acetaminophen, atorvastatin, omeprazole",1
-"bevacizumab, enalapril, metformin",1
-"docetaxel, enalapril, omeprazole",1
-"carboplatin, omeprazole, ranitidine",1
-"bevacizumab, enalapril, omeprazole",1
-"pembrolizumab, enalapril, omeprazole",1
-"cisplatin, enalapril, omeprazole",1
-"pembrolizumab, atorvastatin, simvastatin",1
-"paclitaxel, omeprazole, ranitidine",1
-"carboplatin, enalapril, metformin",1
-"cisplatin, enalapril, metformin",1
-"carboplatin, enalapril, furosemide",1
-"nivolumab, omeprazole, simvastatin",1
-"afatinib, acetaminophen, omeprazole",1
-"vinorelbine, lorazepam, omeprazole",1
-"docetaxel, atorvastatin, omeprazole",1
-"osimertinib, acetaminophen, omeprazole",1
-"pemetrexed, acetaminophen, omeprazole",1
-"afatinib, enalapril, omeprazole",1
-"nivolumab, amoxicillin, omeprazole",1
-"carboplatin, atorvastatin, fentanyl",1
-"cisplatin, atorvastatin, fentanyl",1
-"docetaxel, acetaminophen, omeprazole",1
-"crizotinib, acetaminophen, omeprazole",1
-"ceritinib, acetaminophen, omeprazole",1
-"pembrolizumab, acetaminophen, omeprazole",1
-"nivolumab, acetaminophen, omeprazole",1
-"paclitaxel, acetaminophen, omeprazole",1
-"vinorelbine, acetaminophen, omeprazole",1
-"carboplatin, enalapril, salbutamol",1
-"paclitaxel, omeprazole, simvastatin",1
-"cisplatin, atorvastatin, omeprazole",1
-"carboplatin, ibuprofen, omeprazole",1
-"afatinib, atorvastatin, azitromicina",1
-"docetaxel, enalapril, metformin",1
-"nivolumab, enalapril, metformin",1
-"carboplatin, antibiotic, omeprazole",1
-"carboplatin, lormetazepam, omeprazole",1
-"carboplatin, antibiotic, enalapril",1
-"cisplatin, omeprazole, simvastatin",1
-"carboplatin, atorvastatin, omeprazole",1
-"carboplatin, atenolol, atorvastatin",1
-"carboplatin, omeprazole, tramadol",1
-"vinorelbine, ranitidine, simvastatin",1
-"carboplatin, enalapril, simvastatin",1
-"paclitaxel, enalapril, simvastatin",1
-"necitumumab, omeprazole, simvastatin",1
-"paclitaxel, analgesic, omeprazole",1
-"docetaxel, metformin, omeprazole",1
-"gemcitabine, metformin, omeprazole",1
-"vinorelbine, metformin, omeprazole",1
-"nivolumab, metformin, omeprazole",1
-"carboplatin, atenolol, omeprazole",1
-"vinorelbine, atenolol, omeprazole",1
-"nivolumab, atenolol, omeprazole",1
-"gemcitabine, atenolol, omeprazole",1
-"docetaxel, amlodipine, simvastatin",1
-"nivolumab, amlodipine, simvastatin",1
-"nivolumab, allopurinol, metformin",1
-"afatinib, omeprazole, ranitidine",1
-"bevacizumab, omeprazole, ranitidine",1
-"crizotinib, enalapril, omeprazole",1
-"cisplatin, ibuprofen, ondansetron",1
-"osimertinib, ibuprofen, ondansetron",1
-"carboplatin, atorvastatin, enalapril",1
-"docetaxel, atorvastatin, enalapril",1
-"vinorelbine, enalapril, omeprazole",1
-"nivolumab, enalapril, omeprazole",1
-"carboplatin, omeprazole, simvastatin",1
-"osimertinib, omeprazole, simvastatin",1
-"bevacizumab, omeprazole, simvastatin",1
-"vinorelbine, ibuprofen, omeprazole",1
-"ipilimumab, atorvastatin, omeprazole",1
-"carboplatin, amlodipine, amoxicillin",1
-"docetaxel, omeprazole, simvastatin",1
-"osimertinib, enalapril, omeprazole",1
-"cisplatin, omeprazole, prednisone",1
-"ceritinib, omeprazole, prednisone",1
-"crizotinib, omeprazole, prednisone",1
-"alectinib, omeprazole, prednisone",1
-"carboplatin, atorvastatin, prednisone",1
-"pemetrexed, furosemide, salbutamol",1
-"nivolumab, furosemide, salbutamol",1
-"carboplatin, enalapril, omeprazole",1
-"paclitaxel, atorvastatin, enalapril",1
-"cisplatin, atorvastatin, enalapril",1
-"gemcitabine, omeprazole, simvastatin",1
-"afatinib, atorvastatin, omeprazole",1
-"carboplatin, methylprednisolone, omeprazole",1
-"paclitaxel, methylprednisolone, omeprazole",1
-"nivolumab, methylprednisolone, omeprazole",1
-"carboplatin, atenolol, simvastatin",1
-"pembrolizumab, omeprazole, simvastatin",1
-"nivolumab, atorvastatin, omeprazole",1
-"crizotinib, omeprazole",1
-"carboplatin, furosemide",1
-"paclitaxel, furosemide",1
-"carboplatin, atorvastatin",1
-"afatinib, omeprazole",1
-"osimertinib, omeprazole",1
-"afatinib, ranitidine",1
-"pemetrexed, ranitidine",1
-"carboplatin, atenolol",1
-"pemetrexed, omeprazole",1
-"cisplatin, simvastatin",1
-"cisplatin, ranitidine",1
-"gemcitabine, ranitidine",1
-"bevacizumab, ranitidine",1
-"vinorelbine, atenolol",1
-"pemetrexed, simvastatin",1
-"pembrolizumab, simvastatin",1
-"carboplatin, omeprazole",1
-"docetaxel, simvastatin",1
-"nivolumab, simvastatin",1
-"nivolumab, omeprazole",1
-"gemcitabine, omeprazole",1
-"nivolumab, enalapril",1
-"docetaxel, enalapril",1
-"pembrolizumab, atenolol",1
-"cisplatin, omeprazole",1
-"vinorelbine, omeprazole",1
-"paclitaxel, simvastatin",1
-"carboplatin, simvastatin",1
-"vinorelbine, simvastatin",1
-"alectinib, omeprazole",1
-"pembrolizumab, omeprazole",1
-"docetaxel, omeprazole",1
-"nivolumab, corticoids",1
-"nivolumab, antibiotics",1
-"vinorelbine, antibiotics",1
-"gemcitabine, antibiotics",1
-"necitumumab, omeprazole",1
-"paclitaxel, omeprazole",1
-"cisplatin, analgesic",1
-"paclitaxel, atorvastatin",1
-"nivolumab, atorvastatin",1
-"vinorelbine, atorvastatin",1
-"bevacizumab, omeprazole",1
-"docetaxel, atorvastatin",1
-"carboplatin, ranitidine",1
-"carboplatin, enalapril",1
-"bevacizumab, simvastatin",1
-"paclitaxel, enalapril",1
-"crizotinib, enalapril",1
-"ceritinib, enalapril",1
-"nivolumab, antibiotic",1
-"osimertinib, ranitidine",1
-"docetaxel, amlodipine",1
-"pembrolizumab, atorvastatin",1
-"nivolumab, metformin",1
-"paclitaxel, ranitidine",1
-"paclitaxel, allopurinol",1
-"pemetrexed, enalapril",1
-"osimertinib, enalapril",1
-"ceritinib, omeprazole",1
-"afatinib, antibiotic",1
-"pemetrexed, amlodipine",1
-"nivolumab, amlodipine",1
-"ipilimumab, omeprazole",1
-"afatinib, enalapril",1
-"necitumumab, enalapril",1
-"gemcitabine, atorvastatin",1
-"pembrolizumab, enalapril",1
-gemcitabine,1
-carboplatin,1
-docetaxel,1
-paclitaxel,1
-cisplatin,1
-vinorelbine,1
-bevacizumab,1
-afatinib,1
-osimertinib,1
-pemetrexed,1
-nivolumab,1
-pembrolizumab,1
-necitumumab,1
-crizotinib,1
-alectinib,1
-ceritinib,1
+treatment
+"Cisplatin, Docetaxel, Pemetrexed, Vinorelbine"
+"Carboplatin, Paclitaxel, Pemetrexed, Dexamethasone, Lorazepam, Omeprazole"
+"Cisplatin, Docetaxel, Pemetrexed, Omeprazole"
+"Carboplatin, Paclitaxel, Vinorelbine"
+"Cisplatin, Gemcitabine, Vinorelbine"
+"Carboplatin, Gemcitabine, Vinorelbine"
+"Carboplatin, Vinorelbine, Allopurinol, Atorvastatin, Gentamicin, Metformin, Omeprazole, Simvastatin, Sulfamethoxazole, Trimethoprim"
+"Cisplatin, Vinorelbine, Allopurinol, Atorvastatin, Gentamicin, Metformin, Omeprazole, Simvastatin, Sulfamethoxazole, Trimethoprim"
+"Carboplatin, Etoposide, Allopurinol, Atenolol, Furosemide, Human_immunoglobulin_g, Omeprazole, Simvastatin, Spironolactone"
+"Carboplatin, Etoposide, Acetaminophen, Allopurinol, Amlodipine, Atorvastatin, Metformin, Omeprazole"
+"Carboplatin, Etoposide, Acetaminophen, Atenolol, Atorvastatin, Furosemide, Metformin, Omeprazole"
+"Carboplatin, Vinorelbine, Atenolol, Atorvastatin, Furosemide, Lorazepam, Metformin, Omeprazole"
+"Carboplatin, Paclitaxel, Acetaminophen, Amlodipine, Atorvastatin, Enalapril, Omeprazole, Simvastatin"
+"Carboplatin, Etoposide, Dexketoprofen, Levofloxacin, Lorazepam, Lormetazepam, Omeprazole, Tramadol"
+"Carboplatin, Etoposide, Atenolol, Atorvastatin, Enalapril, Lorazepam, Metformin, Omeprazole"
+"Carboplatin, Vinorelbine, Acetaminophen, Allopurinol, Amlodipine, Atorvastatin, Omeprazole, Prednisone"
+"Carboplatin, Pemetrexed, Amlodipine, Atenolol, Atorvastatin, Omeprazole, Prednisone"
+"Carboplatin, Etoposide, Amlodipine, Atenolol, Enalapril, Omeprazole, Prednisone"
+"Carboplatin, Gemcitabine, Atenolol, Atorvastatin, Enalapril, Omeprazole, Simvastatin"
+"Ipilimumab, Nivolumab, Atenolol, Atorvastatin, Enalapril, Omeprazole, Simvastatin"
+"Carboplatin, Vinorelbine, Amlodipine, Levofloxacin, Omeprazole, Simvastatin"
+"Cisplatin, Vinorelbine, Atorvastatin, Furosemide, Metformin, Omeprazole"
+"Carboplatin, Vinorelbine, Atorvastatin, Furosemide, Metformin, Omeprazole"
+"Carboplatin, Paclitaxel, Atorvastatin, Furosemide, Metformin, Omeprazole"
+"Carboplatin, Etoposide, Acetaminophen, Atorvastatin, Omeprazole, Tramadol"
+"Cisplatin, Vinorelbine, Atorvastatin, Enalapril, Enoxaparin, Omeprazole"
+"Carboplatin, Paclitaxel, Amlodipine, Atorvastatin, Enalapril, Metformin"
+"Carboplatin, Etoposide, Atorvastatin, Enalapril, Metformin, Omeprazole"
+"Carboplatin, Vinorelbine, Enalapril, Furosemide, Omeprazole, Simvastatin"
+"Carboplatin, Etoposide, Amlodipine, Atorvastatin, Enalapril, Omeprazole"
+"Carboplatin, Vinorelbine, Enalapril, Metformin, Omeprazole, Simvastatin"
+"Cisplatin, Vinorelbine, Allopurinol, Amlodipine, Atenolol, Lorazepam"
+"Carboplatin, Vinorelbine, Allopurinol, Amlodipine, Atenolol, Lorazepam"
+"Carboplatin, Pemetrexed, Allopurinol, Amlodipine, Atenolol, Lorazepam"
+"Carboplatin, Etoposide, Allopurinol, Atorvastatin, Enalapril, Furosemide"
+"Carboplatin, Pemetrexed, Allopurinol, Amlodipine, Metformin, Simvastatin"
+"Carboplatin, Etoposide, Atenolol, Atorvastatin, Enalapril, Omeprazole"
+"Carboplatin, Pemetrexed, Amlodipine, Atorvastatin, Metformin, Tramadol"
+"Carboplatin, Etoposide, Atenolol, Atorvastatin, Omeprazole, Ranitidine"
+"Carboplatin, Vinorelbine, Atenolol, Atorvastatin, Enalapril, Omeprazole"
+"Carboplatin, Paclitaxel, Dexamethasone, Fentanyl, Lorazepam, Omeprazole"
+"Cisplatin, Vinorelbine, Dexamethasone, Enoxaparin, Metoclopramide, Omeprazole"
+"Carboplatin, Pemetrexed, Dexamethasone, Levofloxacin, Omeprazole, Simvastatin"
+"Carboplatin, Paclitaxel, Atenolol, Dexamethasone, Omeprazole, Prednisone"
+"Carboplatin, Etoposide, Acetaminophen, Omeprazole, Simvastatin"
+"Carboplatin, Etoposide, Atenolol, Atorvastatin, Omeprazole"
+"Carboplatin, Etoposide, Acetaminophen, Atorvastatin, Ranitidine"
+"Carboplatin, Etoposide, Furosemide, Metformin, Omeprazole"
+"Carboplatin, Etoposide, Atenolol, Enalapril, Omeprazole"
+"Carboplatin, Paclitaxel, Allopurinol, Fentanyl, Omeprazole"
+"Cisplatin, Vinorelbine, Enalapril, Omeprazole, Simvastatin"
+"Carboplatin, Pemetrexed, Atenolol, Enalapril, Omeprazole"
+"Carboplatin, Etoposide, Allopurinol, Atorvastatin, Furosemide"
+"Cisplatin, Pemetrexed, Ciprofloxacin, Ibuprofen, Omeprazole"
+"Carboplatin, Etoposide, Enalapril, Omeprazole, Simvastatin"
+"Cisplatin, Vinorelbine, Atenolol, Omeprazole, Simvastatin"
+"Carboplatin, Paclitaxel, Atenolol, Omeprazole, Simvastatin"
+"Carboplatin, Vinorelbine, Allopurinol, Enalapril, Omeprazole"
+"Cisplatin, Vinorelbine, Lorazepam, Omeprazole, Simvastatin"
+"Carboplatin, Paclitaxel, Omeprazole, Ranitidine, Simvastatin"
+"Carboplatin, Pemetrexed, Atorvastatin, Lorazepam, Omeprazole"
+"Carboplatin, Etoposide, Atorvastatin, Enalapril, Furosemide"
+"Carboplatin, Vinorelbine, Atenolol, Atorvastatin, Omeprazole"
+"Cisplatin, Vinorelbine, Atenolol, Atorvastatin, Omeprazole"
+"Carboplatin, Etoposide, Atorvastatin, Omeprazole, Simvastatin"
+"Carboplatin, Paclitaxel, Atorvastatin, Enalapril, Omeprazole"
+"Carboplatin, Paclitaxel, Atorvastatin, Enalapril, Ranitidine"
+"Carboplatin, Vinorelbine, Atorvastatin, Omeprazole, Salbutamol"
+"Carboplatin, Etoposide, Allopurinol, Enalapril, Omeprazole"
+"Carboplatin, Vinorelbine, Atorvastatin, Enalapril, Omeprazole"
+"Carboplatin, Pemetrexed, Allopurinol, Omeprazole, Simvastatin"
+"Carboplatin, Etoposide, Atorvastatin, Ibuprofen, Omeprazole"
+"Carboplatin, Paclitaxel, Amlodipine, Atorvastatin, Omeprazole"
+"Carboplatin, Pemetrexed, Atorvastatin, Omeprazole, Simvastatin"
+"Cisplatin, Pemetrexed, Atorvastatin, Omeprazole, Simvastatin"
+"Carboplatin, Vinorelbine, Amoxicillin, Metformin, Simvastatin"
+"Carboplatin, Paclitaxel, Enalapril, Metformin, Prednisone"
+"Carboplatin, Vinorelbine, Enalapril, Metformin, Prednisone"
+"Carboplatin, Pemetrexed, Ciprofloxacin, Omeprazole, Prednisone"
+"Carboplatin, Pemetrexed, Metformin, Omeprazole, Simvastatin"
+"Docetaxel, Pemetrexed, Metformin, Omeprazole, Simvastatin"
+"Ipilimumab, Nivolumab, Atenolol, Atorvastatin, Omeprazole"
+"Carboplatin, Etoposide, Ibuprofen, Omeprazole, Prednisone"
+"Alectinib, Crizotinib, Ibuprofen, Omeprazole, Prednisone"
+"Alectinib, Crizotinib, Atorvastatin, Enalapril, Omeprazole"
+"Carboplatin, Pemetrexed, Enalapril, Furosemide, Omeprazole"
+"Carboplatin, Etoposide, Amlodipine, Atorvastatin, Metformin"
+"Cisplatin, Pemetrexed, Enalapril, Lorazepam, Omeprazole"
+"Carboplatin, Etoposide, Amlodipine, Metformin, Simvastatin"
+"Cisplatin, Vinorelbine, Enalapril, Levofloxacin, Simvastatin"
+"Carboplatin, Paclitaxel, Acetaminophen, Metformin, Omeprazole"
+"Carboplatin, Paclitaxel, Atorvastatin, Levofloxacin, Omeprazole"
+"Cisplatin, Vinorelbine, Lorazepam, Metformin, Omeprazole"
+"Cisplatin, Docetaxel, Atorvastatin, Enalapril, Ranitidine"
+"Carboplatin, Vinorelbine, Acetaminophen, Amoxicillin, Tramadol"
+"Carboplatin, Etoposide, Atenolol, Atorvastatin, Simvastatin"
+"Carboplatin, Etoposide, Atenolol, Omeprazole"
+"Cisplatin, Vinorelbine, Ceftriaxone, Levofloxacin"
+"Carboplatin, Etoposide, Atorvastatin, Omeprazole"
+"Carboplatin, Etoposide, Atorvastatin, Enalapril"
+"Cisplatin, Vinorelbine, Atenolol, Enalapril"
+"Carboplatin, Etoposide, Enalapril, Omeprazole"
+"Carboplatin, Pemetrexed, Enalapril, Omeprazole"
+"Carboplatin, Paclitaxel, Omeprazole, Ranitidine"
+"Carboplatin, Etoposide, Omeprazole, Simvastatin"
+"Carboplatin, Paclitaxel, Enalapril, Omeprazole"
+"Cisplatin, Vinorelbine, Enalapril, Omeprazole"
+"Carboplatin, Vinorelbine, Atenolol, Omeprazole"
+"Cisplatin, Vinorelbine, Omeprazole, Simvastatin"
+"Carboplatin, Etoposide, Amoxicillin, Simvastatin"
+"Cisplatin, Etoposide, Atorvastatin, Enalapril"
+"Cisplatin, Vinorelbine, Omeprazole, Ranitidine"
+"Carboplatin, Etoposide, Amoxicillin, Lorazepam"
+"Cisplatin, Pemetrexed, Omeprazole, Simvastatin"
+"Carboplatin, Vinorelbine, Atenolol, Atorvastatin"
+"Carboplatin, Etoposide, Enalapril, Furosemide"
+"Carboplatin, Gemcitabine, Omeprazole, Simvastatin"
+"Carboplatin, Etoposide, Enalapril, Ranitidine"
+"Cisplatin, Etoposide, Enalapril, Simvastatin"
+"Carboplatin, Etoposide, Enalapril, Simvastatin"
+"Ipilimumab, Nivolumab, Enalapril, Simvastatin"
+"Carboplatin, Pemetrexed, Omeprazole, Simvastatin"
+"Carboplatin, Paclitaxel, Atenolol, Omeprazole"
+"Carboplatin, Pemetrexed, Atorvastatin, Omeprazole"
+"Carboplatin, Paclitaxel, Acetaminophen, Omeprazole"
+"Carboplatin, Etoposide, Atenolol, Atorvastatin"
+"Cisplatin, Pemetrexed, Amoxicillin, Omeprazole"
+"Carboplatin, Vinorelbine, Atorvastatin, Enalapril"
+"Ceritinib, Crizotinib, Acetaminophen, Omeprazole"
+"Carboplatin, Pemetrexed, Enalapril, Simvastatin"
+"Cisplatin, Pemetrexed, Acetaminophen, Omeprazole"
+"Carboplatin, Pemetrexed, Acetaminophen, Omeprazole"
+"Cisplatin, Docetaxel, Omeprazole, Simvastatin"
+"Carboplatin, Etoposide, Atorvastatin, Metformin"
+"Cisplatin, Pemetrexed, Amlodipine, Omeprazole"
+"Carboplatin, Paclitaxel, Atorvastatin, Azithromycin"
+"Carboplatin, Etoposide, Acetaminophen, Ranitidine"
+"Carboplatin, Etoposide, Acetaminophen, Omeprazole"
+"Carboplatin, Vinorelbine, Lormetazepam, Omeprazole"
+"Cisplatin, Pemetrexed, Enalapril, Metformin"
+"Carboplatin, Etoposide, Allopurinol, Atorvastatin"
+"Cisplatin, Vinorelbine, Lormetazepam, Omeprazole"
+"Carboplatin, Gemcitabine, Lormetazepam, Omeprazole"
+"Paclitaxel, Pemetrexed, Omeprazole, Simvastatin"
+"Carboplatin, Paclitaxel, Omeprazole, Tramadol"
+"Carboplatin, Vinorelbine, Atorvastatin, Omeprazole"
+"Carboplatin, Vinorelbine, Omeprazole, Simvastatin"
+"Cisplatin, Vinorelbine, Ibuprofen, Omeprazole"
+"Carboplatin, Vinorelbine, Ibuprofen, Omeprazole"
+"Carboplatin, Etoposide, Dexamethasone, Tramadol"
+"Cisplatin, Pemetrexed, Metformin, Omeprazole"
+"Cisplatin, Etoposide, Atenolol, Omeprazole"
+"Cisplatin, Pemetrexed, Amlodipine, Simvastatin"
+"Carboplatin, Pemetrexed, Allopurinol, Metformin"
+"Carboplatin, Paclitaxel, Metformin, Omeprazole"
+"Cisplatin, Pemetrexed, Ibuprofen, Ondansetron"
+"Cisplatin, Gemcitabine, Ibuprofen, Ondansetron"
+"Carboplatin, Etoposide, Allopurinol, Amlodipine"
+"Carboplatin, Etoposide, Ibuprofen, Omeprazole"
+"Ipilimumab, Nivolumab, Atorvastatin, Enalapril"
+"Cisplatin, Pemetrexed, Enalapril, Omeprazole"
+"Carboplatin, Vinorelbine, Atorvastatin, Simvastatin"
+"Ipilimumab, Nivolumab, Atorvastatin, Omeprazole"
+"Cisplatin, Vinorelbine, Atorvastatin, Lorazepam"
+"Cisplatin, Vinorelbine, Atorvastatin, Omeprazole"
+"Cisplatin, Vinorelbine, Amlodipine, Amoxicillin"
+"Cisplatin, Vinorelbine, Atenolol, Atorvastatin"
+"Cisplatin, Vinorelbine, Omeprazole, Prednisone"
+"Alectinib, Crizotinib, Omeprazole, Prednisone"
+"Ipilimumab, Nivolumab, Furosemide, Salbutamol"
+"Carboplatin, Pemetrexed, Atorvastatin, Enalapril"
+"Carboplatin, Pemetrexed, Metformin, Ranitidine"
+"Carboplatin, Pemetrexed, Atenolol, Omeprazole"
+"Ipilimumab, Nivolumab, Atenolol, Omeprazole"
+"Ipilimumab, Nivolumab, Omeprazole, Simvastatin"
+"Carboplatin, Pemetrexed, Methylprednisolone, Omeprazole"
+"Carboplatin, Paclitaxel, Atorvastatin, Omeprazole"
+"Carboplatin, Vinorelbine, Atenolol, Simvastatin"
+"Carboplatin, Etoposide, Atenolol, Simvastatin"
+"Cisplatin, Vinorelbine, Omeprazole"
+"Carboplatin, Vinorelbine, Atorvastatin"
+"Carboplatin, Vinorelbine, Atenolol"
+"Afatinib, Osimertinib, Ranitidine"
+"Carboplatin, Paclitaxel, Ranitidine"
+"Carboplatin, Paclitaxel, Enalapril"
+"Carboplatin, Etoposide, Simvastatin"
+"Cisplatin, Pemetrexed, Ranitidine"
+"Carboplatin, Etoposide, Omeprazole"
+"Cisplatin, Vinorelbine, Atenolol"
+"Carboplatin, Vinorelbine, Omeprazole"
+"Carboplatin, Paclitaxel, Atenolol"
+"Carboplatin, Pemetrexed, Simvastatin"
+"Carboplatin, Paclitaxel, Omeprazole"
+"Cisplatin, Vinorelbine, Tramadol"
+"Carboplatin, Pemetrexed, Omeprazole"
+"Carboplatin, Pemetrexed, Enalapril"
+"Carboplatin, Etoposide, Metformin"
+"Cisplatin, Vinorelbine, Enalapril"
+"Carboplatin, Vinorelbine, Simvastatin"
+"Carboplatin, Etoposide, Enalapril"
+"Alectinib, Crizotinib, Omeprazole"
+"Afatinib, Osimertinib, Atenolol"
+"Carboplatin, Etoposide, Atenolol"
+"Cisplatin, Etoposide, Omeprazole"
+"Ipilimumab, Nivolumab, Omeprazole"
+"Carboplatin, Etoposide, Ranitidine"
+"Ipilimumab, Nivolumab, Enalapril"
+"Carboplatin, Pemetrexed, Atorvastatin"
+"Carboplatin, Etoposide, Atorvastatin"
+"Carboplatin, Pemetrexed, Ibuprofen"
+"Cisplatin, Pemetrexed, Omeprazole"
+"Cisplatin, Vinorelbine, Ibuprofen"
+"Cisplatin, Pemetrexed, Atorvastatin"
+"Ipilimumab, Nivolumab, Simvastatin"
+"Cisplatin, Vinorelbine, Simvastatin"
+"Cisplatin, Vinorelbine, Atorvastatin"
+"Cisplatin, Pemetrexed, Simvastatin"
+"Cisplatin, Pemetrexed, Amlodipine"
+"Ipilimumab, Nivolumab, Amlodipine"
+"Docetaxel, Pemetrexed, Amlodipine"
+"Carboplatin, Vinorelbine, Enalapril"
+"Carboplatin, Pemetrexed, Ranitidine"
+"Ipilimumab, Nivolumab, Ranitidine"
+"Ipilimumab, Nivolumab, Atorvastatin"
+"Carboplatin, Gemcitabine, Omeprazole"
+"Carboplatin, Paclitaxel, Metformin"
+"Carboplatin, Vinorelbine, Metformin"
+"Carboplatin, Pemetrexed, Allopurinol"
+"Carboplatin, Pemetrexed, Furosemide"
+"Cisplatin, Vinorelbine, Ranitidine"
+"Cisplatin, Gemcitabine, Omeprazole"
+"Carboplatin, Gemcitabine, Atorvastatin"
+"Cisplatin, Gemcitabine, Atorvastatin"
+"Ipilimumab, Nivolumab, Acetaminophen"
+"Afatinib, Osimertinib, Enalapril"
+"Cisplatin, Pemetrexed, Enalapril"
+"Carboplatin, Gemcitabine, Enalapril"
+"Carboplatin, Paclitaxel, Atorvastatin"
+"Paclitaxel, Acetaminophen, Allopurinol, Amlodipine, Atorvastatin, Metformin, Omeprazole"
+"Carboplatin, Amlodipine, Atenolol, Atorvastatin, Enalapril, Metformin, Omeprazole"
+"Pemetrexed, Acetaminophen, Amlodipine, Atorvastatin, Enalapril, Omeprazole, Salbutamol"
+"Carboplatin, Atenolol, Atorvastatin, Furosemide, Lorazepam, Metformin, Omeprazole"
+"Afatinib, Atenolol, Atorvastatin, Furosemide, Lorazepam, Metformin, Omeprazole"
+"Osimertinib, Atenolol, Atorvastatin, Furosemide, Lorazepam, Metformin, Omeprazole"
+"Nivolumab, Acetaminophen, Amlodipine, Atorvastatin, Enalapril, Omeprazole, Simvastatin"
+"Carboplatin, Acetaminophen, Allopurinol, Amlodipine, Atorvastatin, Omeprazole, Prednisone"
+"Carboplatin, Amlodipine, Atenolol, Atorvastatin, Omeprazole, Prednisone"
+"Pemetrexed, Amlodipine, Atenolol, Atorvastatin, Omeprazole, Prednisone"
+"Carboplatin, Atorvastatin, Enalapril, Metformin, Omeprazole, Simvastatin"
+"Nivolumab, Atorvastatin, Enalapril, Metformin, Omeprazole, Simvastatin"
+"Carboplatin, Amlodipine, Atenolol, Atorvastatin, Enalapril, Omeprazole"
+"Cisplatin, Acetaminophen, Atenolol, Fentanyl, Omeprazole, Simvastatin"
+"Carboplatin, Acetaminophen, Atenolol, Fentanyl, Omeprazole, Simvastatin"
+"Carboplatin, Atenolol, Atorvastatin, Enalapril, Metformin, Omeprazole"
+"Docetaxel, Atenolol, Atorvastatin, Enalapril, Metformin, Omeprazole"
+"Nivolumab, Atenolol, Atorvastatin, Enalapril, Omeprazole, Simvastatin"
+"Gemcitabine, Atorvastatin, Furosemide, Metformin, Omeprazole"
+"Crizotinib, Atorvastatin, Enalapril, Enoxaparin, Omeprazole"
+"Vinorelbine, Enalapril, Furosemide, Omeprazole, Simvastatin"
+"Necitumumab, Atenolol, Atorvastatin, Omeprazole, Simvastatin"
+"Carboplatin, Ibuprofen, Metoclopramide, Omeprazole, Salbutamol"
+"Cisplatin, Allopurinol, Amlodipine, Atenolol, Lorazepam"
+"Docetaxel, Allopurinol, Amlodipine, Atenolol, Lorazepam"
+"Pembrolizumab, Amlodipine, Atorvastatin, Metformin, Tramadol"
+"Vinorelbine, Atenolol, Enalapril, Metformin, Simvastatin"
+"Carboplatin, Atenolol, Enalapril, Metformin, Simvastatin"
+"Paclitaxel, Atenolol, Enalapril, Metformin, Simvastatin"
+"Nivolumab, Atenolol, Enalapril, Metformin, Simvastatin"
+"Afatinib, Dexamethasone, Fentanyl, Lorazepam, Omeprazole"
+"Osimertinib, Dexamethasone, Fentanyl, Lorazepam, Omeprazole"
+"Pemetrexed, Dexamethasone, Fentanyl, Lorazepam, Omeprazole"
+"Paclitaxel, Dexamethasone, Enoxaparin, Metoclopramide, Omeprazole"
+"Docetaxel, Dexamethasone, Enoxaparin, Metoclopramide, Omeprazole"
+"Pembrolizumab, Dexamethasone, Levofloxacin, Omeprazole, Simvastatin"
+"Afatinib, Acetaminophen, Ibuprofen, Omeprazole, Tramadol"
+"Afatinib, Acetaminophen, Amlodipine, Lorazepam, Omeprazole"
+"Carboplatin, Amlodipine, Atorvastatin, Metformin, Omeprazole"
+"Cisplatin, Allopurinol, Fentanyl, Omeprazole"
+"Carboplatin, Enalapril, Omeprazole, Simvastatin"
+"Docetaxel, Enalapril, Omeprazole, Simvastatin"
+"Nivolumab, Atenolol, Omeprazole, Simvastatin"
+"Paclitaxel, Allopurinol, Enalapril, Omeprazole"
+"Cisplatin, Lorazepam, Omeprazole, Simvastatin"
+"Carboplatin, Omeprazole, Ranitidine, Simvastatin"
+"Paclitaxel, Omeprazole, Ranitidine, Simvastatin"
+"Bevacizumab, Omeprazole, Ranitidine, Simvastatin"
+"Pemetrexed, Omeprazole, Ranitidine, Simvastatin"
+"Gemcitabine, Omeprazole, Ranitidine, Simvastatin"
+"Nivolumab, Omeprazole, Ranitidine, Simvastatin"
+"Nivolumab, Atorvastatin, Lorazepam, Omeprazole"
+"Cisplatin, Enalapril, Omeprazole, Ranitidine"
+"Afatinib, Enalapril, Omeprazole, Ranitidine"
+"Docetaxel, Atenolol, Atorvastatin, Omeprazole"
+"Nivolumab, Atorvastatin, Enalapril, Ranitidine"
+"Nivolumab, Enalapril, Metformin, Omeprazole"
+"Vinorelbine, Enalapril, Metformin, Omeprazole"
+"Afatinib, Atorvastatin, Omeprazole, Simvastatin"
+"Nivolumab, Atorvastatin, Enalapril, Omeprazole"
+"Vinorelbine, Atorvastatin, Enalapril, Omeprazole"
+"Vinorelbine, Acetaminophen, Enalapril, Simvastatin"
+"Docetaxel, Atorvastatin, Omeprazole, Simvastatin"
+"Pembrolizumab, Atenolol, Omeprazole, Simvastatin"
+"Carboplatin, Amoxicillin, Metformin, Simvastatin"
+"Nivolumab, Amoxicillin, Metformin, Simvastatin"
+"Gemcitabine, Amoxicillin, Metformin, Simvastatin"
+"Paclitaxel, Amoxicillin, Metformin, Simvastatin"
+"Cisplatin, Enalapril, Metformin, Prednisone"
+"Pemetrexed, Dexamethasone, Lorazepam, Omeprazole"
+"Docetaxel, Metformin, Omeprazole, Simvastatin"
+"Cisplatin, Atenolol, Atorvastatin, Omeprazole"
+"Nivolumab, Atenolol, Atorvastatin, Omeprazole"
+"Carboplatin, Amlodipine, Atenolol, Atorvastatin"
+"Carboplatin, Ibuprofen, Prednisone, Ranitidine"
+"Crizotinib, Ibuprofen, Omeprazole, Prednisone"
+"Alectinib, Ibuprofen, Omeprazole, Prednisone"
+"Pemetrexed, Omeprazole, Simvastatin, Tramadol"
+"Pembrolizumab, Omeprazole, Simvastatin, Tramadol"
+"Vinorelbine, Atorvastatin, Enalapril, Simvastatin"
+"Crizotinib, Atorvastatin, Enalapril, Omeprazole"
+"Alectinib, Atorvastatin, Enalapril, Omeprazole"
+"Alectinib, Enalapril, Furosemide, Omeprazole"
+"Nivolumab, Enalapril, Lorazepam, Omeprazole"
+"Paclitaxel, Acetaminophen, Lorazepam, Simvastatin"
+"Carboplatin, Acetaminophen, Lorazepam, Simvastatin"
+"Nivolumab, Acetaminophen, Lorazepam, Simvastatin"
+"Pembrolizumab, Lorazepam, Omeprazole, Simvastatin"
+"Carboplatin, Amlodipine, Enalapril, Metformin"
+"Vinorelbine, Amlodipine, Enalapril, Metformin"
+"Docetaxel, Enalapril, Levofloxacin, Simvastatin"
+"Nivolumab, Atorvastatin, Levofloxacin, Omeprazole"
+"Paclitaxel, Acetaminophen, Atorvastatin, Omeprazole"
+"Bevacizumab, Enalapril, Metformin"
+"Cisplatin, Enalapril, Omeprazole"
+"Docetaxel, Enalapril, Omeprazole"
+"Carboplatin, Omeprazole, Ranitidine"
+"Bevacizumab, Enalapril, Omeprazole"
+"Pembrolizumab, Enalapril, Omeprazole"
+"Pembrolizumab, Atorvastatin, Simvastatin"
+"Paclitaxel, Omeprazole, Ranitidine"
+"Carboplatin, Enalapril, Metformin"
+"Cisplatin, Enalapril, Metformin"
+"Carboplatin, Enalapril, Furosemide"
+"Nivolumab, Omeprazole, Simvastatin"
+"Afatinib, Acetaminophen, Omeprazole"
+"Vinorelbine, Lorazepam, Omeprazole"
+"Docetaxel, Atorvastatin, Omeprazole"
+"Osimertinib, Acetaminophen, Omeprazole"
+"Pemetrexed, Acetaminophen, Omeprazole"
+"Afatinib, Enalapril, Omeprazole"
+"Nivolumab, Amoxicillin, Omeprazole"
+"Carboplatin, Atorvastatin, Fentanyl"
+"Cisplatin, Atorvastatin, Fentanyl"
+"Docetaxel, Acetaminophen, Omeprazole"
+"Crizotinib, Acetaminophen, Omeprazole"
+"Ceritinib, Acetaminophen, Omeprazole"
+"Pembrolizumab, Acetaminophen, Omeprazole"
+"Nivolumab, Acetaminophen, Omeprazole"
+"Paclitaxel, Acetaminophen, Omeprazole"
+"Vinorelbine, Acetaminophen, Omeprazole"
+"Carboplatin, Enalapril, Salbutamol"
+"Paclitaxel, Omeprazole, Simvastatin"
+"Cisplatin, Atorvastatin, Omeprazole"
+"Carboplatin, Ibuprofen, Omeprazole"
+"Afatinib, Atorvastatin, Azithromycin"
+"Docetaxel, Enalapril, Metformin"
+"Nivolumab, Enalapril, Metformin"
+"Carboplatin, Lormetazepam, Omeprazole"
+"Cisplatin, Omeprazole, Simvastatin"
+"Carboplatin, Atorvastatin, Omeprazole"
+"Carboplatin, Atenolol, Atorvastatin"
+"Carboplatin, Omeprazole, Tramadol"
+"Vinorelbine, Ranitidine, Simvastatin"
+"Carboplatin, Enalapril, Simvastatin"
+"Paclitaxel, Enalapril, Simvastatin"
+"Necitumumab, Omeprazole, Simvastatin"
+"Docetaxel, Metformin, Omeprazole"
+"Gemcitabine, Metformin, Omeprazole"
+"Vinorelbine, Metformin, Omeprazole"
+"Nivolumab, Metformin, Omeprazole"
+"Carboplatin, Atenolol, Omeprazole"
+"Vinorelbine, Atenolol, Omeprazole"
+"Nivolumab, Atenolol, Omeprazole"
+"Gemcitabine, Atenolol, Omeprazole"
+"Docetaxel, Amlodipine, Simvastatin"
+"Nivolumab, Amlodipine, Simvastatin"
+"Nivolumab, Allopurinol, Metformin"
+"Afatinib, Omeprazole, Ranitidine"
+"Bevacizumab, Omeprazole, Ranitidine"
+"Crizotinib, Enalapril, Omeprazole"
+"Cisplatin, Ibuprofen, Ondansetron"
+"Osimertinib, Ibuprofen, Ondansetron"
+"Carboplatin, Atorvastatin, Enalapril"
+"Docetaxel, Atorvastatin, Enalapril"
+"Vinorelbine, Enalapril, Omeprazole"
+"Nivolumab, Enalapril, Omeprazole"
+"Vinorelbine, Atorvastatin, Omeprazole"
+"Bevacizumab, Atorvastatin, Omeprazole"
+"Carboplatin, Omeprazole, Simvastatin"
+"Osimertinib, Omeprazole, Simvastatin"
+"Bevacizumab, Omeprazole, Simvastatin"
+"Vinorelbine, Ibuprofen, Omeprazole"
+"Ipilimumab, Atorvastatin, Omeprazole"
+"Carboplatin, Amlodipine, Amoxicillin"
+"Docetaxel, Omeprazole, Simvastatin"
+"Osimertinib, Enalapril, Omeprazole"
+"Cisplatin, Omeprazole, Prednisone"
+"Ceritinib, Omeprazole, Prednisone"
+"Crizotinib, Omeprazole, Prednisone"
+"Alectinib, Omeprazole, Prednisone"
+"Carboplatin, Atorvastatin, Prednisone"
+"Pemetrexed, Furosemide, Salbutamol"
+"Nivolumab, Furosemide, Salbutamol"
+"Carboplatin, Enalapril, Omeprazole"
+"Paclitaxel, Atorvastatin, Enalapril"
+"Cisplatin, Atorvastatin, Enalapril"
+"Gemcitabine, Omeprazole, Simvastatin"
+"Afatinib, Atorvastatin, Omeprazole"
+"Carboplatin, Methylprednisolone, Omeprazole"
+"Paclitaxel, Methylprednisolone, Omeprazole"
+"Nivolumab, Methylprednisolone, Omeprazole"
+"Carboplatin, Atenolol, Simvastatin"
+"Pembrolizumab, Omeprazole, Simvastatin"
+"Nivolumab, Atorvastatin, Omeprazole"
