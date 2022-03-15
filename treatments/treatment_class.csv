@@ -1,0 +1,139 @@
+treatments,Toxic,Lower Effect,Deductive-Toxic,Deductive-Lower Effect,Emergency
+"Carboplatin, Paclitaxel, Atorvastatin, Levofloxacin, Omeprazole",0.4,0.1,0.5,0.1,12.0
+"Carboplatin, Etoposide, Atorvastatin, Enalapril, Metformin, Omeprazole",0.26666666666666666,0.06666666666666667,0.26666666666666666,0.06666666666666667,8.0
+"Cisplatin, Pemetrexed, Vinorelbine, Lorazepam, Omeprazole, Simvastatin",0.5333333333333333,0.2,0.7333333333333333,0.2,7.0
+"Carboplatin, Etoposide, Ibuprofen, Omeprazole, Prednisone",0.3,0.1,0.3,0.1,6.0
+"Carboplatin, Pemetrexed, Dexamethasone, Lorazepam, Omeprazole",0.4,0.4,0.6,0.5,5.0
+"Carboplatin, Docetaxel, Gemcitabine, Pemetrexed, Acetaminophen, Omeprazole",0.4,0.26666666666666666,0.6666666666666666,0.26666666666666666,4.0
+"Alectinib, Ceritinib, Crizotinib, Omeprazole, Prednisone",0.2,0.3,0.2,0.3,4.0
+"Carboplatin, Etoposide, Amlodipine, Metformin, Simvastatin",0.4,0.1,0.5,0.1,4.0
+"Carboplatin, Docetaxel, Pemetrexed, Metformin, Omeprazole, Simvastatin",0.4,0.13333333333333333,0.5333333333333333,0.13333333333333333,4.0
+"Cisplatin, Gemcitabine, Paclitaxel, Vinorelbine, Allopurinol, Enalapril, Omeprazole",0.14285714285714285,0.09523809523809523,0.23809523809523808,0.09523809523809523,4.0
+"Pembrolizumab, Dexamethasone, Levofloxacin, Omeprazole, Simvastatin",0.1,0.2,0.1,0.2,4.0
+"Carboplatin, Pemetrexed, Dexamethasone, Levofloxacin, Omeprazole, Simvastatin",0.3333333333333333,0.2,0.4666666666666667,0.26666666666666666,4.0
+"Carboplatin, Paclitaxel, Enalapril, Omeprazole, Simvastatin",0.2,0.1,0.2,0.1,4.0
+"Carboplatin, Etoposide, Amlodipine, Atenolol, Omeprazole, Prednisone",0.06666666666666667,0.2,0.06666666666666667,0.2,3.0
+"Cisplatin, Docetaxel, Pemetrexed, Vinorelbine, Enalapril, Omeprazole",0.13333333333333333,0.2,0.13333333333333333,0.2,3.0
+"Carboplatin, Vinorelbine, Amlodipine, Levofloxacin, Omeprazole, Simvastatin",0.3333333333333333,0.13333333333333333,0.4666666666666667,0.13333333333333333,3.0
+"Carboplatin, Etoposide, Amlodipine, Atorvastatin, Metformin",0.3,0.1,0.3,0.1,3.0
+"Cisplatin, Vinorelbine, Atorvastatin, Furosemide, Metformin, Omeprazole",0.2,0.06666666666666667,0.4,0.06666666666666667,3.0
+"Carboplatin, Etoposide, Ibuprofen, Metoclopramide, Omeprazole, Salbutamol",0.8,0.13333333333333333,1.0666666666666667,0.13333333333333333,3.0
+"Cisplatin, Allopurinol, Amlodipine, Atenolol, Lorazepam",0.4,0.0,0.4,0.0,3.0
+"Carboplatin, Paclitaxel, Acetaminophen, Amlodipine, Atorvastatin, Enalapril, Omeprazole, Simvastatin",0.35714285714285715,0.21428571428571427,0.7142857142857143,0.21428571428571427,3.0
+"Carboplatin, Docetaxel, Pemetrexed, Vinorelbine, Allopurinol, Amlodipine, Atenolol, Lorazepam",0.35714285714285715,0.0,1.1071428571428572,0.0,3.0
+"Carboplatin, Vinorelbine, Atenolol, Enalapril, Metformin, Simvastatin",0.4666666666666667,0.0,0.6666666666666666,0.0,2.0
+"Carboplatin, Vinorelbine, Amlodipine, Atenolol, Atorvastatin, Enalapril, Metformin, Omeprazole",0.2857142857142857,0.07142857142857142,0.5,0.07142857142857142,2.0
+"Carboplatin, Etoposide, Atenolol, Atorvastatin, Ranitidine",0.7,0.0,1.5,0.0,2.0
+"Etoposide, Acetaminophen, Amlodipine, Atorvastatin, Enalapril, Omeprazole, Simvastatin",0.38095238095238093,0.2857142857142857,0.6190476190476191,0.2857142857142857,2.0
+"Cisplatin, Vinorelbine, Lorazepam, Metformin, Omeprazole",0.7,0.2,0.9,0.2,2.0
+"Carboplatin, Paclitaxel, Atorvastatin, Enalapril, Omeprazole",0.2,0.1,0.3,0.1,2.0
+"Carboplatin, Docetaxel, Pemetrexed, Omeprazole, Simvastatin",0.2,0.2,0.2,0.2,2.0
+"Carboplatin, Etoposide, Allopurinol, Enalapril, Omeprazole",0.2,0.1,0.2,0.1,2.0
+"Carboplatin, Etoposide, Vinorelbine, Atenolol, Omeprazole",0.2,0.3,0.2,0.3,2.0
+"Carboplatin, Pemetrexed, Vinorelbine, Lormetazepam, Omeprazole",0.0,0.2,0.0,0.2,2.0
+"Cisplatin, Docetaxel, Gemcitabine, Pemetrexed, Atorvastatin",0.1,0.0,0.1,0.0,2.0
+"Afatinib, Dexamethasone, Fentanyl, Lorazepam, Omeprazole",0.6,0.3,0.6,0.3,2.0
+"Carboplatin, Vinorelbine, Atorvastatin, Omeprazole, Salbutamol",0.3,0.1,0.3,0.1,2.0
+"Paclitaxel, Acetaminophen, Allopurinol, Amlodipine, Atorvastatin, Metformin, Omeprazole",0.42857142857142855,0.2857142857142857,0.5238095238095238,0.2857142857142857,1.0
+"Cisplatin, Vinorelbine, Enalapril, Metformin, Omeprazole",0.2,0.1,0.3,0.1,1.0
+"Pemetrexed, Acetaminophen, Amlodipine, Atorvastatin, Enalapril, Omeprazole, Salbutamol",0.38095238095238093,0.19047619047619047,0.38095238095238093,0.19047619047619047,1.0
+"Carboplatin, Vinorelbine, Enalapril, Metformin, Omeprazole, Simvastatin",0.26666666666666666,0.06666666666666667,0.3333333333333333,0.06666666666666667,1.0
+"Carboplatin, Etoposide, Atorvastatin, Enalapril, Furosemide",0.3,0.0,0.3,0.0,1.0
+"Carboplatin, Paclitaxel, Atorvastatin, Enalapril, Ranitidine",0.3,0.0,0.3,0.0,1.0
+"Carboplatin, Etoposide, Acetaminophen, Atorvastatin, Ranitidine",0.8,0.1,1.0,0.1,1.0
+"Carboplatin, Etoposide, Atorvastatin, Enalapril, Metformin, Omeprazole",0.26666666666666666,0.06666666666666667,0.26666666666666666,0.06666666666666667,1.0
+"Carboplatin, Allopurinol, Atorvastatin, Gentamicin, Metformin, Omeprazole, Simvastatin, Sulfamethoxazole, Trimethoprim",0.8333333333333334,0.0,2.4166666666666665,0.0,1.0
+"Carboplatin, Etoposide, Atenolol, Atorvastatin, Omeprazole",0.5,0.1,0.7,0.1,1.0
+"Carboplatin, Paclitaxel, Atenolol, Omeprazole, Simvastatin",0.7,0.1,1.7,0.1,1.0
+"Carboplatin, Vinorelbine, Enalapril, Furosemide, Omeprazole, Simvastatin",0.26666666666666666,0.06666666666666667,0.3333333333333333,0.06666666666666667,1.0
+"Cisplatin, Vinorelbine, Enalapril, Omeprazole, Simvastatin",0.3,0.1,0.4,0.1,1.0
+"Cisplatin, Vinorelbine, Allopurinol, Atorvastatin, Gentamicin, Metformin, Omeprazole, Simvastatin, Sulfamethoxazole, Trimethoprim",0.7111111111111111,0.022222222222222223,2.3777777777777778,0.022222222222222223,1.0
+"Carboplatin, Pemetrexed, Amlodipine, Atenolol, Atorvastatin, Omeprazole, Prednisone",0.19047619047619047,0.09523809523809523,0.2857142857142857,0.09523809523809523,1.0
+"Carboplatin, Docetaxel, Paclitaxel, Vinorelbine, Acetaminophen, Omeprazole",0.26666666666666666,0.4666666666666667,0.3333333333333333,0.6,1.0
+"Afatinib, Acetaminophen, Ibuprofen, Omeprazole, Tramadol",0.7,0.1,1.0,0.1,1.0
+"Carboplatin, Gemcitabine, Paclitaxel, Vinorelbine, Atorvastatin",0.1,0.0,0.1,0.0,1.0
+"Carboplatin, Gemcitabine, Pemetrexed, Atenolol, Atorvastatin, Enalapril, Omeprazole, Simvastatin",0.32142857142857145,0.03571428571428571,0.7142857142857143,0.03571428571428571,1.0
+"Carboplatin, Docetaxel, Gemcitabine, Atorvastatin, Omeprazole, Simvastatin",0.4,0.06666666666666667,0.4,0.06666666666666667,1.0
+"Cisplatin, Docetaxel, Pemetrexed, Amlodipine, Simvastatin",0.2,0.0,0.3,0.0,1.0
+"Carboplatin, Etoposide, Acetaminophen, Allopurinol, Amlodipine, Atorvastatin, Metformin, Omeprazole",0.4642857142857143,0.21428571428571427,0.5714285714285714,0.21428571428571427,1.0
+"Cisplatin, Vinorelbine, Atorvastatin, Enalapril, Enoxaparin, Omeprazole",0.13333333333333333,0.06666666666666667,0.2,0.06666666666666667,1.0
+"Carboplatin, Atorvastatin, Enalapril, Metformin, Omeprazole",0.3,0.0,0.3,0.0,1.0
+"Carboplatin, Etoposide, Acetaminophen, Atorvastatin, Omeprazole, Tramadol",0.6,0.2,0.6666666666666666,0.2,1.0
+"Ipilimumab, Nivolumab, Atenolol, Atorvastatin, Omeprazole, Simvastatin",0.5333333333333333,0.0,1.1333333333333333,0.0,1.0
+"Nivolumab, Atorvastatin, Enalapril, Metformin, Omeprazole",0.1,0.0,0.1,0.0,1.0
+"Cisplatin, Pemetrexed, Enalapril, Lorazepam, Omeprazole",0.5,0.2,0.6,0.2,0.0
+"Docetaxel, Dexamethasone, Enoxaparin, Metoclopramide, Omeprazole",0.0,0.4,0.0,0.5,0.0
+"Alectinib, Crizotinib, Atorvastatin, Enalapril, Omeprazole",0.3,0.2,0.3,0.2,0.0
+"Alectinib, Crizotinib, Ibuprofen, Omeprazole, Prednisone",0.2,0.2,0.2,0.2,0.0
+"Erlotinib, Allopurinol, Atorvastatin, Gentamicin, Metformin, Omeprazole, Simvastatin, Sulfamethoxazole, Trimethoprim",0.8888888888888888,0.05555555555555555,2.5833333333333335,0.05555555555555555,0.0
+"Carboplatin, Etoposide, Acetaminophen, Amlodipine, Metformin",0.4,0.3,0.4,0.3,0.0
+"Afatinib, Atenolol, Atorvastatin, Furosemide, Lorazepam, Metformin, Omeprazole",0.42857142857142855,0.14285714285714285,0.5714285714285714,0.23809523809523808,0.0
+"Afatinib, Acetaminophen, Amlodipine, Lorazepam, Omeprazole",0.3,0.5,0.4,0.6,0.0
+"Ipilimumab, Nivolumab, Atenolol, Atorvastatin, Omeprazole",0.4,0.0,0.6,0.0,0.0
+"Cisplatin, Vinorelbine, Atenolol, Atorvastatin, Omeprazole",0.6,0.1,1.4,0.1,0.0
+"Erlotinib, Acetaminophen, Amlodipine, Lorazepam, Omeprazole",0.1,0.8,0.1,1.0,0.0
+"Osimertinib, Atenolol, Atorvastatin, Furosemide, Lorazepam, Metformin, Omeprazole",0.42857142857142855,0.19047619047619047,0.6666666666666666,0.2857142857142857,0.0
+"Carboplatin, Paclitaxel, Acetaminophen, Lorazepam, Simvastatin",0.7,0.2,1.0,0.3,0.0
+"Osimertinib, Dexamethasone, Fentanyl, Lorazepam, Omeprazole",0.4,0.5,0.4,0.5,0.0
+"Vinorelbine, Atorvastatin, Enalapril, Metformin, Omeprazole, Simvastatin",0.26666666666666666,0.06666666666666667,0.4,0.06666666666666667,0.0
+"Cisplatin, Vinorelbine, Enalapril, Levofloxacin, Simvastatin",0.3,0.0,0.3,0.0,0.0
+"Cisplatin, Acetaminophen, Amoxicillin, Dexketoprofen, Metformin, Omeprazole, Ranitidine",1.0952380952380953,0.09523809523809523,1.6666666666666667,0.09523809523809523,0.0
+"Gemcitabine, Acetaminophen, Atenolol, Lormetazepam, Simvastatin",0.7,0.0,1.0,0.0,0.0
+"Necitumumab, Atenolol, Atorvastatin, Omeprazole, Simvastatin",0.8,0.0,1.7,0.0,0.0
+"Carboplatin, Vinorelbine, Amoxicillin, Metformin, Simvastatin",0.7,0.0,0.7,0.0,0.0
+"Crizotinib, Atorvastatin, Enalapril, Enoxaparin, Omeprazole",0.2,0.1,0.2,0.1,0.0
+"Carboplatin, Vinorelbine, Acetaminophen, Amoxicillin, Tramadol",1.1,0.1,1.2,0.1,0.0
+"Carboplatin, Atorvastatin, Furosemide, Metformin, Omeprazole",0.5,0.0,0.7,0.0,0.0
+"Cisplatin, Vinorelbine, Enalapril, Omeprazole, Simvastatin",0.3,0.1,0.4,0.1,0.0
+"Cisplatin, Acetaminophen, Atenolol, Fentanyl, Omeprazole, Simvastatin",0.9333333333333333,0.06666666666666667,2.4,0.06666666666666667,0.0
+"Cisplatin, Vinorelbine, Acetaminophen, Metformin, Tramadol",0.8,0.1,2.0,0.1,0.0
+"Carboplatin, Amlodipine, Atenolol, Atorvastatin, Omeprazole",0.4,0.1,0.6,0.1,0.0
+"Pemetrexed, Amoxicillin, Atenolol, Ceftriaxone, Lormetazepam, Omeprazole",0.4666666666666667,0.06666666666666667,0.4666666666666667,0.06666666666666667,0.0
+"Nivolumab, Acetaminophen, Amlodipine, Enalapril, Omeprazole, Simvastatin",0.2,0.2,0.3333333333333333,0.2,0.0
+"Cisplatin, Docetaxel, Gemcitabine, Pemetrexed, Vinorelbine, Metformin, Omeprazole",0.3333333333333333,0.14285714285714285,0.38095238095238093,0.14285714285714285,0.0
+"Carboplatin, Etoposide, Atorvastatin, Ibuprofen, Omeprazole",0.6,0.1,0.7,0.1,0.0
+"Carboplatin, Etoposide, Allopurinol, Atenolol, Furosemide, Human_immunoglobulin_g, Omeprazole, Simvastatin, Spironolactone",0.3611111111111111,0.19444444444444445,0.9722222222222222,0.19444444444444445,0.0
+"Cisplatin, Gemcitabine, Atenolol, Atorvastatin, Omeprazole, Simvastatin",0.6666666666666666,0.0,1.8666666666666667,0.0,0.0
+"Carboplatin, Paclitaxel, Amlodipine, Atorvastatin, Enalapril, Metformin",0.2,0.06666666666666667,0.2,0.06666666666666667,0.0
+"Gemcitabine, Paclitaxel, Atorvastatin, Furosemide, Metformin, Omeprazole",0.26666666666666666,0.2,0.3333333333333333,0.2,0.0
+"Carboplatin, Vinorelbine, Acetaminophen, Atenolol, Fentanyl, Omeprazole, Simvastatin",0.7142857142857143,0.14285714285714285,1.5714285714285714,0.14285714285714285,0.0
+"Carboplatin, Vinorelbine, Acetaminophen, Allopurinol, Amlodipine, Atorvastatin, Omeprazole, Prednisone",0.35714285714285715,0.17857142857142858,0.6785714285714286,0.21428571428571427,0.0
+"Carboplatin, Etoposide, Atenolol, Atorvastatin, Lorazepam, Metformin, Omeprazole",0.6190476190476191,0.09523809523809523,0.8571428571428571,0.09523809523809523,0.0
+"Carboplatin, Etoposide, Dexketoprofen, Levofloxacin, Lorazepam, Lormetazepam, Omeprazole, Tramadol",0.7857142857142857,0.07142857142857142,1.4285714285714286,0.07142857142857142,0.0
+"Carboplatin, Vinorelbine, Atenolol, Atorvastatin, Furosemide, Lorazepam, Metformin, Omeprazole",0.5357142857142857,0.14285714285714285,1.2857142857142858,0.21428571428571427,0.0
+"Carboplatin, Etoposide, Acetaminophen, Atenolol, Atorvastatin, Furosemide, Metformin, Omeprazole",0.5,0.17857142857142858,1.1428571428571428,0.25,0.0
+"Cisplatin, Pemetrexed, Vinorelbine, Furosemide, Salbutamol",0.6,0.0,0.6,0.0,0.0
+"Carboplatin, Pemetrexed, Allopurinol, Omeprazole, Simvastatin",0.3,0.1,0.5,0.1,0.0
+"Afatinib, Erlotinib, Gefitinib, Omeprazole, Ranitidine",0.7,0.9,0.7,0.9,0.0
+"Carboplatin, Docetaxel, Paclitaxel, Omeprazole, Ranitidine",0.3,0.3,0.3,0.3,0.0
+"Carboplatin, Paclitaxel, Pemetrexed, Enalapril, Metformin, Omeprazole",0.26666666666666666,0.13333333333333333,0.4,0.13333333333333333,0.0
+"Carboplatin, Etoposide, Pemetrexed, Enalapril, Furosemide, Omeprazole",0.26666666666666666,0.13333333333333333,0.26666666666666666,0.13333333333333333,0.0
+"Cisplatin, Paclitaxel, Vinorelbine, Dexamethasone, Enoxaparin, Metoclopramide, Omeprazole",0.19047619047619047,0.2857142857142857,0.38095238095238093,0.5714285714285714,0.0
+"Cisplatin, Docetaxel, Pemetrexed, Dexamethasone, Fentanyl, Lorazepam, Omeprazole",0.6190476190476191,0.2857142857142857,1.6666666666666667,0.3333333333333333,0.0
+"Carboplatin, Docetaxel, Paclitaxel, Pemetrexed, Omeprazole",0.1,0.3,0.1,0.3,0.0
+"Carboplatin, Docetaxel, Paclitaxel, Vinorelbine, Omeprazole",0.2,0.3,0.3,0.3,0.0
+"Carboplatin, Docetaxel, Paclitaxel, Vinorelbine, Simvastatin",0.5,0.0,0.6,0.0,0.0
+"Carboplatin, Paclitaxel, Atenolol, Atorvastatin, Omeprazole, Simvastatin",0.8,0.06666666666666667,1.8,0.06666666666666667,0.0
+"Carboplatin, Etoposide, Ceftriaxone, Levofloxacin, Metformin, Prednisone",0.8666666666666667,0.0,1.1333333333333333,0.0,0.0
+"Carboplatin, Etoposide, Amlodipine, Atorvastatin, Enalapril, Omeprazole",0.13333333333333333,0.2,0.13333333333333333,0.2,0.0
+"Carboplatin, Etoposide, Acetaminophen, Atenolol, Lormetazepam, Simvastatin",0.4666666666666667,0.06666666666666667,1.0666666666666667,0.06666666666666667,0.0
+"Carboplatin, Vinorelbine, Atorvastatin, Enalapril, Omeprazole",0.1,0.1,0.1,0.1,0.0
+"Carboplatin, Paclitaxel, Atorvastatin, Enalapril, Omeprazole",0.2,0.1,0.3,0.1,0.0
+"Cisplatin, Vinorelbine, Atorvastatin, Enalapril, Omeprazole",0.2,0.1,0.3,0.1,0.0
+"Carboplatin, Vinorelbine, Atenolol, Atorvastatin, Omeprazole",0.5,0.1,0.9,0.1,0.0
+"Afatinib, Gefitinib, Enalapril, Omeprazole, Ranitidine",0.4,0.5,0.4,0.5,0.0
+"Carboplatin, Pemetrexed, Atorvastatin, Lorazepam, Omeprazole",0.5,0.2,0.7,0.2,0.0
+"Docetaxel, Pemetrexed, Atenolol, Omeprazole, Simvastatin",0.5,0.2,1.1,0.2,0.0
+"Carboplatin, Paclitaxel, Atenolol, Omeprazole, Simvastatin",0.7,0.1,1.7,0.1,0.0
+"Cisplatin, Vinorelbine, Atenolol, Omeprazole, Simvastatin",0.7,0.1,1.7,0.1,0.0
+"Carboplatin, Etoposide, Enalapril, Omeprazole, Simvastatin",0.2,0.1,0.2,0.1,0.0
+"Carboplatin, Pemetrexed, Ciprofloxacin, Ibuprofen, Omeprazole",1.0,0.1,1.9,0.1,0.0
+"Carboplatin, Etoposide, Allopurinol, Atorvastatin, Furosemide",0.3,0.0,0.3,0.0,0.0
+"Carboplatin, Paclitaxel, Allopurinol, Fentanyl, Omeprazole",0.8,0.1,1.3,0.1,0.0
+"Carboplatin, Etoposide, Furosemide, Metformin, Omeprazole",0.4,0.1,0.6,0.1,0.0
+"Carboplatin, Paclitaxel, Atenolol, Dexamethasone, Omeprazole, Prednisone",0.2,0.3333333333333333,0.3333333333333333,0.3333333333333333,0.0
+"Carboplatin, Paclitaxel, Dexamethasone, Fentanyl, Lorazepam, Omeprazole",0.5333333333333333,0.3333333333333333,0.7333333333333333,0.3333333333333333,0.0
+"Cisplatin, Paclitaxel, Atorvastatin, Enalapril, Metformin, Omeprazole",0.26666666666666666,0.06666666666666667,0.6666666666666666,0.06666666666666667,0.0
+"Carboplatin, Etoposide, Atenolol, Atorvastatin, Omeprazole",0.5,0.1,0.7,0.1,0.0
+"Carboplatin, Pemetrexed, Allopurinol, Amlodipine, Metformin, Simvastatin",0.4666666666666667,0.0,0.7333333333333333,0.0,0.0
+"Carboplatin, Amlodipine, Atorvastatin, Metformin, Omeprazole",0.3,0.1,0.3,0.1,0.0
