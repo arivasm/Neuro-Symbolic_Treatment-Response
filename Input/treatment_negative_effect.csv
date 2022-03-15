@@ -1,0 +1,1430 @@
+"medicalrecord_CT","fecinitto","fecfintto","tipoterapia","ct_drug","ct_drug","ct_drug"
+"3528","2020-02-25","2020-05-20","Quimioterapia intravenosa","Carboplatino","Etopósido VP16",NULL
+"3561","2011-09-23","2012-01-02","Quimioterapia intravenosa y oral","Carboplatino","Etopósido VP16",NULL
+"6203","2011-10-28","2011-12-19","Quimioterapia-Radioterapia secuencial","Cisplatino","Vinorelbina",NULL
+"6203","2012-06-25","2012-10-08","Quimioterapia-Radioterapia secuencial","Erlotinib","Onartuzumab (MetMAb) vs Placebo",NULL
+"8359","2012-11-28","2013-02-11","Quimioterapia-Radioterapia secuencial","Carboplatino","Paclitaxel",NULL
+"8359","2014-05-23","2014-06-13","Quimioterapia intravenosa","Pemetrexed",NULL,NULL
+"10701","2010-02-11","2010-07-16","Quimioterapia intravenosa y oral","Carboplatino","Etopósido VP16",NULL
+"10701","2010-09-06","2010-10-07","Quimioterapia intravenosa","Topotecan",NULL,NULL
+"10701","2010-11-05","2011-07-11","Quimioterapia intravenosa y oral","Ciclofosfamida","Doxorrubicina","Vincristina"
+"10701","2011-09-12","2011-09-12","Quimioterapia intravenosa y oral","Topotecan",NULL,NULL
+"10701","2011-10-11","2012-03-09","Quimioterapia intravenosa","Gemcitabina","Irinotecan",NULL
+"17581","2011-09-21","2011-12-21","Quimioterapia intravenosa","Cisplatino","Vinorelbina",NULL
+"17581","2013-11-26","2016-07-18","Terapia oral dirigida","Afatinib",NULL,NULL
+"20993","2016-11-09","2017-01-01","Quimioterapia intravenosa","Carboplatino","Vinorelbina",NULL
+"21514","2016-09-09","2017-04-19","Terapia oral dirigida","Afatinib",NULL,NULL
+"21514","2017-05-18","2017-08-02","Terapia oral dirigida","Osimertinib",NULL,NULL
+"21514","2017-08-04","2017-09-15","Quimioterapia intravenosa","Carboplatino","Paclitaxel",NULL
+"29489","2018-02-13","2018-04-23","Quimioterapia intravenosa","Carboplatino","Pemetrexed",NULL
+"31556","2018-10-30","2019-01-23","Quimioterapia-Radioterapia concomitante","Carboplatino","Etopósido VP16",NULL
+"31556","2020-02-03","2020-04-27","Quimioterapia intravenosa","Carboplatino","Etopósido VP16",NULL
+"41810","2017-01-25","2017-03-10","Quimioterapia-Radioterapia concomitante","Carboplatino","Paclitaxel",NULL
+"41810","2018-03-07",NULL,"Quimioterapia intravenosa","Carboplatino","Pemetrexed",NULL
+"43106","2017-01-23","2017-04-12","Quimioterapia intravenosa","Cisplatino","Vinorelbina",NULL
+"44012","2016-12-15","2017-03-09","Quimioterapia intravenosa y oral","Carboplatino","Etopósido VP16",NULL
+"44012","2018-02-08","2018-05-03","Quimioterapia intravenosa y oral","Carboplatino","Etopósido VP16",NULL
+"44012","2018-09-06","2018-11-08","Quimioterapia intravenosa","Ciclofosfamida","Vincristina","Otro"
+"44012","2019-07-08","2019-08-21","Quimioterapia intravenosa","Paclitaxel",NULL,NULL
+"44012","2019-09-04","2019-10-02","Quimioterapia intravenosa","Irinotecan",NULL,NULL
+"44924","2018-09-06","2018-11-15","Quimioterapia-Radioterapia concomitante","Carboplatino","Vinorelbina",NULL
+"44924","2019-02-25","2020-03-13","Inmunoterapia","Durvalumab (MEDI4736)",NULL,NULL
+"47430","2015-01-23","2015-05-22","Terapia oral dirigida","Erlotinib",NULL,NULL
+"47430","2015-05-22","2015-11-07","Terapia oral dirigida","Afatinib",NULL,NULL
+"47430","2016-02-12","2017-01-30","Terapia oral dirigida","Afatinib",NULL,NULL
+"47430","2017-02-03","2017-04-17","Quimioterapia intravenosa","Carboplatino","Pemetrexed",NULL
+"47430","2017-06-13","2017-10-02","Terapia oral dirigida","Afatinib",NULL,NULL
+"47561","2012-03-26","2012-05-29","Quimioterapia-Radioterapia secuencial","Cisplatino","Pemetrexed",NULL
+"47561","2012-07-09","2012-08-09","Quimioterapia-Radioterapia secuencial","Paclitaxel",NULL,NULL
+"48968","2016-07-13","2016-10-13","Quimioterapia intravenosa y oral","Carboplatino","Etopósido VP16",NULL
+"51493","2017-03-10","2017-05-31","Quimioterapia intravenosa y oral","Carboplatino","Etopósido VP16",NULL
+"51493","2017-09-11","2017-11-08","Quimioterapia intravenosa","Ciclofosfamida","Doxorrubicina","Vincristina"
+"53135","2020-02-07",NULL,"Inmunoterapia","Pembrolizumab",NULL,NULL
+"53789","2012-02-06","2012-04-30","Quimioterapia intravenosa y oral","Carboplatino","Etopósido VP16",NULL
+"60097","2010-04-21","2010-06-30","Quimioterapia adyuvante","Cisplatino","Vinorelbina",NULL
+"60097","2011-06-20","2011-10-17","Quimioterapia adyuvante","Pemetrexed",NULL,NULL
+"60097","2012-02-17","2012-03-16","Terapia oral dirigida","Erlotinib",NULL,NULL
+"60097","2012-03-28","2012-06-25","Terapia oral dirigida","Gefitinib",NULL,NULL
+"60097","2012-07-10","2012-11-06","Quimioterapia adyuvante","Docetaxel",NULL,NULL
+"60097","2013-02-18","2013-05-16","Quimioterapia adyuvante","Gemcitabina",NULL,NULL
+"60097","2013-10-16","2013-11-27","Quimioterapia adyuvante","Paclitaxel",NULL,NULL
+"62611","2016-07-20","2016-10-10","Quimioterapia intravenosa","Carboplatino","Vinorelbina",NULL
+"62611","2017-11-08","2017-12-20","-","Carboplatino","Paclitaxel",NULL
+"62941","2012-03-22","2012-08-14","Quimioterapia intravenosa y oral","Carboplatino","Etopósido VP16",NULL
+"65707","2017-05-15","2017-08-07","Quimioterapia adyuvante","Carboplatino","Etopósido VP16",NULL
+"65707","2018-04-26","2018-08-22","Quimioterapia intravenosa","Ciclofosfamida","Vincristina","Doxorrubicina"
+"65707","2018-11-21","2019-04-24","Quimioterapia intravenosa","Paclitaxel",NULL,NULL
+"66091","2018-12-03","2019-02-27","Quimioterapia intravenosa","Carboplatino","Etopósido VP16",NULL
+"66091","2019-06-11","2019-07-23","Quimioterapia intravenosa","Paclitaxel",NULL,NULL
+"66695","2017-06-01","2017-08-07","Quimioterapia-Radioterapia secuencial","Carboplatino","Pemetrexed",NULL
+"71820","2010-07-05","2010-10-18","Quimioterapia-Radioterapia secuencial","Cisplatino","Pemetrexed",NULL
+"71820","2010-11-24","2011-02-07","Terapia oral dirigida","Erlotinib",NULL,NULL
+"74739","2013-01-22","2013-06-04","Quimioterapia intravenosa y oral","Carboplatino","Etopósido VP16",NULL
+"75770","2009-05-29","2009-12-10","Quimioterapia intravenosa y oral","Carboplatino","Etopósido VP16",NULL
+"75770","2010-01-15","2010-01-15","Quimioterapia intravenosa","Ciclofosfamida","Doxorrubicina","Vincristina"
+"82449","2016-09-07","2016-09-29","Quimioterapia neoadyuvante","Cisplatino","Vinorelbina",NULL
+"82510","2018-11-14","2019-01-16","Quimioterapia neoadyuvante","Cisplatino","Gemcitabina",NULL
+"82510","2019-06-20","2019-08-02","Quimioterapia-Radioterapia adyuvante","Carboplatino","Paclitaxel",NULL
+"87919","2011-12-29","2012-04-09","Quimioterapia intravenosa","Carboplatino","Paclitaxel","Bevacizumab"
+"91291","2020-09-01","2020-11-03","Quimioterapia intravenosa","Carboplatino","Pemetrexed",NULL
+"91773","2013-07-11","2013-09-12","Quimioterapia-Radioterapia adyuvante","Cisplatino","Pemetrexed",NULL
+"91773","2016-03-18","2016-05-13","Quimioterapia intravenosa","Bevacizumab",NULL,NULL
+"91773","2017-08-29","2017-12-07","Quimioterapia intravenosa","Paclitaxel",NULL,NULL
+"103031","2009-04-09","2009-07-02","Quimioterapia intravenosa y oral","Carboplatino","Etopósido VP16",NULL
+"103031","2009-09-01","2009-12-12","Quimioterapia intravenosa","Ciclofosfamida","Doxorrubicina","Vincristina"
+"106026","2018-07-06","2018-09-26","Quimioterapia intravenosa","Carboplatino","Etopósido VP16",NULL
+"110525","2009-04-21","2009-07-06","Quimioterapia adyuvante","Carboplatino","Etopósido VP16",NULL
+"112931","2020-06-26","2020-07-24","Quimioterapia intravenosa","Carboplatino","Vinorelbina",NULL
+"117052","2015-06-17","2015-08-05","Quimioterapia intravenosa","Carboplatino","Vinorelbina",NULL
+"117699","2018-02-02","2018-05-08","Quimioterapia intravenosa","Carboplatino","Vinorelbina",NULL
+"117699","2018-10-24","2019-11-11","Inmunoterapia","Nivolumab",NULL,NULL
+"117699","2019-12-05","2020-01-09","Quimioterapia-Radioterapia concomitante","Paclitaxel",NULL,NULL
+"121704","2017-08-04","2017-08-04","Quimioterapia adyuvante","Carboplatino","Paclitaxel",NULL
+"121704","2017-10-02","2017-11-15","Quimioterapia-Radioterapia concomitante","Vinorelbina",NULL,NULL
+"124767","2014-03-19","2014-04-10","Quimioterapia-Radioterapia secuencial","Cisplatino","Vinorelbina",NULL
+"127286","2018-06-15","2018-08-17","Quimioterapia intravenosa","Carboplatino","Paclitaxel",NULL
+"133673","2009-09-28","2009-10-05","Quimioterapia adyuvante","Cisplatino","Vinorelbina",NULL
+"133673","2011-04-12","2011-05-24","Quimioterapia intravenosa","Carboplatino","Pemetrexed",NULL
+"133673","2011-07-18","2011-09-19","Quimioterapia intravenosa","Docetaxel",NULL,NULL
+"133673","2011-10-10","2012-01-10","Quimioterapia intravenosa","Vinorelbina",NULL,NULL
+"133673","2012-02-09","2012-03-08","Terapia oral dirigida","Erlotinib",NULL,NULL
+"133910","2010-07-06","2010-09-23","Quimioterapia neoadyuvante","Cisplatino","Vinorelbina",NULL
+"134607","2018-05-25","2018-08-17","Quimioterapia-Radioterapia secuencial","Carboplatino","Etopósido VP16",NULL
+"140210","2010-02-03","2010-04-29","Quimioterapia adyuvante","Carboplatino","Paclitaxel",NULL
+"140210","2010-08-25","2010-10-18","Terapia oral dirigida","Gefitinib",NULL,NULL
+"140342","2009-03-04","2009-07-07","Quimioterapia-Radioterapia concomitante","Carboplatino","Docetaxel",NULL
+"140342","2010-01-20","2010-02-10","Quimioterapia intravenosa","Irvalec",NULL,NULL
+"140837","2019-01-28","2019-04-10","Quimioterapia intravenosa + inmunoterapia","Carboplatino","Pemetrexed","Pembrolizumab"
+"140837","2020-04-24","2020-07-03","Quimioterapia intravenosa","Carboplatino","Paclitaxel",NULL
+"145805","2009-05-11","2009-07-20","Quimioterapia intravenosa","Carboplatino","Paclitaxel",NULL
+"145805","2009-08-13","2009-09-25","Quimioterapia intravenosa","Pemetrexed",NULL,NULL
+"145995","2017-12-14","2018-11-28","Otros","Pembrolizumab vs placebo",NULL,NULL
+"148493","2018-05-25","2018-08-03","Quimioterapia intravenosa","Carboplatino","Pemetrexed",NULL
+"148493","2018-10-04","2018-11-15","Quimioterapia intravenosa","Docetaxel",NULL,NULL
+"150936","2017-07-18","2017-10-04","Quimioterapia intravenosa","Carboplatino","Vinorelbina",NULL
+"154268","2019-03-05","2019-04-17","Quimioterapia intravenosa","Carboplatino","Pemetrexed",NULL
+"155998","2015-09-15","2015-10-27","Quimioterapia intravenosa","Carboplatino","Vinorelbina",NULL
+"155998","2016-03-04","2016-05-11","Quimioterapia intravenosa","Paclitaxel",NULL,NULL
+"156018","2017-01-18","2017-04-01","Quimioterapia intravenosa","Cisplatino","Vinorelbina",NULL
+"156018","2018-01-22","2018-03-27","Quimioterapia intravenosa","Carboplatino","Paclitaxel",NULL
+"157654","2016-01-13","2016-03-21","Quimioterapia-Radioterapia secuencial","Cisplatino","Vinorelbina",NULL
+"157654","2016-04-11","2016-05-23","Quimioterapia-Radioterapia concomitante","Paclitaxel",NULL,NULL
+"157654","2018-02-12","2019-06-07","Inmunoterapia","Atezolizumab",NULL,NULL
+"157654","2019-07-16","2019-09-27","Quimioterapia intravenosa","Carboplatino","Pemetrexed",NULL
+"158421","2019-10-10","2020-02-10","Quimioterapia oral","Everolimus",NULL,NULL
+"161130","2016-11-21","2017-01-31","Quimioterapia intravenosa","Carboplatino","Vinorelbina",NULL
+"164960","2008-05-01","2008-07-24","Quimioterapia adyuvante","Cisplatino","Vinorelbina",NULL
+"164960","2008-08-15","2008-10-06","Quimioterapia intravenosa","Pemetrexed",NULL,NULL
+"167972","2015-03-16","2015-08-21","Quimioterapia intravenosa y oral","Carboplatino","Etopósido VP16",NULL
+"167972","2016-01-18","2016-02-01","Quimioterapia intravenosa","Topotecan",NULL,NULL
+"167972","2016-04-27","2016-05-26","Quimioterapia intravenosa","Doxorrubicina","Vincristina","Ciclofosfamida"
+"168156","2010-03-30","2010-08-18","Quimioterapia intravenosa y oral","Carboplatino","Etopósido VP16",NULL
+"170471","2016-11-08","2017-10-20","Terapia oral dirigida","Erlotinib",NULL,NULL
+"170471","2017-10-27","2017-12-22","Terapia oral dirigida","Gefitinib",NULL,NULL
+"170471","2018-01-10","2018-04-03","Terapia oral dirigida","Erlotinib",NULL,NULL
+"170471","2018-05-01","2018-05-30","Terapia oral dirigida","Afatinib",NULL,NULL
+"170471","2018-06-07","2018-07-20","Quimioterapia intravenosa","Carboplatino","Pemetrexed",NULL
+"172864","2015-07-07","2015-10-15","Quimioterapia neoadyuvante","Cisplatino","Vinorelbina",NULL
+"172864","2015-11-16","2016-01-12","Quimioterapia-Radioterapia concomitante","Paclitaxel",NULL,NULL
+"181047","2019-06-05","2019-08-28","Quimioterapia-Radioterapia secuencial","Carboplatino","Etopósido VP16",NULL
+"182208","2015-09-24","2015-11-05","Quimioterapia intravenosa","Carboplatino","Pemetrexed",NULL
+"182693","2020-10-19","2020-11-30","Quimioterapia neoadyuvante","Carboplatino","Paclitaxel","Nivolumab"
+"184457","2015-07-10","2015-09-11","Quimioterapia neoadyuvante","Cisplatino","Pemetrexed",NULL
+"184457","2015-10-26","2015-12-04","Quimioterapia-Radioterapia concomitante","Paclitaxel",NULL,NULL
+"184457","2018-03-20","2018-05-25","Quimioterapia intravenosa","Pemetrexed",NULL,NULL
+"184457","2018-06-25","2018-12-26","Inmunoterapia","Nivolumab",NULL,NULL
+"184457","2019-03-15","2019-03-15","Quimioterapia oral","Docetaxel",NULL,NULL
+"187618","2015-05-22","2015-07-16","Quimioterapia neoadyuvante","Cisplatino","Vinorelbina",NULL
+"187618","2017-08-04","2019-08-27","Terapia oral dirigida","Crizotinib",NULL,NULL
+"189736","2009-09-04","2009-10-23","Quimioterapia adyuvante","Carboplatino","Pemetrexed",NULL
+"189736","2009-11-20","2010-01-15","Quimioterapia intravenosa","Pemetrexed",NULL,NULL
+"189736","2010-06-09","2010-10-08","Terapia oral dirigida","Erlotinib",NULL,NULL
+"189740","2018-05-24","2018-07-03","Quimioterapia intravenosa","Carboplatino","Paclitaxel",NULL
+"191878","2010-04-21","2010-06-21","Quimioterapia adyuvante","Carboplatino","Paclitaxel",NULL
+"191878","2010-10-26","2015-06-03","Terapia oral dirigida","Erlotinib",NULL,NULL
+"192142","2014-04-08","2014-06-16","Quimioterapia intravenosa","Cisplatino","Pemetrexed",NULL
+"192142","2015-08-24","2015-11-23","Quimioterapia intravenosa","Docetaxel",NULL,NULL
+"192142","2016-11-14","2016-11-14","Quimioterapia intravenosa","Gemcitabina","PM060184",NULL
+"192872","2011-03-01","2011-04-27","Quimioterapia neoadyuvante","Cisplatino","Gemcitabina",NULL
+"193367","2019-04-26","2020-10-07","Terapia oral dirigida","Erlotinib",NULL,NULL
+"199558","2015-07-27","2015-09-24","Quimioterapia neoadyuvante","Cisplatino","Vinorelbina",NULL
+"199558","2015-11-10","2015-12-22","Quimioterapia-Radioterapia concomitante","Paclitaxel",NULL,NULL
+"201856","2010-05-26","2010-09-15","Quimioterapia intravenosa y oral","Carboplatino","Etopósido VP16",NULL
+"205448","2011-07-04","2011-10-24","Quimioterapia intravenosa y oral","Carboplatino","Etopósido VP16",NULL
+"208996","2019-09-23","2019-11-26","Quimioterapia intravenosa","Carboplatino","Pemetrexed",NULL
+"211649","2019-10-04","2020-03-06","Quimioterapia adyuvante","Pembrolizumab vs placebo",NULL,NULL
+"215191","2016-07-26","2016-09-28","Quimioterapia intravenosa","Carboplatino","Pemetrexed",NULL
+"215191","2016-12-15","2017-01-26","Quimioterapia-Radioterapia concomitante","Paclitaxel",NULL,NULL
+"216430","2014-04-15","2014-09-05","Quimioterapia intravenosa y oral","Carboplatino","Etopósido VP16",NULL
+"217785","2020-07-08","2020-09-08","Quimioterapia intravenosa","Carboplatino","Pemetrexed",NULL
+"218442","2014-11-13","2015-02-18","Quimioterapia intravenosa y oral","Carboplatino","Etopósido VP16",NULL
+"218840","2018-04-02","2018-06-25","Quimioterapia intravenosa y oral","Carboplatino","Etopósido VP16",NULL
+"218840","2018-07-30","2018-10-01","Otros","Ciclofosfamida","Doxorrubicina","Vincristina"
+"219778","2010-04-12","2010-05-24","Quimioterapia-Radioterapia concomitante","Cisplatino","Etopósido VP16",NULL
+"220842","2013-01-16","2013-03-27","Quimioterapia intravenosa y oral","Carboplatino","Etopósido VP16",NULL
+"220842","2014-05-05","2014-09-26","Quimioterapia intravenosa y oral","Carboplatino","Etopósido VP16",NULL
+"220842","2015-01-29","2015-06-02","Quimioterapia intravenosa","Ciclofosfamida","Doxorrubicina","Vincristina"
+"222619","2016-05-25","2016-07-27","Quimioterapia-Radioterapia secuencial","Cisplatino","Ganetespib",NULL
+"222619","2017-03-16","2017-07-17","Quimioterapia intravenosa","Doxorrubicina","Lurbinectedina (PM1183)",NULL
+"222619","2017-07-28","2017-08-10","Quimioterapia oral","Trametinib",NULL,NULL
+"223767","2010-04-12","2010-09-25","Quimioterapia neoadyuvante","Erlotinib",NULL,NULL
+"223767","2010-10-14","2010-10-14","Quimioterapia intravenosa","Carboplatino","Pemetrexed",NULL
+"223767","2011-04-05","2011-05-31","Quimioterapia oral","Vinorelbina",NULL,NULL
+"225607","2019-10-21","2020-01-20","Quimioterapia intravenosa","Carboplatino","Etopósido VP16",NULL
+"229991","2004-08-20","2004-11-21","Quimioterapia neoadyuvante","Cisplatino","Vinorelbina",NULL
+"229991","2004-12-09","2005-02-03","Quimioterapia-Radioterapia concomitante","Paclitaxel",NULL,NULL
+"229991","2015-09-08","2015-11-04","Quimioterapia intravenosa","Carboplatino","Vinorelbina",NULL
+"229991","2016-03-04","2016-05-04","Quimioterapia intravenosa","Paclitaxel",NULL,NULL
+"234793","2018-12-07","2019-03-01","Quimioterapia intravenosa","Carboplatino","Etopósido VP16",NULL
+"234793","2019-07-31","2019-10-03","Quimioterapia intravenosa","Ciclofosfamida","Vincristina","Doxorrubicina"
+"237644","2011-02-22","2011-03-29","Quimioterapia neoadyuvante","Cisplatino","Vinorelbina",NULL
+"237644","2011-09-12","2011-10-12","Quimioterapia intravenosa","Docetaxel",NULL,NULL
+"237997","2016-09-19","2016-11-29","Quimioterapia intravenosa y oral","Carboplatino","Etopósido VP16",NULL
+"239177","2012-09-17","2012-09-17","Quimioterapia intravenosa y oral","Carboplatino","Etopósido VP16",NULL
+"243937","2008-07-18","2008-10-10","Quimioterapia neoadyuvante","Cisplatino","Vinorelbina",NULL
+"245226","2013-07-30","2013-12-18","Quimioterapia intravenosa y oral","Cisplatino","Etopósido VP16",NULL
+"247478","2009-01-05","2009-02-06","Quimioterapia intravenosa y oral","Carboplatino","Etopósido VP16",NULL
+"254558","2009-07-13","2010-02-10","Quimioterapia intravenosa y oral","Carboplatino","Etopósido VP16",NULL
+"254558","2010-03-16","2010-04-12","Quimioterapia intravenosa","Topotecan",NULL,NULL
+"254944","2012-04-25","2012-09-12","Quimioterapia intravenosa y oral","Carboplatino","Etopósido VP16",NULL
+"255458","2012-06-15","2012-11-05","Quimioterapia intravenosa y oral","Carboplatino","Etopósido VP16",NULL
+"255458","2012-12-12","2013-01-02","Quimioterapia intravenosa","Ciclofosfamida","Doxorrubicina","Vincristina"
+"263003","2015-12-23","2016-02-26","Quimioterapia intravenosa","Cisplatino","Pemetrexed",NULL
+"264735","2016-01-18","2016-02-29","Quimioterapia-Radioterapia concomitante","Carboplatino","Paclitaxel",NULL
+"264735","2017-07-24","2019-08-30","Terapia oral dirigida","Alectinib",NULL,NULL
+"266382","2015-07-27","2015-10-13","Quimioterapia intravenosa","Cisplatino","Pemetrexed",NULL
+"275576","2017-01-04","2017-02-15","Quimioterapia-Radioterapia concomitante","Paclitaxel",NULL,NULL
+"278541","2010-09-22","2010-10-20","Terapia oral dirigida","Erlotinib",NULL,NULL
+"279200","2016-12-15","2017-03-17","Quimioterapia neoadyuvante","Cisplatino","Pemetrexed",NULL
+"282432","2013-09-03","2014-03-24","Quimioterapia-Radioterapia concomitante","Vinorelbina","Cisplatino",NULL
+"282432","2014-02-11","2014-03-24","Quimioterapia intravenosa","Gemcitabina","Otro",NULL
+"282432","2014-04-22","2014-06-26","Quimioterapia intravenosa","Carboplatino","Pemetrexed",NULL
+"282432","2014-12-17","2015-01-08","Quimioterapia intravenosa","Paclitaxel",NULL,NULL
+"288498","2019-06-11",NULL,"Terapia oral dirigida","Osimertinib",NULL,NULL
+"290158","2009-03-03","2009-04-28","Quimioterapia intravenosa y oral","Carboplatino","Etopósido VP16",NULL
+"292381","2017-05-04","2017-06-29","Quimioterapia neoadyuvante","Carboplatino","Vinorelbina",NULL
+"292381","2017-08-24","2017-10-05","Quimioterapia-Radioterapia concomitante","Paclitaxel",NULL,NULL
+"292381","2019-05-27","2019-08-09","Quimioterapia intravenosa","Carboplatino","Vinorelbina",NULL
+"292381","2019-10-10","2019-10-24","Inmunoterapia","Nivolumab",NULL,NULL
+"292381","2019-12-12","2020-02-05","Inmunoterapia","Nivolumab",NULL,NULL
+"296833","2014-07-28","2015-04-08","Terapia oral dirigida","Gefitinib",NULL,NULL
+"296833","2015-04-08","2015-04-08","Quimioterapia intravenosa","Pemetrexed",NULL,NULL
+"300711","2007-06-20","2007-12-18","Quimioterapia-Radioterapia secuencial","Vinorelbina",NULL,NULL
+"300711","2009-11-05","2010-04-09","Quimioterapia intravenosa","Docetaxel",NULL,NULL
+"303691","2013-11-18","2014-02-10","Quimioterapia intravenosa y oral","Carboplatino","Etopósido VP16",NULL
+"303691","2015-03-09","2015-07-13","Quimioterapia intravenosa y oral","Carboplatino","Etopósido VP16",NULL
+"303691","2015-12-22","2016-04-18","Quimioterapia intravenosa","Ciclofosfamida","Doxorrubicina","Vincristina"
+"303691","2016-07-18","2016-09-02","Quimioterapia intravenosa","Topotecan",NULL,NULL
+"306631","2015-05-25","2015-08-24","Quimioterapia intravenosa","Cisplatino","Vinorelbina",NULL
+"306631","2015-09-09","2015-10-15","Quimioterapia-Radioterapia concomitante","Carboplatino","Paclitaxel",NULL
+"306631","2016-10-17","2020-10-08","Terapia oral dirigida","Afatinib",NULL,NULL
+"306633","2018-08-03","2018-10-16","Quimioterapia intravenosa","Carboplatino","Etopósido VP16",NULL
+"306896","2019-05-31","2019-08-09","Quimioterapia adyuvante","Carboplatino","Vinorelbina",NULL
+"310403","2017-08-02","2017-08-16","Inmunoterapia","Nivolumab",NULL,NULL
+"310591","2018-06-06","2018-08-29","Quimioterapia-Radioterapia secuencial","Carboplatino","Etopósido VP16",NULL
+"318081","2015-08-24","2015-12-01","Quimioterapia neoadyuvante","Cisplatino","Vinorelbina",NULL
+"318081","2017-04-27","2017-07-07","Quimioterapia intravenosa + inmunoterapia","Carboplatino","Paclitaxel","Pembrolizumab vs placebo"
+"318081","2019-05-28","2019-08-07","Quimioterapia intravenosa","Docetaxel",NULL,NULL
+"329438","2019-01-23","2019-03-27","Quimioterapia-Radioterapia neoadyuvante","Carboplatino","Etopósido VP16",NULL
+"336027","2010-08-02","2010-08-30","Quimioterapia-Radioterapia secuencial","Cisplatino","Etopósido VP16",NULL
+"336027","2011-05-18","2011-10-06","Quimioterapia intravenosa","Carboplatino","Pemetrexed",NULL
+"336027","2012-01-19","2012-01-23","Quimioterapia oral","Vinorelbina",NULL,NULL
+"339453","2018-10-03","2018-12-26","Quimioterapia intravenosa","Etopósido VP16","Carboplatino",NULL
+"339453","2019-06-12","2019-08-14","Quimioterapia intravenosa","Ciclofosfamida","Doxorrubicina","Vincristina"
+"339453","2020-04-24","2020-06-22","Quimioterapia intravenosa","Paclitaxel",NULL,NULL
+"339453","2020-07-24","2020-11-13","Quimioterapia intravenosa","Irinotecan",NULL,NULL
+"339803","2013-05-15","2013-07-08","Quimioterapia neoadyuvante","Cisplatino","Vinorelbina",NULL
+"339803","2018-01-05","2018-03-16","Quimioterapia intravenosa","Carboplatino","Paclitaxel",NULL
+"344754","2014-03-19","2014-05-12","Quimioterapia neoadyuvante","Cisplatino","Vinorelbina",NULL
+"344754","2014-08-25","2014-09-29","Quimioterapia-Radioterapia concomitante","Paclitaxel",NULL,NULL
+"344754","2014-11-05","2014-12-22","Quimioterapia intravenosa","Paclitaxel","Pemetrexed","Prexasertib(LY2606368)"
+"345405","2010-08-23","2010-11-09","Quimioterapia adyuvante","Cisplatino","Vinorelbina",NULL
+"348311","2012-04-27","2012-04-27","Quimioterapia intravenosa y oral","Carboplatino","Etopósido VP16",NULL
+"348648","2017-09-21","2017-11-27","Quimioterapia intravenosa","Carboplatino","Vinorelbina",NULL
+"348648","2017-12-13","2017-12-29","Quimioterapia intravenosa","Paclitaxel",NULL,NULL
+"352433","2011-11-18","2012-01-13","Quimioterapia adyuvante","Carboplatino","Paclitaxel",NULL
+"355416","2009-07-09","2009-10-01","Quimioterapia intravenosa y oral","Carboplatino","Etopósido VP16",NULL
+"355416","2009-11-17","2009-11-17","Quimioterapia intravenosa","Ciclofosfamida","Doxorrubicina","Vincristina"
+"356846","2013-04-22","2013-07-02","Quimioterapia adyuvante","Cisplatino","Vinorelbina",NULL
+"356846","2014-04-08","2014-06-10","Quimioterapia intravenosa","Cisplatino","Pemetrexed",NULL
+"356846","2014-10-07","2014-12-19","Quimioterapia intravenosa + inmunoterapia","Emibetuzumab (LY2875358)","Pemetrexed",NULL
+"356846","2015-02-11","2015-04-15","Quimioterapia intravenosa","Otro",NULL,NULL
+"363011","2017-02-23","2017-04-12","Quimioterapia neoadyuvante","Cisplatino","Vinorelbina",NULL
+"363011","2017-07-12","2017-08-30","Quimioterapia intravenosa","Cisplatino","Vinorelbina",NULL
+"367430","2014-05-12","2014-10-02","Quimioterapia intravenosa y oral","Carboplatino","Etopósido VP16",NULL
+"367523","2016-04-08","2016-12-16","Terapia oral dirigida","Gefitinib",NULL,NULL
+"367523","2017-02-09","2018-01-15","Terapia oral dirigida","Osimertinib",NULL,NULL
+"367523","2018-02-13","2018-03-27","Quimioterapia intravenosa","Carboplatino","Paclitaxel",NULL
+"367523","2018-04-24","2018-06-25","Quimioterapia intravenosa","Pemetrexed",NULL,NULL
+"374941","2012-03-12","2012-06-04","Quimioterapia adyuvante","Cisplatino","Vinorelbina",NULL
+"374941","2013-04-25","2013-07-18","Quimioterapia adyuvante","Docetaxel",NULL,NULL
+"374941","2014-12-15","2015-04-06","Quimioterapia intravenosa","Pemetrexed",NULL,NULL
+"375428","2017-07-25","2017-08-22","Otros","Ipilimumab","Nivolumab",NULL
+"375428","2017-09-18","2017-10-09","Quimioterapia neoadyuvante","Carboplatino","Paclitaxel",NULL
+"375428","2017-10-07","2017-12-05","Quimioterapia neoadyuvante","Carboplatino","Vinorelbina",NULL
+"375428","2018-03-21","2018-05-16","Quimioterapia adyuvante","Gemcitabina",NULL,NULL
+"375428","2018-06-21","2018-08-01","Quimioterapia intravenosa + inmunoterapia","Carboplatino","Nivolumab",NULL
+"382516","2010-03-02","2010-06-02","Quimioterapia adyuvante","Cisplatino","Vinorelbina",NULL
+"383043","2015-04-28","2015-07-15","Quimioterapia-Radioterapia secuencial","Cisplatino","Vinorelbina",NULL
+"383043","2015-08-12","2015-08-20","Quimioterapia-Radioterapia concomitante","Paclitaxel",NULL,NULL
+"383044","2018-05-22","2018-08-21","Quimioterapia intravenosa","Carboplatino","Etopósido VP16",NULL
+"399075","2014-07-21","2015-04-30","Terapia oral dirigida","Gefitinib",NULL,NULL
+"399075","2015-05-13","2015-07-27","Quimioterapia intravenosa","Carboplatino","Pemetrexed",NULL
+"399075","2016-02-26","2016-05-12","Terapia oral dirigida","Afatinib",NULL,NULL
+"399637","2018-12-18","2019-03-12","Quimioterapia intravenosa","Cisplatino","Etopósido VP16",NULL
+"399637","2019-08-19","2019-10-25","Quimioterapia intravenosa","Ciclofosfamida","Vincristina","Doxorrubicina"
+"402546","2009-03-24","2009-06-24","Quimioterapia intravenosa","Cisplatino","Pemetrexed",NULL
+"402546","2010-04-10","2010-12-15","Terapia oral dirigida","Erlotinib",NULL,NULL
+"402546","2011-01-10","2012-09-03","Quimioterapia intravenosa","Pemetrexed",NULL,NULL
+"402546","2014-01-08","2014-07-16","Quimioterapia intravenosa","Pemetrexed",NULL,NULL
+"402546","2014-09-08","2015-06-08","Terapia oral dirigida","Crizotinib",NULL,NULL
+"402546","2015-06-20","2017-09-15","Terapia oral dirigida","Brigatinib",NULL,NULL
+"402546","2003-02-27","2017-09-16","Terapia oral dirigida","Lorlatinib",NULL,NULL
+"403459","2017-10-27","2018-04-09","Terapia oral dirigida","Afatinib",NULL,NULL
+"406734","2010-06-11","2010-08-30","Quimioterapia intravenosa","Carboplatino","Paclitaxel",NULL
+"406734","2010-09-23","2010-10-28","Quimioterapia-Radioterapia concomitante","Paclitaxel",NULL,NULL
+"408778","2020-02-11","2020-04-21","Quimioterapia intravenosa","Carboplatino","Pemetrexed",NULL
+"409201","2020-08-31","2020-10-26","Quimioterapia intravenosa","Carboplatino","Vinorelbina",NULL
+"409201","2020-12-16","2021-02-22","Quimioterapia-Radioterapia concomitante","Paclitaxel",NULL,NULL
+"412178","2010-09-06","2010-10-19","Quimioterapia intravenosa","Carboplatino","Vinorelbina",NULL
+"415573","2013-08-02","2015-06-03","Quimioterapia intravenosa","Carboplatino","Paclitaxel","Bevacizumab"
+"415573","2015-07-08","2016-03-16","Otros","Pemetrexed",NULL,NULL
+"415573","2016-05-25","2017-02-03","Otros","Gemcitabina",NULL,NULL
+"415573","2017-04-01","2017-07-08","Inmunoterapia","Nivolumab",NULL,NULL
+"415573","2017-10-11","2018-06-21","Quimioterapia intravenosa","Carboplatino","Paclitaxel",NULL
+"416112","2013-09-18","2013-11-27","Quimioterapia intravenosa y oral","Cisplatino","Etopósido VP16",NULL
+"416112","2014-08-14","2015-01-12","Quimioterapia intravenosa y oral","Carboplatino","Etopósido VP16",NULL
+"416112","2015-02-20","2015-05-11","Inmunoterapia","Nivolumab","Ipilimumab",NULL
+"416112","2015-07-09","2015-08-20","Quimioterapia intravenosa","Ciclofosfamida","Doxorrubicina","Vincristina"
+"419437","2017-05-18","2017-12-29","Inmunoterapia","Ipilimumab","Nivolumab",NULL
+"423521","2018-12-20","2019-02-07","Quimioterapia-Radioterapia concomitante","Carboplatino","Paclitaxel",NULL
+"424807","2010-07-16","2010-10-19","Quimioterapia neoadyuvante","Carboplatino","Paclitaxel",NULL
+"424807","2011-09-05","2011-10-26","Quimioterapia intravenosa","Pemetrexed",NULL,NULL
+"424807","2011-11-23","2011-12-19","Terapia oral dirigida","Erlotinib",NULL,NULL
+"429293","2015-03-11","2015-05-22","Terapia oral dirigida","Erlotinib",NULL,NULL
+"429640","2014-05-20","2014-09-02","Quimioterapia intravenosa","Cisplatino","Vinorelbina",NULL
+"429640","2014-11-05","2015-02-18","Quimioterapia intravenosa","Docetaxel",NULL,NULL
+"429640","2015-04-06","2015-05-18","Quimioterapia intravenosa","Pemetrexed",NULL,NULL
+"429640","2015-06-16","2015-07-21","Quimioterapia-Radioterapia concomitante","Paclitaxel",NULL,NULL
+"429640","2015-12-11","2017-10-21","Inmunoterapia","Nivolumab",NULL,NULL
+"432083","2008-10-21","2009-01-14","Quimioterapia adyuvante","Cisplatino","Vinorelbina",NULL
+"432083","2010-07-17","2010-10-11","Quimioterapia intravenosa","Cisplatino","Pemetrexed",NULL
+"432083","2011-02-28","2011-08-16","Quimioterapia intravenosa","Docetaxel",NULL,NULL
+"432083","2011-11-28","2011-12-13","Terapia oral dirigida","Erlotinib",NULL,NULL
+"432083","2012-02-01","2012-04-01","Quimioterapia intravenosa","Carboplatino","Vinorelbina",NULL
+"432083","2012-04-30","2012-10-23","Quimioterapia intravenosa","Paclitaxel",NULL,NULL
+"432083","2013-02-12","2013-04-23","Quimioterapia intravenosa","Gemcitabina",NULL,NULL
+"433481","2017-09-29","2017-12-19","Quimioterapia intravenosa","Vinorelbina",NULL,NULL
+"433481","2018-03-23","2018-06-06","Quimioterapia intravenosa","Vinorelbina",NULL,NULL
+"433481","2021-03-09",NULL,"Inmunoterapia","Atezolizumab",NULL,NULL
+"433607","2010-01-18","2010-02-15","Quimioterapia intravenosa y oral","Carboplatino","Etopósido VP16",NULL
+"438540","2018-11-08","2019-01-09","Quimioterapia intravenosa","Carboplatino","Pemetrexed",NULL
+"444480","2012-02-21","2012-05-15","Quimioterapia intravenosa y oral","Carboplatino","Etopósido VP16",NULL
+"444480","2014-10-30",NULL,"Quimioterapia intravenosa y oral","Carboplatino","Etopósido VP16",NULL
+"444823","2016-06-13","2016-09-05","Quimioterapia neoadyuvante","Carboplatino","Etopósido VP16",NULL
+"446892","2015-09-16","2015-12-17","Quimioterapia intravenosa y oral","Carboplatino","Etopósido VP16",NULL
+"452619","2010-05-28","2010-06-25","Quimioterapia intravenosa y oral","Carboplatino","Etopósido VP16",NULL
+"452619","2010-08-10","2010-09-15","Quimioterapia intravenosa","Ciclofosfamida","Doxorrubicina","Vincristina"
+"456118","2011-08-22","2011-11-14","Quimioterapia intravenosa y oral","Carboplatino","Etopósido VP16",NULL
+"456118","2014-04-01","2014-06-05","Quimioterapia intravenosa y oral","Carboplatino","Etopósido VP16",NULL
+"457421","2008-02-26","2008-05-20","Quimioterapia intravenosa y oral","Carboplatino","Etopósido VP16",NULL
+"457421","2009-09-25","2010-01-25","Quimioterapia intravenosa","Ciclofosfamida","Doxorrubicina","Vincristina"
+"457421","2010-04-22","2010-09-06","Quimioterapia intravenosa y oral","Carboplatino","Etopósido VP16",NULL
+"467649","2015-10-23","2015-12-21","Quimioterapia neoadyuvante","Carboplatino","Paclitaxel",NULL
+"468411","2018-07-02","2018-09-03","Quimioterapia adyuvante","Carboplatino","Pemetrexed",NULL
+"468411","2019-08-30","2019-11-05","Inmunoterapia","Nivolumab",NULL,NULL
+"468882","2017-07-18","2018-01-09","Quimioterapia intravenosa + inmunoterapia","Pemetrexed","Carboplatino","Nivolumab"
+"468882","2018-03-15","2018-04-19","Quimioterapia-Radioterapia concomitante","Paclitaxel",NULL,NULL
+"469224","2018-05-03","2018-06-13","Terapia oral dirigida","Gefitinib",NULL,NULL
+"469224","2018-06-27","2018-11-09","Terapia oral dirigida","Afatinib",NULL,NULL
+"469375","2015-09-29","2015-12-07","Quimioterapia-Radioterapia secuencial","Cisplatino","Vinorelbina",NULL
+"472911","2013-03-15","2013-04-25","Quimioterapia neoadyuvante","Cisplatino","Vinorelbina",NULL
+"472911","2014-01-17","2014-03-18","Quimioterapia intravenosa","Pemetrexed",NULL,NULL
+"475085","2016-05-19","2016-08-11","Quimioterapia neoadyuvante","Carboplatino","Vinorelbina",NULL
+"481018","2016-12-30","2016-12-30","Quimioterapia intravenosa","Carboplatino","Pemetrexed",NULL
+"483513","2009-05-28","2009-06-19","Quimioterapia-Radioterapia secuencial","Carboplatino","Paclitaxel",NULL
+"483513","2009-08-14","2009-08-21","Quimioterapia-Radioterapia secuencial","Vinorelbina",NULL,NULL
+"485840","2018-03-26","2018-06-28","Quimioterapia intravenosa y oral","Carboplatino","Etopósido VP16",NULL
+"485840","2019-08-21","2019-11-13","Quimioterapia intravenosa","Carboplatino","Etopósido VP16",NULL
+"487054","2015-02-02","2015-04-07","Quimioterapia intravenosa","Carboplatino","Pemetrexed",NULL
+"487054","2015-07-27","2015-07-27","Quimioterapia intravenosa","Docetaxel",NULL,NULL
+"488934","2015-08-25","2015-11-23","Quimioterapia intravenosa","Carboplatino","Paclitaxel","Veliparib(ABT-888)"
+"491275","2010-07-08","2010-09-06","Quimioterapia-Radioterapia secuencial","Carboplatino","Paclitaxel",NULL
+"492168","2015-08-21","2016-11-28","Terapia oral dirigida","Erlotinib",NULL,NULL
+"492168","2016-11-28","2017-09-26","Terapia oral dirigida","Osimertinib",NULL,NULL
+"492168","2017-09-29","2017-10-27","Terapia oral dirigida","Erlotinib",NULL,NULL
+"492168","2017-10-27","2018-01-02","Quimioterapia intravenosa","Carboplatino","Paclitaxel",NULL
+"492168","2018-01-29","2018-07-06","Terapia oral dirigida","Gefitinib",NULL,NULL
+"492168","2018-07-06","2018-09-07","Quimioterapia intravenosa","Pemetrexed",NULL,NULL
+"493434","2017-09-29","2017-11-30","Quimioterapia intravenosa","Carboplatino","Paclitaxel",NULL
+"493434","2018-01-04","2018-01-25","Inmunoterapia","Atezolizumab",NULL,NULL
+"493434","2018-04-02","2018-05-14","Quimioterapia intravenosa","Pemetrexed",NULL,NULL
+"493681","2009-06-19","2009-08-13","Quimioterapia-Radioterapia secuencial","Carboplatino","Paclitaxel",NULL
+"493681","2009-10-06","2009-11-24","Quimioterapia-Radioterapia concomitante","Paclitaxel",NULL,NULL
+"496359","2016-03-21","2016-06-06","Quimioterapia adyuvante","Carboplatino","Paclitaxel",NULL
+"496359","2016-07-11","2016-08-16","Quimioterapia-Radioterapia concomitante","Vinorelbina",NULL,NULL
+"496719","2018-03-28","2018-05-29","Quimioterapia neoadyuvante","Cisplatino","Vinorelbina",NULL
+"501327","2017-06-30","2017-09-22","Quimioterapia intravenosa y oral","Carboplatino","Etopósido VP16",NULL
+"501327","2017-11-14","2017-12-05","Quimioterapia intravenosa","Ciclofosfamida","Doxorrubicina","Vincristina"
+"501327","2018-01-22","2018-01-29","Quimioterapia intravenosa","Irinotecan","Gemcitabina",NULL
+"502733","2009-12-01","2010-02-10","Quimioterapia intravenosa","Carboplatino","Etopósido VP16",NULL
+"508744","2020-06-05","2020-08-03","Quimioterapia intravenosa","Carboplatino","Vinorelbina",NULL
+"509248","2019-01-11","2019-03-15","Quimioterapia intravenosa","Carboplatino","Pemetrexed",NULL
+"509248","2019-06-21","2019-09-13","Inmunoterapia","Nivolumab",NULL,NULL
+"509248","2019-10-11","2020-02-05","Quimioterapia intravenosa","Docetaxel",NULL,NULL
+"511929","2020-05-05","2020-07-28","Quimioterapia intravenosa","Carboplatino","Etopósido VP16",NULL
+"513636","2020-06-19","2020-08-21","Quimioterapia intravenosa","Carboplatino","Pemetrexed",NULL
+"515832","2014-12-16","2015-03-10","Quimioterapia intravenosa y oral","Carboplatino","Etopósido VP16",NULL
+"515832","2015-05-05","2015-05-05","Quimioterapia intravenosa","Topotecan",NULL,NULL
+"518108","2009-08-17","2009-10-08","Quimioterapia neoadyuvante","Cisplatino","Vinorelbina",NULL
+"520936","2010-03-31","2010-06-25","Quimioterapia intravenosa y oral","Carboplatino","Etopósido VP16",NULL
+"520936","2010-12-22","2011-01-13","Quimioterapia intravenosa","Ciclofosfamida","Doxorrubicina","Vincristina"
+"522583","2014-04-23","2014-06-10","Quimioterapia-Radioterapia concomitante","Carboplatino","Paclitaxel",NULL
+"522583","2016-04-19","2016-06-28","Quimioterapia intravenosa","Cisplatino","Gemcitabina",NULL
+"526878","2015-02-03","2015-03-24","Quimioterapia neoadyuvante","Cisplatino","Vinorelbina",NULL
+"530713","2015-11-30","2016-02-18","Quimioterapia neoadyuvante","Carboplatino","Paclitaxel",NULL
+"530713","2016-03-14","2016-04-11","Quimioterapia-Radioterapia concomitante","Carboplatino","Paclitaxel",NULL
+"530713","2019-06-18","2019-08-20","Inmunoterapia","Pembrolizumab",NULL,NULL
+"531615","2016-07-13","2016-10-05","Quimioterapia-Radioterapia secuencial","Carboplatino","Etopósido VP16",NULL
+"535832","2012-11-30","2013-01-16","Quimioterapia-Radioterapia secuencial","Cisplatino","Vinorelbina",NULL
+"535832","2013-10-22","2013-10-22","Quimioterapia intravenosa","Docetaxel",NULL,NULL
+"545425","2018-05-15",NULL,"Quimioterapia adyuvante","Afatinib",NULL,NULL
+"548319","2017-01-12","2017-03-17","Quimioterapia intravenosa","Carboplatino","Pemetrexed",NULL
+"548319","2017-06-13","2017-11-14","Quimioterapia intravenosa","Paclitaxel",NULL,NULL
+"548319","2018-02-16","2018-03-05","Inmunoterapia","Nivolumab",NULL,NULL
+"548319","2018-04-06","2018-04-13","Quimioterapia intravenosa","Vinorelbina",NULL,NULL
+"553573","2019-11-18",NULL,"Terapia oral dirigida","Osimertinib",NULL,NULL
+"561098","2016-09-30","2017-01-09","Quimioterapia intravenosa y oral","Carboplatino","Etopósido VP16",NULL
+"561098","2017-07-26","2017-10-04","Quimioterapia intravenosa","Ciclofosfamida","Doxorrubicina","Vincristina"
+"561245","2015-12-14","2016-02-09","Quimioterapia intravenosa y oral","Carboplatino","Etopósido VP16",NULL
+"570911","2020-04-14","2020-05-27","Quimioterapia intravenosa y oral","Carboplatino","Vinorelbina",NULL
+"571676","2018-06-06","2019-02-27","Terapia oral dirigida","Erlotinib",NULL,NULL
+"572769","2016-01-28","2016-03-10","Quimioterapia neoadyuvante","Cisplatino","Vinorelbina",NULL
+"572769","2016-05-10","2016-06-28","Quimioterapia adyuvante","Cisplatino","Vinorelbina",NULL
+"574783","2006-01-09","2006-05-10","Quimioterapia-Radioterapia secuencial","Cisplatino","Gemcitabina","Bevacizumab vs Placebo"
+"576411","2012-12-28","2013-03-05","Quimioterapia intravenosa","Cisplatino","Pemetrexed",NULL
+"576411","2013-06-24","2013-08-01","Quimioterapia-Radioterapia concomitante","Paclitaxel",NULL,NULL
+"576924","2010-01-14","2010-03-09","Quimioterapia intravenosa y oral","Carboplatino","Etopósido VP16",NULL
+"577354","2017-08-30","2017-10-09","Quimioterapia neoadyuvante","Carboplatino","Paclitaxel","Nivolumab"
+"577354","2018-01-08","2018-12-10","Otros","Nivolumab",NULL,NULL
+"579805","2014-05-26","2014-10-13","Quimioterapia intravenosa y oral","Carboplatino","Etopósido VP16",NULL
+"581387","2017-11-09","2017-12-22","Quimioterapia intravenosa","Cisplatino","Pemetrexed",NULL
+"581387","2018-02-13","2018-02-27","Inmunoterapia","Nivolumab",NULL,NULL
+"582315","2019-01-09","2019-02-27","Quimioterapia intravenosa","Carboplatino","Pemetrexed",NULL
+"582315","2019-03-20",NULL,"Inmunoterapia","Nivolumab",NULL,NULL
+"583557","2018-09-11","2019-04-26","Terapia oral dirigida","Erlotinib",NULL,NULL
+"583557","2019-05-03","2019-07-05","Quimioterapia intravenosa y oral","Carboplatino","Pemetrexed","Erlotinib"
+"583557","2020-03-17","2020-04-21","Inmunoterapia","Vinorelbina",NULL,NULL
+"583557","2020-05-11","2020-07-03","Terapia oral dirigida","Gefitinib",NULL,NULL
+"583611","2019-05-21","2019-06-17","Quimioterapia-Radioterapia concomitante","Carboplatino","Vinorelbina",NULL
+"583611","2019-08-01","2019-10-25","Inmunoterapia","Durvalumab (MEDI4736)",NULL,NULL
+"585064","2013-12-30","2014-02-18","Quimioterapia neoadyuvante","Vinorelbina","Cisplatino",NULL
+"585241","2015-05-24","2015-07-16","Quimioterapia-Radioterapia secuencial","Carboplatino","Etopósido VP16",NULL
+"585439","2009-02-18","2009-04-22","Quimioterapia neoadyuvante","Cisplatino","Vinorelbina",NULL
+"585439","2017-05-16","2017-06-15","Quimioterapia-Radioterapia concomitante","Paclitaxel",NULL,NULL
+"586957","2019-08-21","2019-10-23","Quimioterapia intravenosa","Cisplatino","Pemetrexed",NULL
+"586957",NULL,NULL,"Quimioterapia intravenosa y oral","Otro",NULL,NULL
+"586957","2020-07-08","2020-12-02","Quimioterapia intravenosa y oral","Docetaxel","Nintedanib",NULL
+"588015","2016-01-12","2016-05-16","Quimioterapia intravenosa","Cisplatino","Pemetrexed",NULL
+"588015","2017-10-30","2017-11-27","Quimioterapia intravenosa","Carboplatino","Vinorelbina",NULL
+"589980","2018-04-03","2018-05-25","Quimioterapia neoadyuvante","Carboplatino","Vinorelbina",NULL
+"589980","2018-06-28","2018-08-02","Quimioterapia-Radioterapia concomitante","Paclitaxel",NULL,NULL
+"592078","2014-02-10","2014-03-31","Quimioterapia neoadyuvante","Cisplatino","Vinorelbina",NULL
+"592843","2017-07-20","2017-09-25","Quimioterapia intravenosa","Carboplatino","Paclitaxel",NULL
+"597847","2017-03-23","2017-05-17","Quimioterapia-Radioterapia concomitante","Carboplatino","Paclitaxel",NULL
+"603648","2018-07-15",NULL,"Quimioterapia intravenosa","Cisplatino","Pemetrexed",NULL
+"604442","2010-04-13","2010-06-21","Quimioterapia intravenosa","Cisplatino","Vinorelbina",NULL
+"604442","2011-09-22","2012-02-01","Quimioterapia adyuvante","Gemcitabina","Cisplatino","Necitumumab"
+"604442","2012-02-20","2012-03-27","Quimioterapia adyuvante","Docetaxel",NULL,NULL
+"604442","2012-05-22","2012-06-29","Terapia oral dirigida","Erlotinib",NULL,NULL
+"610781","2019-10-10","2020-01-07","Quimioterapia intravenosa y oral","Carboplatino","Etopósido VP16",NULL
+"610781","2020-07-16","2020-08-06","Quimioterapia intravenosa","Ciclofosfamida","Doxorrubicina","Vincristina"
+"610781","2020-08-28","2020-09-11","Quimioterapia intravenosa","Paclitaxel",NULL,NULL
+"611632","2020-04-14","2020-05-27","Quimioterapia neoadyuvante","Carboplatino","Vinorelbina",NULL
+"611632","2020-08-13","2020-08-27","Quimioterapia-Radioterapia secuencial","Carboplatino","Paclitaxel",NULL
+"611660","2015-03-11","2015-06-10","Quimioterapia-Radioterapia secuencial","Carboplatino","Etopósido VP16",NULL
+"611660","2015-12-15","2015-12-15","Quimioterapia oral","Temozolomida",NULL,NULL
+"611795","2016-02-16","2016-05-05","Quimioterapia intravenosa","Carboplatino","Vinorelbina",NULL
+"611795","2016-06-20","2016-07-20","Quimioterapia-Radioterapia concomitante","Vinorelbina",NULL,NULL
+"611795","2016-12-12","2017-07-27","Terapia oral dirigida","Afatinib",NULL,NULL
+"612028","2017-11-20","2017-12-22","Quimioterapia-Radioterapia adyuvante","Carboplatino","Paclitaxel",NULL
+"612028","2018-07-26","2018-10-08","Quimioterapia intravenosa","Carboplatino","Vinorelbina",NULL
+"615108","2010-10-20","2011-02-02","Quimioterapia neoadyuvante","Cisplatino","Vinorelbina",NULL
+"617144","2008-12-09","2009-03-03","Quimioterapia intravenosa y oral","Carboplatino","Etopósido VP16",NULL
+"619371","2019-10-15","2020-03-17","Inmunoterapia","Pembrolizumab",NULL,NULL
+"619371","2020-04-20","2020-06-23","Quimioterapia intravenosa","Carboplatino","Pemetrexed",NULL
+"621354","2017-10-26","2017-12-13","Quimioterapia-Radioterapia concomitante","Paclitaxel",NULL,NULL
+"621354","2018-10-24","2018-11-16","Quimioterapia intravenosa","Carboplatino","Pemetrexed",NULL
+"621354","2018-12-20","2019-05-06","Quimioterapia intravenosa","Docetaxel",NULL,NULL
+"622021","2010-08-30","2010-12-01","Quimioterapia neoadyuvante","Cisplatino","Vinorelbina",NULL
+"622021","2011-04-28","2011-06-14","Quimioterapia-Radioterapia concomitante","Paclitaxel",NULL,NULL
+"623804","2019-04-26","2019-07-19","Quimioterapia intravenosa","Cisplatino","Pemetrexed",NULL
+"623804","2020-08-21","2020-12-11","Quimioterapia intravenosa","Docetaxel",NULL,NULL
+"624455","2015-02-27","2015-02-27","Quimioterapia intravenosa","Carboplatino","Pemetrexed",NULL
+"626722","2012-02-09","2012-05-07","Quimioterapia adyuvante","Cisplatino","Vinorelbina",NULL
+"626920","2015-05-26","2015-07-15","Quimioterapia neoadyuvante","Cisplatino","Vinorelbina",NULL
+"626920","2015-09-16","2015-09-30","Quimioterapia-Radioterapia concomitante","Paclitaxel",NULL,NULL
+"628898","2017-01-18","2017-03-15","Quimioterapia neoadyuvante","Cisplatino","Vinorelbina",NULL
+"629458","2014-11-28","2015-04-22","Quimioterapia intravenosa y oral","Carboplatino","Etopósido VP16",NULL
+"629458","2015-07-29","2015-07-29","Quimioterapia intravenosa","Ciclofosfamida","Doxorrubicina","Vincristina"
+"629871","2019-07-30","2019-10-04","Quimioterapia intravenosa","Carboplatino","Pemetrexed",NULL
+"629871","2019-10-25","2020-01-27","Inmunoterapia","Nivolumab",NULL,NULL
+"632309","2010-12-02","2011-04-19","Quimioterapia neoadyuvante","Cisplatino","Vinorelbina",NULL
+"632309","2011-08-18","2011-12-01","Quimioterapia intravenosa","Pemetrexed",NULL,NULL
+"632309","2012-01-30","2012-06-21","Quimioterapia intravenosa","Carboplatino","Paclitaxel",NULL
+"633675","2014-10-06","2014-12-09","Quimioterapia intravenosa","Cisplatino","Pemetrexed",NULL
+"633675","2015-05-05","2015-10-06","Quimioterapia intravenosa","Docetaxel",NULL,NULL
+"633972","2015-01-19","2015-04-16","Quimioterapia intravenosa y oral","Carboplatino","Etopósido VP16",NULL
+"633972","2016-04-21","2016-08-30","Quimioterapia intravenosa y oral","Carboplatino","Etopósido VP16",NULL
+"633972","2017-05-25","2017-07-06","Quimioterapia intravenosa","Ciclofosfamida","Doxorrubicina","Vincristina"
+"634575","2017-08-08","2017-09-19","Quimioterapia intravenosa","Pemetrexed",NULL,NULL
+"635218","2009-10-21","2010-01-15","Quimioterapia-Radioterapia secuencial","Cisplatino","Vinorelbina",NULL
+"635218","2010-03-29","2010-05-20","Quimioterapia-Radioterapia concomitante","Paclitaxel",NULL,NULL
+"635218","2010-11-03","2010-12-20","Quimioterapia intravenosa","Docetaxel",NULL,NULL
+"635218","2010-12-20","2010-12-27","Quimioterapia intravenosa","Gemcitabina","Vinorelbina",NULL
+"638929","2011-11-24","2012-04-26","Quimioterapia-Radioterapia secuencial","Cisplatino","Gemcitabina",NULL
+"638929","2013-02-08","2013-09-16","Quimioterapia intravenosa","Docetaxel",NULL,NULL
+"638929","2014-02-19","2015-05-29","Terapia oral dirigida","Crizotinib",NULL,NULL
+"638929","2015-06-10","2017-01-30","Terapia oral dirigida","Ceritinib",NULL,NULL
+"639100","2011-08-15","2011-08-30","Quimioterapia neoadyuvante","Cisplatino","Vinorelbina",NULL
+"639100","2011-10-01","2011-11-14","Quimioterapia intravenosa","Carboplatino","Paclitaxel",NULL
+"640267","2019-03-01","2019-03-01","Quimioterapia intravenosa","Carboplatino","Etopósido VP16",NULL
+"640679","2017-12-21","2018-04-12","Quimioterapia intravenosa","Carboplatino","Paclitaxel",NULL
+"640679","2018-09-12","2018-09-12","Quimioterapia oral","Capecitabina",NULL,NULL
+"641490","2017-03-21","2017-05-16","Quimioterapia-Radioterapia neoadyuvante","Cisplatino","Vinorelbina",NULL
+"641490","2018-04-05","2019-01-16","Inmunoterapia","Daratumumab","Nivolumab",NULL
+"641490","2019-03-05","2019-03-26","Otros","Otro",NULL,NULL
+"643178","2019-05-17","2019-06-04","Terapia oral dirigida","Erlotinib",NULL,NULL
+"644771","2016-12-12","2017-02-20","Quimioterapia intravenosa","Carboplatino","Pemetrexed",NULL
+"644771","2017-04-12","2017-06-21","Quimioterapia intravenosa","Docetaxel","Nintedanib",NULL
+"645476","2009-08-19","2009-12-30","Quimioterapia intravenosa y oral","Carboplatino","Etopósido VP16",NULL
+"645962","2015-07-31","2015-10-08","Quimioterapia intravenosa","Vinorelbina",NULL,NULL
+"649148","2011-01-19","2011-05-11","Quimioterapia-Radioterapia secuencial","Cisplatino","Pemetrexed",NULL
+"650118","2015-06-08","2015-06-29","Quimioterapia intravenosa","Carboplatino","Paclitaxel",NULL
+"650875","2016-08-02","2018-07-24","Inmunoterapia","Nivolumab",NULL,NULL
+"650875","2019-05-14","2019-07-30","Quimioterapia intravenosa","Carboplatino","Pemetrexed",NULL
+"651078","2018-05-31","2018-09-03","Quimioterapia-Radioterapia adyuvante","Carboplatino","Etopósido VP16",NULL
+"651078","2019-02-05","2019-02-27","Quimioterapia intravenosa","Ciclofosfamida","Doxorrubicina","Vincristina"
+"651962","2017-04-21","2020-08-25","Quimioterapia adyuvante","Gefitinib",NULL,NULL
+"653504","2017-09-12","2017-11-06","Terapia oral dirigida","Afatinib",NULL,NULL
+"653504","2017-11-13","2017-11-13","Quimioterapia intravenosa","Carboplatino","Pemetrexed",NULL
+"653758","2009-08-17","2009-11-11","Quimioterapia intravenosa","Carboplatino","Etopósido VP16",NULL
+"656154","2014-06-12","2014-08-01","Quimioterapia neoadyuvante","Cisplatino","Vinorelbina",NULL
+"656154","2014-10-02","2014-11-06","Quimioterapia-Radioterapia concomitante","Carboplatino","Paclitaxel",NULL
+"656154","2015-09-11","2015-11-16","Quimioterapia-Radioterapia secuencial","Cisplatino","Pemetrexed",NULL
+"656154","2016-06-06","2016-08-08","Otros","Pembrolizumab","Abemaciclib",NULL
+"656154","2016-09-30","2016-09-30","Otros","Docetaxel","Nintedanib",NULL
+"657133","2015-09-17","2016-01-13","Quimioterapia intravenosa","Pemetrexed",NULL,NULL
+"657133","2016-02-03","2016-06-08","Quimioterapia intravenosa","Carboplatino","Paclitaxel",NULL
+"657312","2013-10-21","2014-01-21","Quimioterapia intravenosa + inmunoterapia","Carboplatino","Etopósido VP16","Ipilimumab"
+"657312","2014-04-21","2014-08-18","Quimioterapia intravenosa","Ciclofosfamida","Doxorrubicina","Vincristina"
+"657385","2017-01-05","2017-03-13","Quimioterapia intravenosa","Carboplatino","Pemetrexed",NULL
+"657886","2017-09-07","2017-11-23","Quimioterapia intravenosa","Carboplatino","Paclitaxel",NULL
+"658437","2017-11-22","2018-02-06","Quimioterapia intravenosa","Carboplatino","Paclitaxel",NULL
+"658437","2018-05-24","2020-03-04","Inmunoterapia","Nivolumab",NULL,NULL
+"658838","2019-02-08","2019-04-08","Quimioterapia intravenosa","Carboplatino","Etopósido VP16",NULL
+"660048","2020-09-04","2020-11-27","Quimioterapia intravenosa","Carboplatino","Etopósido VP16",NULL
+"660728","2020-02-28","2020-05-18","Quimioterapia intravenosa","Carboplatino","Etopósido VP16",NULL
+"660728","2020-11-11","2021-01-13","Quimioterapia intravenosa","Ciclofosfamida","Vincristina","Doxorrubicina"
+"660728","2021-03-16","2021-04-28","Quimioterapia intravenosa","Paclitaxel",NULL,NULL
+"664161","2009-12-16","2010-03-30","Quimioterapia intravenosa y oral","Carboplatino","Etopósido VP16",NULL
+"664662","2014-02-19","2014-02-19","Quimioterapia intravenosa","Carboplatino","Pemetrexed",NULL
+"664662","2014-03-27","2015-08-25","Terapia oral dirigida","Afatinib",NULL,NULL
+"668760","2014-02-24","2014-05-26","Quimioterapia intravenosa","Carboplatino","Etopósido VP16",NULL
+"668760","2014-12-11","2015-02-02","Quimioterapia intravenosa","Ciclofosfamida","Doxorrubicina","Vincristina"
+"669022","2015-09-03","2015-12-23","Quimioterapia intravenosa","Carboplatino","Pemetrexed",NULL
+"669022","2016-12-20","2017-02-09","Otros","Pembrolizumab","Abemaciclib",NULL
+"669022","2017-02-16","2017-04-20","Quimioterapia intravenosa","Paclitaxel",NULL,NULL
+"669022","2017-08-23","2017-10-13","Quimioterapia oral","Vinorelbina",NULL,NULL
+"669239","2018-07-31","2018-09-18","Quimioterapia intravenosa y oral","Cisplatino","Vinorelbina",NULL
+"669239","2018-11-14","2019-01-09","Quimioterapia-Radioterapia secuencial","Carboplatino","Paclitaxel",NULL
+"669239","2019-09-18","2019-12-11","Quimioterapia intravenosa","Carboplatino","Gemcitabina",NULL
+"669239","2020-04-24","2020-09-02","Inmunoterapia","Nivolumab",NULL,NULL
+"674415","2011-12-16","2012-01-09","Quimioterapia intravenosa","Cisplatino","Docetaxel",NULL
+"677083","2017-05-18","2017-07-20","Quimioterapia intravenosa + inmunoterapia","Nivolumab","Cisplatino",NULL
+"677083","2018-06-18","2018-08-31","Quimioterapia intravenosa","Carboplatino","Paclitaxel",NULL
+"680883","2010-01-08","2010-03-12","Quimioterapia adyuvante","Cisplatino","Vinorelbina",NULL
+"681164","2018-10-08","2019-08-21","Quimioterapia adyuvante","Nivolumab",NULL,NULL
+"681382","2012-02-27","2012-04-11","Quimioterapia neoadyuvante","Cisplatino","Vinorelbina",NULL
+"685807","2012-09-11","2014-04-14","Terapia oral dirigida","Erlotinib",NULL,NULL
+"685807","2014-04-24","2015-05-29","Quimioterapia intravenosa y oral","Carboplatino","Pemetrexed","Erlotinib"
+"685807","2016-02-01","2016-10-26","Terapia oral dirigida","Afatinib",NULL,NULL
+"685807","2016-12-05",NULL,"Terapia oral dirigida","Osimertinib",NULL,NULL
+"688571","2014-11-11","2015-02-04","Quimioterapia intravenosa y oral","Carboplatino","Etopósido VP16",NULL
+"688571","2016-04-15","2016-07-08","Quimioterapia intravenosa y oral","Carboplatino","Etopósido VP16",NULL
+"690087","2018-10-10","2018-12-12","Quimioterapia intravenosa","Carboplatino","Paclitaxel",NULL
+"691319","2008-08-27","2009-01-19","Quimioterapia intravenosa y oral","Cisplatino","Vinorelbina",NULL
+"691319","2009-03-31","2009-05-12","Quimioterapia-Radioterapia concomitante","Paclitaxel",NULL,NULL
+"691319","2009-07-28","2009-08-18","Quimioterapia intravenosa","Irvalec",NULL,NULL
+"691424","2018-05-11","2018-09-03","Quimioterapia intravenosa","Carboplatino","Etopósido VP16","Veliparib(ABT-888)"
+"691424","2019-02-12","2019-05-16","Quimioterapia intravenosa","Carboplatino","Etopósido VP16",NULL
+"692569","2018-07-17","2018-08-07","Quimioterapia intravenosa","Carboplatino","Paclitaxel",NULL
+"692569","2018-09-04","2018-09-18","Quimioterapia intravenosa","Carboplatino","Paclitaxel",NULL
+"693982","2013-12-20","2014-04-08","Quimioterapia intravenosa","Cisplatino","Pemetrexed",NULL
+"694025","2012-06-27","2012-11-08","Quimioterapia intravenosa y oral","Carboplatino","Etopósido VP16",NULL
+"694025","2013-04-16","2013-08-06","Quimioterapia intravenosa","Ciclofosfamida","Doxorrubicina","Vincristina"
+"695569","2018-10-16","2018-11-13","Quimioterapia intravenosa","Carboplatino","Etopósido VP16",NULL
+"699176","2010-09-06","2010-11-15","Quimioterapia adyuvante","Cisplatino","Docetaxel",NULL
+"703425","2015-03-04","2015-05-05","Quimioterapia intravenosa","Carboplatino","Pemetrexed",NULL
+"703425","2016-04-11","2016-04-11","Quimioterapia-Radioterapia concomitante","Paclitaxel",NULL,NULL
+"710307","2015-06-22","2015-08-12","Quimioterapia intravenosa","Carboplatino","Vinorelbina",NULL
+"710307","2015-09-30","2015-11-17","Quimioterapia-Radioterapia concomitante","Paclitaxel",NULL,NULL
+"713046","2015-12-10","2016-01-19","Quimioterapia-Radioterapia concomitante","Carboplatino","Paclitaxel",NULL
+"715635","2009-04-28","2009-09-23","Quimioterapia intravenosa y oral","Carboplatino","Etopósido VP16",NULL
+"715635","2009-12-21","2010-01-12","Quimioterapia intravenosa","Ciclofosfamida","Doxorrubicina","Vincristina"
+"717117","2015-11-04","2016-02-16","Quimioterapia neoadyuvante","Carboplatino","Vinorelbina",NULL
+"717117","2016-04-27","2016-05-10","Quimioterapia-Radioterapia concomitante","Paclitaxel",NULL,NULL
+"718157","2018-08-17","2018-09-25","Quimioterapia-Radioterapia concomitante","Vinorelbina",NULL,NULL
+"718157","2018-11-19","2018-12-10","Quimioterapia intravenosa","Carboplatino","Paclitaxel",NULL
+"720757","2011-02-11","2011-04-05","Quimioterapia intravenosa y oral","Carboplatino","Etopósido VP16",NULL
+"722493","2010-07-23","2010-10-15","Quimioterapia neoadyuvante","Cisplatino","Vinorelbina",NULL
+"723676","2010-05-27","2010-07-09","Quimioterapia-Radioterapia concomitante","Paclitaxel",NULL,NULL
+"723676","2012-06-27","2012-09-10","Quimioterapia intravenosa","Carboplatino","Pemetrexed",NULL
+"723676","2015-09-03","2017-04-19","Terapia oral dirigida","Crizotinib",NULL,NULL
+"723676","2018-05-25","2018-07-10","Terapia oral dirigida","Alectinib",NULL,NULL
+"723867","2019-05-08","2019-06-14","Inmunoterapia","Pembrolizumab",NULL,NULL
+"733571","2019-10-07","2019-10-28","Quimioterapia intravenosa","Carboplatino","Pemetrexed",NULL
+"736976","2012-08-31","2012-12-10","Quimioterapia-Radioterapia secuencial","Carboplatino","Paclitaxel","Bevacizumab"
+"736976","2016-02-29","2016-04-04","Quimioterapia intravenosa","Paclitaxel",NULL,NULL
+"736976","2017-03-15","2017-04-12","Quimioterapia intravenosa","Vinorelbina",NULL,NULL
+"738069","2017-04-27","2017-06-22","Quimioterapia intravenosa","Cisplatino","Vinorelbina",NULL
+"738069","2017-08-08","2017-09-20","Quimioterapia-Radioterapia concomitante","Paclitaxel",NULL,NULL
+"741366","2021-01-25","2021-01-25","Inmunoterapia","Pembrolizumab",NULL,NULL
+"742159","2015-04-03","2015-06-29","Quimioterapia intravenosa y oral","Carboplatino","Etopósido VP16",NULL
+"742684","2015-10-23","2016-04-11","Terapia oral dirigida","Gefitinib","Olaparib",NULL
+"743197","2019-06-24","2019-08-14","Quimioterapia neoadyuvante","Carboplatino","Vinorelbina",NULL
+"743197","2019-11-19","2020-01-02","Quimioterapia-Radioterapia concomitante","Vinorelbina",NULL,NULL
+"743197","2020-06-25",NULL,"Quimioterapia intravenosa + inmunoterapia","Carboplatino","Paclitaxel","Pembrolizumab"
+"745145","2007-09-27","2007-12-18","Quimioterapia intravenosa","Carboplatino","Pemetrexed",NULL
+"745145","2008-10-08","2008-10-08","Quimioterapia intravenosa","Ciclofosfamida","Doxorrubicina","Vincristina"
+"745216","2010-09-06","2010-12-15","Quimioterapia-Radioterapia concomitante","Cisplatino","Pemetrexed",NULL
+"747265","2008-08-04","2009-01-05","Quimioterapia neoadyuvante","Cisplatino","Vinorelbina",NULL
+"747265","2009-07-15","2009-12-15","Quimioterapia intravenosa","Pemetrexed",NULL,NULL
+"747265","2010-01-26","2010-01-26","Quimioterapia oral","Erlotinib",NULL,NULL
+"748050","2009-09-11","2009-11-17","Quimioterapia-Radioterapia secuencial","Cisplatino","Docetaxel",NULL
+"748050","2010-01-04","2010-01-29","Quimioterapia-Radioterapia secuencial","Paclitaxel",NULL,NULL
+"748050","2011-07-08","2011-10-07","Quimioterapia intravenosa","Carboplatino","Vinorelbina",NULL
+"751089","2016-12-28","2017-02-28","Quimioterapia intravenosa","Cisplatino","Pemetrexed",NULL
+"751089","2017-06-15","2017-10-25","Quimioterapia intravenosa y oral","Docetaxel","Nintedanib",NULL
+"751089","2018-04-23","2018-04-30","Inmunoterapia","Daratumumab",NULL,NULL
+"754920","2010-07-20","2010-10-14","Quimioterapia-Radioterapia secuencial","Carboplatino","Paclitaxel",NULL
+"755947","2020-03-20","2020-04-28","Quimioterapia intravenosa","Cisplatino","Vinorelbina",NULL
+"755947","2020-05-25","2020-07-01","Quimioterapia-Radioterapia concomitante","Carboplatino","Paclitaxel",NULL
+"760472","2019-05-22","2019-06-16","Quimioterapia adyuvante","Carboplatino","Vinorelbina",NULL
+"760472","2019-10-09","2019-11-20","Inmunoterapia","Nivolumab",NULL,NULL
+"760519","2015-04-07","2015-07-07","Quimioterapia intravenosa","Cisplatino","Pemetrexed",NULL
+"760519","2015-09-08","2015-10-20","Quimioterapia intravenosa","Docetaxel",NULL,NULL
+"761638","2014-02-26","2014-04-09","Quimioterapia intravenosa","Carboplatino","Etopósido VP16",NULL
+"762541","2009-09-16","2010-02-02","Quimioterapia intravenosa y oral","Carboplatino","Etopósido VP16",NULL
+"762541","2010-04-12","2010-06-07","Quimioterapia intravenosa","Topotecan",NULL,NULL
+"762541","2010-07-05","2010-07-23","Quimioterapia intravenosa","Ciclofosfamida","Doxorrubicina","Vincristina"
+"763686","2014-04-03","2014-07-28","Quimioterapia intravenosa","Carboplatino","Etopósido VP16",NULL
+"767252","2013-01-15","2013-04-08","Otros","Carboplatino","Etopósido VP16",NULL
+"768405","2019-04-16","2019-07-03","Quimioterapia intravenosa","Carboplatino","Gemcitabina",NULL
+"768405","2019-08-09","2019-09-18","Inmunoterapia","Nivolumab",NULL,NULL
+"769484","2016-06-13","2016-06-13","Quimioterapia intravenosa y oral","Carboplatino","Etopósido VP16",NULL
+"770093","2009-04-22","2009-06-03","Quimioterapia-Radioterapia concomitante","Paclitaxel",NULL,NULL
+"770093","2010-11-29","2011-02-10","Quimioterapia intravenosa","Carboplatino","Vinorelbina",NULL
+"771040","2011-03-31","2011-05-30","Quimioterapia neoadyuvante","Cisplatino","Vinorelbina",NULL
+"775795","2013-05-24","2013-10-07","Quimioterapia intravenosa y oral","Carboplatino","Etopósido VP16",NULL
+"775795","2014-02-14","2014-03-14","Quimioterapia intravenosa","Topotecan",NULL,NULL
+"778436","2011-12-20","2012-01-10","Quimioterapia adyuvante","Cisplatino","Vinorelbina",NULL
+"778587","2012-08-17","2012-10-05","Quimioterapia neoadyuvante","Cisplatino","Vinorelbina",NULL
+"778587","2013-02-18","2013-04-10","Quimioterapia adyuvante","Cisplatino","Vinorelbina",NULL
+"778587","2013-06-03","2013-07-15","Quimioterapia intravenosa","Carboplatino","Paclitaxel",NULL
+"778587","2020-05-11","2020-06-25","Quimioterapia intravenosa","Cisplatino","Vinorelbina",NULL
+"788531","2019-12-02","2020-01-28","Quimioterapia neoadyuvante","Carboplatino","Vinorelbina",NULL
+"788531","2020-04-06","2020-04-27","Quimioterapia-Radioterapia concomitante","Carboplatino","Paclitaxel",NULL
+"789732","2015-11-18","2018-05-01","Terapia oral dirigida","Afatinib",NULL,NULL
+"789732","2018-05-09","2018-07-06","Quimioterapia intravenosa","Carboplatino","Etopósido VP16",NULL
+"789732","2018-11-07","2019-02-01","Terapia oral dirigida","Osimertinib",NULL,NULL
+"789732","2019-02-05","2019-05-06","Quimioterapia intravenosa y oral","Carboplatino","Gefitinib",NULL
+"789732","2019-08-21","2019-11-05","Quimioterapia intravenosa","Ciclofosfamida","Vincristina","Otro"
+"789732","2019-12-20","2020-02-05","Terapia oral dirigida","Erlotinib",NULL,NULL
+"789732","2020-03-06","2020-05-11","Quimioterapia intravenosa","Paclitaxel",NULL,NULL
+"789732","2020-06-19","2020-08-21","Quimioterapia intravenosa","Pemetrexed",NULL,NULL
+"789831","2020-03-09","2020-05-18","Quimioterapia intravenosa","Carboplatino","Etopósido VP16",NULL
+"789831","2020-06-26","2020-08-28","Quimioterapia intravenosa","Ciclofosfamida","Vincristina","Doxorrubicina"
+"790159","2019-02-11","2019-02-11","Inmunoterapia","Pembrolizumab","Otro",NULL
+"790581","2015-07-01","2015-09-22","Quimioterapia-Radioterapia secuencial","Carboplatino","Paclitaxel",NULL
+"790802","2015-06-22","2015-08-24","Quimioterapia intravenosa","Cisplatino","Pemetrexed",NULL
+"790802","2016-04-15","2016-06-22","Quimioterapia intravenosa","Paclitaxel",NULL,NULL
+"792174","2018-01-09","2018-03-22","Quimioterapia intravenosa","Carboplatino","Vinorelbina",NULL
+"792174","2018-08-10","2019-01-08","Inmunoterapia","Nivolumab",NULL,NULL
+"792708","2017-07-18","2018-11-14","Terapia oral dirigida","Afatinib",NULL,NULL
+"792708","2018-11-15","2019-03-22","Otros","Osimertinib","Bevacizumab",NULL
+"792708","2019-04-03","2019-06-05","Quimioterapia intravenosa","Carboplatino","Pemetrexed",NULL
+"792708","2019-09-04","2019-09-18","Terapia oral dirigida","Erlotinib",NULL,NULL
+"792708","2019-10-09","2020-03-11","Quimioterapia intravenosa","Docetaxel",NULL,NULL
+"794408","2018-01-16","2018-04-27","Quimioterapia intravenosa","Carboplatino","Etopósido VP16",NULL
+"794408","2019-01-17","2019-02-27","Quimioterapia intravenosa","Paclitaxel",NULL,NULL
+"796093","2018-12-11","2019-02-15","Quimioterapia intravenosa","Carboplatino","Pemetrexed",NULL
+"796209","2009-05-29","2009-08-14","Quimioterapia adyuvante","Cisplatino","Vinorelbina",NULL
+"796209","2009-11-18","2009-12-30","Quimioterapia-Radioterapia adyuvante","Paclitaxel",NULL,NULL
+"796209","2010-05-13","2010-05-13","Quimioterapia intravenosa","Docetaxel",NULL,NULL
+"797841","2019-02-01","2019-03-18","Quimioterapia intravenosa + inmunoterapia","Carboplatino","Pemetrexed","Pembrolizumab"
+"807260","2009-10-16","2010-03-01","Quimioterapia neoadyuvante","Cisplatino","Vinorelbina",NULL
+"807260","2010-06-08","2010-06-22","Quimioterapia-Radioterapia secuencial","Paclitaxel",NULL,NULL
+"807499","2016-07-18","2016-08-29","Quimioterapia neoadyuvante","Carboplatino","Paclitaxel",NULL
+"809972","2016-10-24","2016-12-28","Quimioterapia intravenosa","Carboplatino","Paclitaxel",NULL
+"810098","2016-07-07","2016-10-20","Quimioterapia-Radioterapia concomitante","Carboplatino","Pemetrexed",NULL
+"810098","2017-11-27","2018-02-12","Quimioterapia adyuvante","Carboplatino","Pemetrexed",NULL
+"810098","2018-08-15","2018-09-15","Inmunoterapia","Atezolizumab","Otro",NULL
+"810098","2020-05-08","2020-07-17","Quimioterapia intravenosa","Vinorelbina",NULL,NULL
+"816028","2018-01-09","2018-03-22","Quimioterapia intravenosa","Carboplatino","Paclitaxel",NULL
+"816028","2019-01-08","2019-03-11","Quimioterapia intravenosa","Pemetrexed",NULL,NULL
+"816388","2018-06-28","2018-09-19","Quimioterapia intravenosa","Carboplatino","Etopósido VP16",NULL
+"816388","2018-10-17","2018-11-28","Quimioterapia intravenosa","Ciclofosfamida","Doxorrubicina","Vincristina"
+"816388","2018-12-19","2018-12-19","Quimioterapia intravenosa","Paclitaxel",NULL,NULL
+"822498","2019-02-04","2019-04-08","Quimioterapia intravenosa + inmunoterapia","Carboplatino","Pemetrexed","Pembrolizumab"
+"822498","2019-08-20","2020-02-26","Quimioterapia intravenosa","Docetaxel","Otro",NULL
+"822498","2020-07-17","2020-09-25","Quimioterapia intravenosa","Vinorelbina",NULL,NULL
+"827138","2019-01-25","2020-07-06","Terapia oral dirigida","Afatinib",NULL,NULL
+"827138","2020-07-14","2020-11-10","Terapia oral dirigida","Osimertinib",NULL,NULL
+"827306","2017-09-05","2017-11-13","Quimioterapia intravenosa","Carboplatino","Vinorelbina",NULL
+"827306","2018-03-21","2018-03-21","Quimioterapia intravenosa","Paclitaxel",NULL,NULL
+"828501","2015-09-03","2015-10-28","Quimioterapia intravenosa y oral","Carboplatino","Etopósido VP16",NULL
+"829640","2019-04-17","2019-07-17","Inmunoterapia","Pembrolizumab",NULL,NULL
+"829640","2019-10-11","2019-12-23","Quimioterapia intravenosa","Carboplatino","Pemetrexed",NULL
+"829640","2020-01-10","2020-01-10","Quimioterapia intravenosa","Docetaxel",NULL,NULL
+"835631","2019-09-13","2019-12-05","Quimioterapia adyuvante","Carboplatino","Vinorelbina",NULL
+"839359","2010-04-19","2010-05-31","Quimioterapia-Radioterapia secuencial","Cisplatino","Pemetrexed",NULL
+"839359","2011-03-22","2011-07-07","Quimioterapia-Radioterapia secuencial","Carboplatino","Paclitaxel",NULL
+"844180","2017-05-29","2017-07-20","Terapia oral dirigida","Erlotinib",NULL,NULL
+"847693","2018-06-25","2018-07-23","Quimioterapia-Radioterapia concomitante","Carboplatino","Paclitaxel",NULL
+"849240","2016-07-04","2016-09-26","Quimioterapia intravenosa y oral","Carboplatino","Etopósido VP16",NULL
+"854918","2019-05-31","2019-07-21","Quimioterapia neoadyuvante","Cisplatino","Vinorelbina",NULL
+"855559","2020-06-05","2020-08-19","Quimioterapia intravenosa y oral","Carboplatino","Vinorelbina",NULL
+"859229","2016-02-23","2016-05-10","Quimioterapia adyuvante","Carboplatino","Vinorelbina",NULL
+"860148","2017-05-19","2017-10-16","Quimioterapia intravenosa y oral","Carboplatino","Etopósido VP16",NULL
+"860148","2017-11-16","2017-12-11","Quimioterapia intravenosa","Ciclofosfamida","Doxorrubicina","Vincristina"
+"864229","2010-10-27","2011-03-15","Quimioterapia intravenosa y oral","Carboplatino","Etopósido VP16",NULL
+"865317","2015-06-15","2015-08-17","Quimioterapia intravenosa","Cisplatino","Pemetrexed",NULL
+"865317","2015-09-07","2015-12-28","Quimioterapia intravenosa","Pemetrexed",NULL,NULL
+"865317","2016-02-05","2016-03-21","Quimioterapia intravenosa","Docetaxel",NULL,NULL
+"865317","2016-04-28","2018-02-19","Inmunoterapia","Nivolumab",NULL,NULL
+"873288","2019-05-22","2019-07-24","Quimioterapia adyuvante","Carboplatino","Vinorelbina",NULL
+"874541","2008-12-16","2009-03-06","Quimioterapia adyuvante","Cisplatino","Vinorelbina",NULL
+"874541","2011-03-16","2015-10-01","Terapia oral dirigida","Gefitinib",NULL,NULL
+"874541","2016-03-31","2016-07-28","Terapia oral dirigida","Afatinib",NULL,NULL
+"874541","2016-09-16","2016-11-24","Quimioterapia intravenosa","Carboplatino","Pemetrexed",NULL
+"874541","2019-08-27","2020-12-15","Terapia oral dirigida","Osimertinib",NULL,NULL
+"876727","2015-10-16","2015-12-21","Quimioterapia intravenosa","Cisplatino","Pemetrexed",NULL
+"876727","2019-05-13","2020-12-25","Terapia oral dirigida","Crizotinib",NULL,NULL
+"879754","2018-05-24","2018-07-05","Quimioterapia intravenosa","Irinotecan",NULL,NULL
+"890921","2019-06-13","2020-11-27","Terapia oral dirigida","Afatinib",NULL,NULL
+"891676","2010-12-01","2011-02-02","Quimioterapia neoadyuvante","Cisplatino","Vinorelbina",NULL
+"891676","2011-03-15","2011-04-29","Quimioterapia-Radioterapia concomitante","Paclitaxel",NULL,NULL
+"891676","2011-07-15","2011-10-28","Quimioterapia intravenosa","Paclitaxel",NULL,NULL
+"900810","2016-11-11","2017-04-03","Quimioterapia intravenosa y oral","Carboplatino","Etopósido VP16",NULL
+"900810","2017-05-03","2017-05-03","Quimioterapia intravenosa","Irinotecan",NULL,NULL
+"906818","2018-07-27","2018-10-05","Quimioterapia-Radioterapia secuencial","Carboplatino","Pemetrexed",NULL
+"908086","2019-03-04","2019-04-22","Quimioterapia neoadyuvante","Cisplatino","Vinorelbina",NULL
+"916631","2020-01-21","2020-03-31","Quimioterapia intravenosa","Carboplatino","Vinorelbina",NULL
+"921965","2020-09-23","2020-10-28","Inmunoterapia","Atezolizumab","Bevacizumab",NULL
+"922418","2010-06-25","2010-12-06","Quimioterapia neoadyuvante","Gefitinib",NULL,NULL
+"922418","2010-12-17","2010-12-17","Quimioterapia intravenosa","Pemetrexed",NULL,NULL
+"925384","2008-08-15","2008-10-15","Quimioterapia neoadyuvante","Carboplatino","Vinorelbina",NULL
+"925591","2011-04-29","2011-06-07","Quimioterapia adyuvante","Cisplatino","Vinorelbina",NULL
+"925591","2011-06-07","2011-08-01","Quimioterapia adyuvante","Carboplatino","Gemcitabina",NULL
+"925591","2012-02-06","2012-04-30","Quimioterapia intravenosa","Docetaxel",NULL,NULL
+"927172","2018-07-04","2018-08-08","Quimioterapia-Radioterapia concomitante","Vinorelbina",NULL,NULL
+"930142","2008-06-22","2008-09-15","Quimioterapia neoadyuvante","Carboplatino","Docetaxel",NULL
+"930142","2009-06-22","2009-08-03","Terapia Hormonal","Irvalec",NULL,NULL
+"930142","2009-10-22","2009-10-22","Quimioterapia intravenosa","Capecitabina",NULL,NULL
+"931102","2017-04-19","2017-06-08","Quimioterapia intravenosa","Carboplatino","Vinorelbina",NULL
+"940836",NULL,NULL,"Quimioterapia neoadyuvante","Cisplatino","Vinorelbina",NULL
+"940836",NULL,NULL,"Quimioterapia-Radioterapia concomitante","Carboplatino","Paclitaxel",NULL
+"941362","2011-03-09","2011-03-09","Quimioterapia intravenosa","Pemetrexed",NULL,NULL
+"942943","2013-10-21","2013-12-23","Quimioterapia neoadyuvante","Cisplatino","Pemetrexed",NULL
+"942943","2014-03-25","2014-04-29","Quimioterapia-Radioterapia secuencial","Paclitaxel",NULL,NULL
+"946447","2018-11-23","2020-10-28","Quimioterapia intravenosa + inmunoterapia","Pembrolizumab",NULL,NULL
+"949891","2010-03-22","2010-06-15","Quimioterapia-Radioterapia secuencial","Carboplatino","Paclitaxel",NULL
+"949891","2010-07-11","2010-08-08","Quimioterapia adyuvante","Carboplatino","Paclitaxel",NULL
+"949891","2011-09-20","2014-01-10","Terapia oral dirigida","Gefitinib",NULL,NULL
+"951181","2019-12-02","2019-12-10","Quimioterapia intravenosa","Carboplatino","Vinorelbina",NULL
+"956825","2020-02-07",NULL,"Terapia oral dirigida","Osimertinib",NULL,NULL
+"957942","2009-08-31","2009-10-14","Quimioterapia-Radioterapia concomitante","Carboplatino","Paclitaxel",NULL
+"966018","2016-03-08","2016-05-04","Quimioterapia intravenosa y oral","Carboplatino","Etopósido VP16",NULL
+"978801","2012-01-17","2012-03-06","Quimioterapia neoadyuvante","Cisplatino","Vinorelbina",NULL
+"983939","2010-11-23","2011-04-18","Quimioterapia intravenosa y oral","Carboplatino","Etopósido VP16",NULL
+"989249","2016-07-14","2016-08-01","Quimioterapia intravenosa","Carboplatino","Pemetrexed",NULL
+"989249","2016-08-29","2016-10-31","Quimioterapia intravenosa","Docetaxel",NULL,NULL
+"989268","2019-06-26","2019-09-11","Quimioterapia intravenosa","Carboplatino","Vinorelbina",NULL
+"990466","2019-09-18","2019-11-20","Quimioterapia intravenosa","Carboplatino","Pemetrexed",NULL
+"994263","2016-11-14","2017-01-12","Quimioterapia intravenosa","Carboplatino","Pemetrexed",NULL
+"998317","2015-01-19","2015-06-08","Terapia oral dirigida","Erlotinib",NULL,NULL
+"1003706","2017-05-03","2017-06-14","Quimioterapia intravenosa","Cisplatino","Pemetrexed",NULL
+"1003706","2017-07-10","2017-07-10","Quimioterapia intravenosa y oral","Docetaxel","Nintedanib",NULL
+"1005679","2018-09-07","2018-11-08","Quimioterapia intravenosa","Cisplatino","Pemetrexed",NULL
+"1005679","2018-12-21","2019-02-20","Inmunoterapia","Nivolumab",NULL,NULL
+"1013426","2014-04-11","2015-02-16","Terapia oral dirigida","Erlotinib",NULL,NULL
+"1015121","2015-08-24","2015-10-09","Quimioterapia intravenosa","Cisplatino","Pemetrexed",NULL
+"1015121","2015-11-18","2016-01-22","Quimioterapia intravenosa","Docetaxel",NULL,NULL
+"1015121","2016-08-19","2016-09-02","Inmunoterapia","Nivolumab",NULL,NULL
+"1019115","2015-05-18","2015-07-06","Quimioterapia intravenosa","Cisplatino","Pemetrexed",NULL
+"1019115","2015-10-03","2015-12-16","Terapia oral dirigida","Crizotinib",NULL,NULL
+"1019115","2016-01-11","2016-02-08","Terapia oral dirigida","Ceritinib",NULL,NULL
+"1022636","2013-10-04","2013-11-26","Quimioterapia neoadyuvante","Cisplatino","Vinorelbina",NULL
+"1022636","2014-01-27","2014-02-17","Quimioterapia adyuvante","Cisplatino","Vinorelbina",NULL
+"1022636","2017-02-21","2019-02-13","Inmunoterapia","Nivolumab","Ipilimumab",NULL
+"1022636","2020-11-30","2021-02-01","Quimioterapia intravenosa","Carboplatino","Pemetrexed",NULL
+"1022857","2015-03-04",NULL,"Quimioterapia intravenosa","Cisplatino",NULL,NULL
+"1026200","2017-11-14","2017-12-26","Quimioterapia intravenosa + inmunoterapia","Carboplatino","Paclitaxel","Nivolumab"
+"1026640","2020-10-27","2020-12-23","Quimioterapia neoadyuvante","Carboplatino","Vinorelbina",NULL
+"1026913","2020-08-18","2020-10-20","Quimioterapia neoadyuvante","Carboplatino","Vinorelbina",NULL
+"1026913","2020-11-30","2021-01-07","Quimioterapia-Radioterapia concomitante","Carboplatino","Paclitaxel",NULL
+"1032340","2009-04-28","2009-06-29","Quimioterapia neoadyuvante","Carboplatino","Paclitaxel",NULL
+"1032340","2011-02-22","2011-08-16","Quimioterapia intravenosa","Cisplatino","Necitumumab","Gemcitabina"
+"1032340","2011-11-03","2011-12-07","Quimioterapia oral","Vinorelbina",NULL,NULL
+"1035873","2018-05-18","2018-09-10","Quimioterapia intravenosa","Carboplatino","Etopósido VP16",NULL
+"1036396","2019-10-14","2020-01-08","Quimioterapia intravenosa","Carboplatino","Etopósido VP16",NULL
+"1038177","2020-09-28","2020-10-19","Inmunoterapia","Pembrolizumab",NULL,NULL
+"1040515","2017-09-26","2017-11-15","Quimioterapia neoadyuvante","Vinorelbina","Carboplatino",NULL
+"1040515","2018-01-08","2018-02-12","Quimioterapia-Radioterapia concomitante","Paclitaxel",NULL,NULL
+"1040515","2018-08-06","2018-12-04","Inmunoterapia","Nivolumab",NULL,NULL
+"1040515","2019-01-21","2019-04-29","Quimioterapia intravenosa","Gemcitabina","Otro",NULL
+"1040558","2015-10-22","2015-10-22","Quimioterapia intravenosa","Cisplatino","Vinorelbina",NULL
+"1041507","2016-04-29","2016-09-20","Quimioterapia intravenosa y oral","Carboplatino","Etopósido VP16",NULL
+"1041507","2017-05-10","2017-06-22","Quimioterapia intravenosa","Ciclofosfamida","Doxorrubicina","Vincristina"
+"1042531","2016-10-06","2017-01-24","Quimioterapia neoadyuvante","Cisplatino","Vinorelbina",NULL
+"1042531","2017-02-21","2017-04-05","Quimioterapia-Radioterapia concomitante","Carboplatino","Paclitaxel",NULL
+"1042707","2020-02-21","2020-04-28","Quimioterapia intravenosa","Carboplatino","Vinorelbina",NULL
+"1042707","2020-05-21","2020-06-17","Quimioterapia-Radioterapia concomitante","Carboplatino","Paclitaxel",NULL
+"1042774","2014-03-15","2014-06-26","Quimioterapia intravenosa","Carboplatino","Paclitaxel",NULL
+"1042774","2014-12-22","2016-01-11","Terapia oral dirigida","Erlotinib",NULL,NULL
+"1042774","2016-01-29","2016-04-12","Terapia oral dirigida","Afatinib",NULL,NULL
+"1042774","2016-06-02","2017-02-10","Terapia oral dirigida","Osimertinib",NULL,NULL
+"1042774","2017-02-17","2017-02-17","Quimioterapia intravenosa","Pemetrexed",NULL,NULL
+"1043365","2019-04-12","2021-01-13","Terapia oral dirigida","Alectinib",NULL,NULL
+"1045689","2020-01-15","2020-03-11","Quimioterapia adyuvante","Carboplatino","Vinorelbina",NULL
+"1045689","2020-06-11","2020-07-17","Quimioterapia-Radioterapia concomitante","Paclitaxel",NULL,NULL
+"1045694","2017-01-11","2017-03-17","Quimioterapia intravenosa","Cisplatino","Pemetrexed",NULL
+"1045694","2017-08-28","2018-01-02","Quimioterapia intravenosa","Docetaxel",NULL,NULL
+"1045694","2018-07-02","2020-07-20","Inmunoterapia","Nivolumab",NULL,NULL
+"1046223","2020-07-21","2020-07-21","Quimioterapia intravenosa","Carboplatino","Pemetrexed",NULL
+"1046379","2019-02-18","2019-04-22","Quimioterapia intravenosa","Carboplatino","Vinorelbina",NULL
+"1046379","2019-06-17","2019-07-22","Quimioterapia-Radioterapia concomitante","Paclitaxel",NULL,NULL
+"1046379","2019-12-30","2020-05-05","Inmunoterapia","Nivolumab",NULL,NULL
+"1046379","2020-05-19","2020-07-07","Quimioterapia intravenosa","Carboplatino","Gemcitabina",NULL
+"1046379","2020-10-20","2021-01-26","Quimioterapia intravenosa","Paclitaxel",NULL,NULL
+"1046791","2018-05-03","2018-07-26","Quimioterapia-Radioterapia secuencial","Carboplatino","Etopósido VP16",NULL
+"1047519","2014-12-26","2015-04-01","Quimioterapia adyuvante","Carboplatino","Etopósido VP16",NULL
+"1047519","2015-10-21","2016-01-26","Quimioterapia intravenosa y oral","Carboplatino","Etopósido VP16",NULL
+"1047549","2019-12-05","2020-01-16","Quimioterapia-Radioterapia concomitante","Vinorelbina",NULL,NULL
+"1049197","2020-02-04","2020-03-24","Quimioterapia neoadyuvante","Carboplatino","Vinorelbina",NULL
+"1049197","2020-05-27","2020-06-24","Quimioterapia-Radioterapia concomitante","Carboplatino","Paclitaxel",NULL
+"1050654","2019-01-17","2019-04-08","Quimioterapia intravenosa","Carboplatino","Vinorelbina",NULL
+"1051456","2015-02-13","2015-05-27","Quimioterapia intravenosa","Cisplatino","Pemetrexed",NULL
+"1053956","2015-06-17","2015-07-15","Quimioterapia intravenosa y oral","Carboplatino","Etopósido VP16",NULL
+"1057310","2017-06-01","2017-08-03","Quimioterapia intravenosa + inmunoterapia","Nivolumab","Cisplatino","Pemetrexed"
+"1058275","2010-10-19","2010-11-30","Quimioterapia neoadyuvante","Cisplatino","Vinorelbina",NULL
+"1058275","2011-02-21","2011-04-04","Quimioterapia-Radioterapia concomitante","Paclitaxel",NULL,NULL
+"1058275","2011-09-26","2011-10-18","Quimioterapia intravenosa","Docetaxel",NULL,NULL
+"1060770","2017-08-16","2017-11-08","Quimioterapia intravenosa y oral","Carboplatino","Etopósido VP16",NULL
+"1060770","2018-09-01",NULL,"Quimioterapia intravenosa","Carboplatino","Etopósido VP16",NULL
+"1066353","2010-09-08","2011-03-28","Quimioterapia intravenosa","Carboplatino","Etopósido VP16",NULL
+"1066353","2011-10-12","2011-11-10","Quimioterapia intravenosa","Topotecan",NULL,NULL
+"1066353","2011-11-21","2011-11-21","Quimioterapia intravenosa","Ciclofosfamida","Doxorrubicina","Vincristina"
+"1066353","2012-01-30","2012-03-26","Quimioterapia intravenosa","Paclitaxel",NULL,NULL
+"1066353","2012-04-11","2012-04-27","Quimioterapia intravenosa","Gemcitabina",NULL,NULL
+"1068242","2010-01-08","2010-03-26","Quimioterapia adyuvante","Cisplatino","Vinorelbina",NULL
+"1076364","2018-08-24","2018-10-18","Quimioterapia intravenosa","Carboplatino","Etopósido VP16",NULL
+"1076364","2018-11-15","2018-11-15","Quimioterapia intravenosa","Ciclofosfamida","Otro","Vincristina"
+"1076364","2018-12-11","2018-12-11","Quimioterapia intravenosa","Paclitaxel",NULL,NULL
+"1077312","2017-07-18","2017-10-16","Quimioterapia intravenosa y oral","Carboplatino","Etopósido VP16",NULL
+"1078487","2018-04-19","2018-06-14","Quimioterapia adyuvante","Doxorrubicina",NULL,NULL
+"1078487","2018-07-12","2018-10-04","Quimioterapia intravenosa","Gemcitabina","Otro",NULL
+"1078487","2018-11-09","2018-11-09","Quimioterapia intravenosa","Trabectidina",NULL,NULL
+"1079674","2014-08-28","2014-11-21","Quimioterapia intravenosa y oral","Carboplatino","Etopósido VP16",NULL
+"1079674","2015-03-10","2015-03-10","Quimioterapia intravenosa","Ciclofosfamida","Doxorrubicina","Vincristina"
+"1080146","2015-05-29","2015-07-17","Quimioterapia-Radioterapia secuencial","Carboplatino","Vinorelbina",NULL
+"1082418","2011-05-12","2011-07-12","Quimioterapia intravenosa y oral","Carboplatino","Etopósido VP16",NULL
+"1084443","2014-09-03","2014-11-11","Quimioterapia intravenosa","Cisplatino","Pemetrexed",NULL
+"1084443","2015-07-03","2015-07-24","Quimioterapia intravenosa","Docetaxel",NULL,NULL
+"1084443","2015-08-12","2015-08-12","Inmunoterapia","Nivolumab",NULL,NULL
+"1084715","2016-01-08","2016-02-01","Quimioterapia intravenosa","Carboplatino","Pemetrexed",NULL
+"1084715","2016-03-02","2016-03-02","Quimioterapia intravenosa","Docetaxel",NULL,NULL
+"1087041","2020-02-12","2020-03-30","Quimioterapia intravenosa","Carboplatino","Paclitaxel",NULL
+"1087041","2020-04-30","2020-05-13","Quimioterapia-Radioterapia concomitante","Carboplatino","Paclitaxel",NULL
+"1087041","2020-10-29","2020-12-11","Inmunoterapia","Nivolumab",NULL,NULL
+"1088316","2019-03-12","2019-09-04","Inmunoterapia","Pembrolizumab",NULL,NULL
+"1089307","2018-08-15","2018-08-15","Quimioterapia adyuvante","Cisplatino","Pemetrexed",NULL
+"1089307","2018-09-15",NULL,"Quimioterapia intravenosa","Cisplatino","Pemetrexed",NULL
+"1089307","2019-04-26","2019-06-08","Inmunoterapia","Nivolumab",NULL,NULL
+"1089805","2017-05-31","2017-08-04","Quimioterapia intravenosa","Carboplatino","Pemetrexed",NULL
+"1089805","2017-09-06","2019-09-11","Inmunoterapia","Ipilimumab","Nivolumab",NULL
+"1089884","2020-07-24","2021-02-09","Inmunoterapia","Pembrolizumab",NULL,NULL
+"1093715","2018-10-11","2018-11-29","Quimioterapia neoadyuvante","Cisplatino","Vinorelbina",NULL
+"1094256","2017-06-01","2017-08-24","Quimioterapia intravenosa y oral","Carboplatino","Etopósido VP16",NULL
+"1094256","2018-04-06","2018-06-07","Quimioterapia intravenosa","Ciclofosfamida","Vincristina","Doxorrubicina"
+"1094256","2018-11-20","2019-03-15","Quimioterapia intravenosa","Paclitaxel",NULL,NULL
+"1095278","2016-06-21","2016-09-13","Quimioterapia-Radioterapia secuencial","Carboplatino","Etopósido VP16",NULL
+"1096557","2018-02-16","2018-04-23","Quimioterapia intravenosa","Carboplatino","Pemetrexed",NULL
+"1096557","2018-08-31","2020-03-04","Inmunoterapia","Nivolumab",NULL,NULL
+"1096692","2019-09-23","2019-12-10","Quimioterapia intravenosa","Cisplatino","Vinorelbina",NULL
+"1096692","2020-04-21","2020-10-06","Inmunoterapia","Nivolumab",NULL,NULL
+"1098173","2018-04-27","2018-08-10","Terapia oral dirigida","Afatinib",NULL,NULL
+"1098173","2018-08-10","2019-03-27","Terapia oral dirigida","Erlotinib",NULL,NULL
+"1098424","2019-03-19","2019-05-15","Quimioterapia adyuvante","Cisplatino","Vinorelbina",NULL
+"1100890","2017-03-04","2017-03-31","Quimioterapia intravenosa","Carboplatino","Etopósido VP16",NULL
+"1100890","2017-04-28","2017-06-23","Terapia oral dirigida","Crizotinib",NULL,NULL
+"1100890","2017-07-23","2017-10-02","Terapia oral dirigida","Alectinib",NULL,NULL
+"1100890","2017-10-18","2017-12-17","Terapia oral dirigida","Lorlatinib",NULL,NULL
+"1103334","2017-03-03","2019-03-19","Terapia oral dirigida","Crizotinib",NULL,NULL
+"1103334","2019-04-01",NULL,"Terapia oral dirigida","Brigatinib",NULL,NULL
+"1104022","2011-07-11","2011-11-11","Quimioterapia intravenosa y oral","Carboplatino","Etopósido VP16",NULL
+"1104398","2013-08-23","2014-01-02","Quimioterapia intravenosa","Cisplatino","Pemetrexed",NULL
+"1104398","2014-02-04","2015-08-03","Terapia oral dirigida","Crizotinib",NULL,NULL
+"1104398","2015-10-28","2016-02-28","Terapia oral dirigida","Ceritinib",NULL,NULL
+"1104558","2018-11-16","2018-12-13","Quimioterapia intravenosa","Carboplatino","Paclitaxel",NULL
+"1110078","2017-07-15","2018-04-13","Terapia oral dirigida","Afatinib",NULL,NULL
+"1110078","2018-04-24","2018-06-28","Terapia oral dirigida","Osimertinib",NULL,NULL
+"1110078","2018-07-18","2018-09-25","Quimioterapia intravenosa","Cisplatino","Pemetrexed",NULL
+"1110078","2018-11-02","2018-12-14","Quimioterapia intravenosa","Carboplatino","Paclitaxel",NULL
+"1111529","2018-09-26","2018-11-29","Quimioterapia adyuvante","Carboplatino","Paclitaxel",NULL
+"1111529","2020-04-07","2020-06-16","Quimioterapia intravenosa","Carboplatino","Pemetrexed",NULL
+"1119978","2016-08-20","2016-11-17","Quimioterapia-Radioterapia secuencial","Carboplatino","Etopósido VP16",NULL
+"1122434","2016-10-07","2016-12-19","Quimioterapia neoadyuvante","Cisplatino","Vinorelbina",NULL
+"1122434","2017-02-27","2017-04-06","Quimioterapia-Radioterapia concomitante","Paclitaxel",NULL,NULL
+"1122434","2018-01-19","2018-04-19","Inmunoterapia","Nivolumab",NULL,NULL
+"1122434","2018-05-07","2018-10-09","Quimioterapia intravenosa","Docetaxel",NULL,NULL
+"1122434","2018-11-30","2019-05-24","Quimioterapia intravenosa","Gemcitabina",NULL,NULL
+"1122434","2019-06-24","2019-08-26","Quimioterapia intravenosa","Vinorelbina",NULL,NULL
+"1122660","2017-06-20","2017-08-02","Quimioterapia neoadyuvante","Cisplatino","Vinorelbina",NULL
+"1122660","2017-10-03","2017-11-07","Quimioterapia-Radioterapia concomitante","Paclitaxel",NULL,NULL
+"1123218","2019-06-03","2019-08-05","Quimioterapia intravenosa + inmunoterapia","Cisplatino","Pemetrexed","Pembrolizumab"
+"1124004","2014-08-18","2015-08-03","Quimioterapia intravenosa","Cisplatino","Pemetrexed",NULL
+"1124004","2015-10-09","2015-12-16","Terapia oral dirigida","Crizotinib",NULL,NULL
+"1124004","2016-01-26","2016-09-30","Terapia oral dirigida","Ceritinib",NULL,NULL
+"1125079","2019-03-04","2019-05-13","Quimioterapia intravenosa","Cisplatino","Pemetrexed",NULL
+"1126348","2019-03-28","2019-04-25","Quimioterapia-Radioterapia concomitante","Vinorelbina",NULL,NULL
+"1128123","2019-12-23","2019-12-23","Quimioterapia intravenosa","Carboplatino","Paclitaxel",NULL
+"1128911","2014-08-08","2014-11-06","Quimioterapia intravenosa y oral","Carboplatino","Etopósido VP16",NULL
+"1128911","2015-01-14","2015-02-06","Quimioterapia intravenosa","Ciclofosfamida","Doxorrubicina","Vincristina"
+"1128911","2015-02-27","2015-03-23","Quimioterapia oral","Topotecan",NULL,NULL
+"1130462","2015-06-14",NULL,"Terapia oral dirigida","Crizotinib",NULL,NULL
+"1133311","2016-04-15","2016-04-15","Quimioterapia intravenosa","Cisplatino","Pemetrexed","Otro"
+"1133311","2018-12-03","2021-02-22","Terapia oral dirigida","Osimertinib",NULL,NULL
+"1133501","2016-12-01","2017-02-02","Quimioterapia intravenosa","Carboplatino","Pemetrexed",NULL
+"1134356","2015-07-21","2015-10-14","Quimioterapia intravenosa y oral","Carboplatino","Etopósido VP16",NULL
+"1134655","2010-12-30","2011-05-27","Quimioterapia intravenosa y oral","Carboplatino","Etopósido VP16",NULL
+"1134655","2011-07-01","2011-07-22","Quimioterapia intravenosa","Ciclofosfamida","Doxorrubicina","Vincristina"
+"1135439","2018-11-23","2019-01-04","Quimioterapia neoadyuvante","Nivolumab","Cisplatino","Pemetrexed"
+"1137453","2011-06-01","2011-10-26","Quimioterapia intravenosa y oral","Carboplatino","Etopósido VP16",NULL
+"1138565","2016-10-14","2017-01-20","Inmunoterapia","Nivolumab","Ipilimumab",NULL
+"1138565","2017-02-17","2017-04-27","Quimioterapia intravenosa","Carboplatino","Vinorelbina",NULL
+"1138565","2017-09-12","2017-09-12","Quimioterapia intravenosa","Docetaxel",NULL,NULL
+"1139754","2019-10-28","2020-01-03","Quimioterapia intravenosa","Carboplatino","Paclitaxel",NULL
+"1139754","2020-02-18","2020-06-05","Inmunoterapia","Nivolumab",NULL,NULL
+"1139754","2020-07-07","2020-08-18","Quimioterapia intravenosa","Docetaxel",NULL,NULL
+"1139754","2020-09-08","2020-10-06","Quimioterapia intravenosa","Vinorelbina",NULL,NULL
+"1140327","2017-08-18","2017-11-07","Quimioterapia intravenosa","Carboplatino","Etopósido VP16",NULL
+"1142078","2014-03-19","2014-07-30","Quimioterapia intravenosa y oral","Carboplatino","Etopósido VP16",NULL
+"1142078","2015-08-26","2016-01-18","Quimioterapia intravenosa y oral","Carboplatino","Etopósido VP16",NULL
+"1146019","2011-12-16","2012-04-24","Quimioterapia intravenosa","Cisplatino","Vinorelbina",NULL
+"1151301","2017-06-15",NULL,"Quimioterapia intravenosa","Carboplatino","Vinorelbina",NULL
+"1151301","2017-07-15","2018-07-15","Inmunoterapia","Durvalumab (MEDI4736)",NULL,NULL
+"1151301","2018-08-27","2018-10-29","Quimioterapia intravenosa","Carboplatino","Gemcitabina",NULL
+"1151329","2010-05-05","2010-08-31","Quimioterapia intravenosa y oral","Carboplatino","Etopósido VP16",NULL
+"1154610","2016-08-11","2016-10-26","Quimioterapia intravenosa","Cisplatino","Vinorelbina",NULL
+"1154610","2017-02-27","2017-04-07","Quimioterapia intravenosa","Docetaxel",NULL,NULL
+"1164086","2014-03-04","2014-05-16","Quimioterapia intravenosa","Cisplatino","Pemetrexed",NULL
+"1165148","2015-02-09","2015-04-27","Quimioterapia intravenosa","Cisplatino","Pemetrexed",NULL
+"1165148","2015-08-26","2015-12-28","Quimioterapia intravenosa","Docetaxel","Bavituximab",NULL
+"1165148","2016-03-01","2016-03-08","Quimioterapia intravenosa","Vinorelbina",NULL,NULL
+"1165763","2017-12-21","2018-11-28","Inmunoterapia","Durvalumab(MEDI4736) vs Placebo",NULL,NULL
+"1165931","2017-07-05","2017-09-04","Quimioterapia neoadyuvante","Carboplatino","Vinorelbina",NULL
+"1165931","2017-11-03","2017-12-15","Quimioterapia-Radioterapia concomitante","Vinorelbina",NULL,NULL
+"1166878","2016-09-13","2016-11-15","Quimioterapia intravenosa","Carboplatino","Pemetrexed",NULL
+"1168022","2017-07-06","2017-12-05","Quimioterapia intravenosa y oral","Carboplatino","Etopósido VP16",NULL
+"1169321","2011-12-01","2012-02-14","Quimioterapia-Radioterapia secuencial","Carboplatino","Etopósido VP16",NULL
+"1169321","2015-04-10","2015-07-07","Quimioterapia intravenosa y oral","Carboplatino","Etopósido VP16",NULL
+"1172074","2020-07-15","2020-10-13","Quimioterapia neoadyuvante","Nivolumab","Carboplatino","Paclitaxel"
+"1183876","2019-05-24","2019-07-15","Quimioterapia intravenosa","Carboplatino","Vinorelbina",NULL
+"1183876","2019-08-13","2019-09-17","Quimioterapia-Radioterapia concomitante","Capecitabina","Paclitaxel",NULL
+"1183876","2020-11-30","2021-02-08","Quimioterapia intravenosa","Carboplatino","Pemetrexed",NULL
+"1189366","2014-07-18","2014-10-17","Terapia oral dirigida","Gefitinib",NULL,NULL
+"1189366","2014-10-31","2015-01-09","Quimioterapia intravenosa","Pemetrexed",NULL,NULL
+"1197743","2019-01-04","2020-02-12","Terapia oral dirigida","Crizotinib",NULL,NULL
+"1198328","2017-01-11","2017-02-01","Quimioterapia adyuvante","Carboplatino","Paclitaxel",NULL
+"1199478","2018-04-25","2018-06-20","Quimioterapia intravenosa","Carboplatino","Etopósido VP16",NULL
+"1199478","2018-07-24","2018-09-07","Quimioterapia intravenosa","Paclitaxel",NULL,NULL
+"1201398","2014-06-20","2014-09-11","Quimioterapia-Radioterapia secuencial","Carboplatino","Etopósido VP16",NULL
+"1201946","2011-11-29","2012-02-07","Quimioterapia neoadyuvante","Cisplatino","Vinorelbina",NULL
+"1201946","2012-05-14","2012-06-27","Quimioterapia-Radioterapia concomitante","Paclitaxel",NULL,NULL
+"1202765","2009-02-11","2009-05-13","Quimioterapia intravenosa y oral","Carboplatino","Etopósido VP16",NULL
+"1203839","2013-05-16","2013-08-12","Quimioterapia-Radioterapia secuencial","Carboplatino","Etopósido VP16",NULL
+"1203839","2014-11-05","2015-04-09","Quimioterapia intravenosa y oral","Carboplatino","Etopósido VP16",NULL
+"1203839","2015-07-06",NULL,"Quimioterapia intravenosa","Ciclofosfamida","Vincristina","Doxorrubicina"
+"1204478","2013-03-15","2013-06-06","Quimioterapia intravenosa","Carboplatino","Etopósido VP16",NULL
+"1224388","2018-04-10","2018-06-15","Quimioterapia intravenosa","Carboplatino","Pemetrexed",NULL
+"1224388","2019-09-18","2020-07-15","Inmunoterapia","Nivolumab",NULL,NULL
+"1224905","2018-09-20","2019-04-02","Inmunoterapia","Pembrolizumab",NULL,NULL
+"1226747","2020-01-15",NULL,"Quimioterapia intravenosa + inmunoterapia","Erlotinib","Bevacizumab",NULL
+"1227222","2017-08-11","2017-10-31","Quimioterapia neoadyuvante","Carboplatino","Vinorelbina",NULL
+"1227222","2017-12-26","2018-02-06","Quimioterapia-Radioterapia adyuvante","Paclitaxel",NULL,NULL
+"1227790","2015-11-23","2016-01-25","Quimioterapia intravenosa","Carboplatino","Pemetrexed",NULL
+"1227790","2018-02-19","2018-04-09","Quimioterapia intravenosa","Carboplatino","Paclitaxel",NULL
+"1227790","2019-01-03","2019-04-25","Inmunoterapia","Nivolumab",NULL,NULL
+"1233929","2017-11-24","2018-02-14","Quimioterapia intravenosa y oral","Carboplatino","Etopósido VP16","Veliparib(ABT-888) vs Placebo"
+"1234412","2016-06-27","2016-07-26","Quimioterapia intravenosa y oral","Carboplatino","Etopósido VP16",NULL
+"1234412","2016-08-30","2016-10-11","Quimioterapia intravenosa","Doxorrubicina",NULL,NULL
+"1235407","2018-09-07","2018-10-31","Quimioterapia intravenosa y oral","Vinorelbina","Cisplatino",NULL
+"1235407","2018-12-13","2019-12-05","Inmunoterapia","Durvalumab (MEDI4736)",NULL,NULL
+"1236093","2015-11-02","2016-01-11","Quimioterapia intravenosa","Carboplatino","Pemetrexed",NULL
+"1236093","2016-03-29","2016-04-05","Quimioterapia intravenosa","Paclitaxel",NULL,NULL
+"1236200","2009-10-13","2010-02-17","Quimioterapia oral","Vinorelbina",NULL,NULL
+"1236328","2018-11-07","2018-11-07","Quimioterapia intravenosa","Carboplatino","Paclitaxel",NULL
+"1236654","2019-11-18","2020-02-10","Quimioterapia intravenosa y oral","Carboplatino","Etopósido VP16",NULL
+"1237240","2019-02-22","2020-02-14","Terapia oral dirigida","Erlotinib",NULL,NULL
+"1237520","2013-02-13","2013-04-16","Quimioterapia-Radioterapia secuencial","Cisplatino","Vinorelbina",NULL
+"1237520","2015-07-22","2015-10-01","Quimioterapia intravenosa","Carboplatino","Pemetrexed",NULL
+"1237520","2016-12-20","2017-04-06","Otros","Pembrolizumab","Abemaciclib",NULL
+"1237565","2016-12-13","2017-03-07","Quimioterapia intravenosa","Carboplatino","Vinorelbina",NULL
+"1237565","2019-11-06","2020-01-22","Quimioterapia intravenosa","Nivolumab",NULL,NULL
+"1237565","2020-02-24","2020-03-09","Quimioterapia intravenosa","Paclitaxel",NULL,NULL
+"1238875","2015-05-26","2015-11-19","Terapia oral dirigida","Gefitinib",NULL,NULL
+"1238875","2015-12-21","2016-05-11","Quimioterapia intravenosa","Pemetrexed",NULL,NULL
+"1238875","2016-05-30","2017-11-20","Terapia oral dirigida","Osimertinib",NULL,NULL
+"1239601","2016-02-09","2016-03-29","Quimioterapia-Radioterapia secuencial","Cisplatino","Vinorelbina",NULL
+"1239601","2016-05-24","2016-06-07","Quimioterapia-Radioterapia concomitante","Paclitaxel",NULL,NULL
+"1240255","2017-05-15","2017-07-05","Quimioterapia neoadyuvante","Carboplatino","Vinorelbina",NULL
+"1240255","2017-09-12","2017-10-30","Quimioterapia-Radioterapia concomitante","Paclitaxel",NULL,NULL
+"1241176","2016-03-15","2016-05-05","Quimioterapia-Radioterapia secuencial","Carboplatino","Vinorelbina",NULL
+"1241176","2016-06-01","2016-07-15","Quimioterapia-Radioterapia concomitante","Paclitaxel",NULL,NULL
+"1242546","2011-12-23","2012-02-03","Quimioterapia neoadyuvante","Cisplatino","Vinorelbina",NULL
+"1242546","2012-03-15","2012-05-08","Quimioterapia-Radioterapia concomitante","Paclitaxel",NULL,NULL
+"1242546","2013-01-29","2013-03-12","Quimioterapia intravenosa","Docetaxel",NULL,NULL
+"1243767","2010-04-21","2010-07-02","Quimioterapia intravenosa y oral","Carboplatino","Etopósido VP16",NULL
+"1243767","2018-04-02","2018-07-02","Quimioterapia intravenosa","Carboplatino","Etopósido VP16",NULL
+"1244973","2015-10-09","2015-12-11","Quimioterapia intravenosa","Cisplatino","Pemetrexed",NULL
+"1244973","2016-10-17","2016-11-14","Quimioterapia intravenosa","Paclitaxel",NULL,NULL
+"1245216","2017-09-20","2017-09-20","Quimioterapia adyuvante","Carboplatino","Vinorelbina",NULL
+"1245216","2018-08-21","2018-10-25","Terapia oral dirigida","Gefitinib",NULL,NULL
+"1245216","2018-11-12","2019-02-06","Terapia oral dirigida","Erlotinib",NULL,NULL
+"1245216","2019-02-15",NULL,"Otros","Osimertinib","Ipilimumab",NULL
+"1258094","2019-01-24","2019-04-17","Quimioterapia-Radioterapia secuencial","Carboplatino","Etopósido VP16",NULL
+"1258242","2014-09-15","2015-04-06","Terapia oral dirigida","Erlotinib",NULL,NULL
+"1258242","2015-05-12","2015-07-15","Inmunoterapia","Erlotinib","Emibetuzumab (LY2875358)",NULL
+"1259677","2019-12-03","2020-02-24","Quimioterapia intravenosa","Carboplatino","Vinorelbina",NULL
+"1259677","2020-03-10","2020-07-29","Inmunoterapia","Nivolumab",NULL,NULL
+"1259677","2020-08-12","2020-08-12","Quimioterapia intravenosa","Docetaxel",NULL,NULL
+"1265871","2017-08-11","2017-10-15","Quimioterapia intravenosa + inmunoterapia","Carboplatino","Pemetrexed","Nivolumab"
+"1265871","2018-09-20","2018-10-25","Quimioterapia-Radioterapia concomitante","Paclitaxel",NULL,NULL
+"1267046","2018-09-24","2019-12-13","Inmunoterapia","Pembrolizumab","Otro",NULL
+"1267046","2020-05-18","2020-07-20","Quimioterapia intravenosa","Carboplatino","Pemetrexed",NULL
+"1276381","2017-10-04","2017-12-19","Quimioterapia adyuvante","Carboplatino","Vinorelbina",NULL
+"1276918","2020-01-10","2020-02-24","Quimioterapia neoadyuvante","Carboplatino","Paclitaxel","Nivolumab"
+"1276918","2020-10-29","2020-12-10","Quimioterapia-Radioterapia concomitante","Carboplatino","Paclitaxel",NULL
+"1349158","2017-03-14","2017-06-07","Quimioterapia adyuvante","Cisplatino","Vinorelbina",NULL
+"1370231","2015-11-02","2016-03-30","Quimioterapia intravenosa","Gemcitabina","Lurbinectedina (PM1183)",NULL
+"1370231","2016-07-11","2016-08-10","Quimioterapia intravenosa","Docetaxel",NULL,NULL
+"1373987","2015-02-26","2015-04-29","Quimioterapia intravenosa","Cisplatino","Pemetrexed",NULL
+"1373987","2017-02-07","2017-03-22","Quimioterapia-Radioterapia concomitante","Carboplatino","Paclitaxel",NULL
+"1379174","2020-07-17","2020-09-01","Quimioterapia neoadyuvante","Cisplatino","Vinorelbina",NULL
+"1380534","2016-03-17","2016-05-25","Quimioterapia intravenosa","Carboplatino","Paclitaxel",NULL
+"1380534","2017-04-04",NULL,"Terapia oral dirigida","Brigatinib",NULL,NULL
+"1387991","2019-03-26","2019-05-28","Quimioterapia intravenosa","Carboplatino","Pemetrexed",NULL
+"1387991","2019-11-13","2019-11-13","Inmunoterapia","Nivolumab",NULL,NULL
+"1823710","2017-08-04","2017-10-06","Quimioterapia intravenosa + inmunoterapia","Nivolumab","Cisplatino","Pemetrexed"
+"1824190","2008-09-05","2009-02-05","Quimioterapia intravenosa y oral","Carboplatino","Etopósido VP16",NULL
+"1824575","2008-08-25","2009-01-08","Quimioterapia intravenosa y oral","Carboplatino","Etopósido VP16",NULL
+"1884437","2016-10-03",NULL,"Terapia oral dirigida","Afatinib",NULL,NULL
+"1889433","2009-02-11","2009-03-25","Quimioterapia neoadyuvante","Carboplatino","Docetaxel",NULL
+"1896661","2012-04-27","2012-07-10","Quimioterapia intravenosa","Carboplatino","Pemetrexed",NULL
+"1896661","2013-03-19","2013-06-21","Quimioterapia intravenosa","Docetaxel",NULL,NULL
+"1938733","2014-06-20","2014-08-25","Quimioterapia intravenosa","Carboplatino","Paclitaxel",NULL
+"2015210","2010-01-04","2010-03-05","Quimioterapia intravenosa y oral","Cisplatino","Vinorelbina",NULL
+"2015210","2010-05-13","2010-06-21","Quimioterapia-Radioterapia concomitante","Paclitaxel",NULL,NULL
+"2037410","2010-06-08","2010-10-19","Quimioterapia neoadyuvante","Carboplatino","Paclitaxel",NULL
+"2045733","2010-02-16","2010-03-30","Quimioterapia-Radioterapia concomitante","Carboplatino","Pemetrexed",NULL
+"2045733","2010-04-30","2010-07-01","Otros","Carboplatino","Pemetrexed",NULL
+"2046033","2010-02-12","2010-02-26","Quimioterapia-Radioterapia neoadyuvante","Paclitaxel",NULL,NULL
+"2050873","2010-05-04","2010-06-15","Quimioterapia-Radioterapia neoadyuvante","Paclitaxel",NULL,NULL
+"2054963","2016-10-24","2016-12-09","Quimioterapia intravenosa","Cisplatino","Vinorelbina",NULL
+"2058636","2010-02-18","2010-05-17","Quimioterapia neoadyuvante","Cisplatino","Vinorelbina",NULL
+"2059213","2010-03-10","2010-06-15","Quimioterapia-Radioterapia secuencial","Cisplatino","Pemetrexed",NULL
+"2065437","2014-12-30","2015-02-11","Quimioterapia neoadyuvante","Cisplatino","Vinorelbina",NULL
+"2065437","2015-04-08","2015-05-27","Quimioterapia-Radioterapia concomitante","Carboplatino","Paclitaxel",NULL
+"2070834","2019-10-21","2020-01-13","Quimioterapia neoadyuvante","Carboplatino","Etopósido VP16",NULL
+"2070834","2020-09-11","2020-11-27","Quimioterapia intravenosa","Carboplatino","Etopósido VP16",NULL
+"2077013","2014-06-12","2014-07-22","Quimioterapia intravenosa y oral","Cisplatino","Pemetrexed",NULL
+"2077013","2015-03-24","2015-03-24","Quimioterapia intravenosa + inmunoterapia","Docetaxel","Bavituximab",NULL
+"2139416","2010-10-06","2011-01-31","Quimioterapia intravenosa y oral","Cisplatino","Vinorelbina",NULL
+"2168229","2012-08-16","2012-10-10","Quimioterapia neoadyuvante","Cisplatino","Vinorelbina",NULL
+"2168229","2012-12-12","2013-08-23","Terapia oral dirigida","Erlotinib",NULL,NULL
+"2168229","2014-03-07","2017-06-24","Terapia oral dirigida","Afatinib",NULL,NULL
+"2169320","2010-12-22","2011-02-24","Quimioterapia neoadyuvante","Gefitinib",NULL,NULL
+"2174695","2019-05-14","2019-06-25","Quimioterapia intravenosa","Carboplatino","Paclitaxel",NULL
+"2192516","2020-05-13","2020-08-12","Quimioterapia intravenosa","Carboplatino","Etopósido VP16",NULL
+"2193697",NULL,NULL,"Quimioterapia neoadyuvante","Carboplatino","Paclitaxel",NULL
+"2193697","2018-06-15","2018-07-30","Quimioterapia-Radioterapia concomitante","Cisplatino","Pemetrexed",NULL
+"2222818","2017-07-18","2017-10-13","Quimioterapia intravenosa + inmunoterapia","Cisplatino","Pemetrexed","Nivolumab"
+"2223457","2011-06-08","2011-09-28","Quimioterapia intravenosa","Cisplatino","Vinorelbina",NULL
+"2223457","2012-01-04","2012-02-15","Quimioterapia intravenosa","Docetaxel",NULL,NULL
+"2226284","2012-06-05","2012-12-23","Quimioterapia intravenosa","Cisplatino","Pemetrexed",NULL
+"2226284","2014-04-15","2015-09-15","Terapia oral dirigida","Afatinib",NULL,NULL
+"2226318","2019-05-08","2019-09-15","Otros","Erlotinib","Bevacizumab",NULL
+"2226318","2020-05-15",NULL,"Otros","Erlotinib","Bevacizumab",NULL
+"2228314","2020-02-12","2020-04-24","Quimioterapia intravenosa","Carboplatino","Pemetrexed",NULL
+"2233939","2015-08-21","2015-10-14","Quimioterapia intravenosa","Cisplatino","Pemetrexed",NULL
+"2234138","2020-10-09","2020-12-29","Quimioterapia intravenosa","Carboplatino","Etopósido VP16",NULL
+"2242513","2017-02-16","2017-04-12","Quimioterapia neoadyuvante","Cisplatino","Vinorelbina",NULL
+"2244708","2015-12-21","2016-02-12","Quimioterapia neoadyuvante","Carboplatino","Paclitaxel",NULL
+"2244708","2016-04-05","2016-05-09","Quimioterapia-Radioterapia concomitante","Vinorelbina",NULL,NULL
+"2266929","2017-08-08","2017-10-17","Quimioterapia intravenosa","Carboplatino","Pemetrexed",NULL
+"2274919","2016-08-02","2016-10-04","Quimioterapia intravenosa","Cisplatino","Pemetrexed",NULL
+"2274919","2017-03-22","2017-05-24","Quimioterapia intravenosa","Docetaxel",NULL,NULL
+"2279927","2019-08-09","2019-08-30","Quimioterapia intravenosa","Carboplatino","Paclitaxel",NULL
+"2279927","2019-10-03","2019-10-03","Inmunoterapia","Nivolumab",NULL,NULL
+"2280749","2015-12-22","2016-02-23","Quimioterapia adyuvante","Carboplatino","Paclitaxel",NULL
+"2280749","2016-05-26","2016-06-09","Quimioterapia-Radioterapia concomitante","Paclitaxel",NULL,NULL
+"2288545","2017-05-10","2017-07-12","Quimioterapia intravenosa","Carboplatino","Pemetrexed",NULL
+"2325330","2020-09-30","2020-12-02","Quimioterapia intravenosa","Carboplatino","Paclitaxel",NULL
+"2332889","2013-02-05","2013-03-26","Quimioterapia neoadyuvante","Cisplatino","Vinorelbina",NULL
+"2332889","2014-07-25","2014-09-22","Terapia oral dirigida","Afatinib",NULL,NULL
+"2332889","2015-06-01","2017-03-13","Otros","Cetuximab","Afatinib",NULL
+"2332889","2017-04-17","2017-12-21","Terapia oral dirigida","Osimertinib",NULL,NULL
+"2336932","2019-02-22","2019-12-29","Terapia oral dirigida","Afatinib",NULL,NULL
+"2336932","2020-01-13","2020-03-16","Quimioterapia intravenosa","Carboplatino","Pemetrexed",NULL
+"2336932","2020-08-17","2020-12-11","Quimioterapia intravenosa y oral","Docetaxel","Nintedanib",NULL
+"2338663","2013-04-22","2013-06-10","Quimioterapia neoadyuvante","Cisplatino","Vinorelbina",NULL
+"2338663","2014-10-16","2015-08-21","Quimioterapia intravenosa","Pemetrexed",NULL,NULL
+"2338663","2015-09-29","2016-02-02","Quimioterapia intravenosa","Gemcitabina",NULL,NULL
+"2338663","2016-09-16","2016-12-30","Quimioterapia intravenosa","Paclitaxel",NULL,NULL
+"2341602","2017-11-30","2018-01-04","Quimioterapia-Radioterapia concomitante","Carboplatino","Paclitaxel",NULL
+"2341602","2018-12-21","2020-11-23","Quimioterapia intravenosa","Pembrolizumab",NULL,NULL
+"2343860","2019-09-11","2019-10-09","Quimioterapia neoadyuvante","Carboplatino","Etopósido VP16",NULL
+"2343860","2019-11-18","2020-01-20","Quimioterapia intravenosa","Ciclofosfamida","Doxorrubicina","Vincristina"
+"2348609","2015-05-07","2015-07-03","Quimioterapia intravenosa","Carboplatino","Pemetrexed",NULL
+"2348609","2015-08-04","2015-09-16","Quimioterapia intravenosa","Docetaxel",NULL,NULL
+"2348609","2015-11-17","2016-01-13","Inmunoterapia","Nivolumab",NULL,NULL
+"2351499","2013-09-12","2015-01-14","Terapia oral dirigida","Gefitinib",NULL,NULL
+"2351499","2015-04-22","2015-06-24","Quimioterapia intravenosa y oral","Pemetrexed","Gefitinib",NULL
+"2351499","2015-07-24","2015-11-18","Quimioterapia intravenosa","Carboplatino","Paclitaxel",NULL
+"2351499","2016-10-13","2019-07-04","Terapia oral dirigida","Osimertinib",NULL,NULL
+"2353548","2013-09-15","2014-01-10","Quimioterapia intravenosa + inmunoterapia","Cisplatino","Pemetrexed","Bevacizumab"
+"2353548","2014-01-31","2017-05-09","Terapia oral dirigida","Gefitinib",NULL,NULL
+"2353548","2017-05-28","2018-09-15","Terapia oral dirigida","Osimertinib",NULL,NULL
+"2353548","2018-11-05","2019-01-08","Quimioterapia intravenosa","Carboplatino","Paclitaxel",NULL
+"2357165","2017-04-03","2017-06-28","Quimioterapia-Radioterapia secuencial","Carboplatino","Etopósido VP16",NULL
+"2359557","2013-11-21","2014-06-07","Quimioterapia intravenosa","Cisplatino","Pemetrexed",NULL
+"2359735","2018-08-13","2018-11-07","Terapia oral dirigida","Gefitinib",NULL,NULL
+"2359735","2018-11-07","2020-02-18","Terapia oral dirigida","Erlotinib",NULL,NULL
+"2363130","2015-01-04","2016-10-31","Terapia oral dirigida","Erlotinib",NULL,NULL
+"2363130","2017-03-13",NULL,"Terapia oral dirigida","Erlotinib",NULL,NULL
+"2366342","2020-09-29","2020-11-06","Quimioterapia intravenosa","Carboplatino","Vinorelbina",NULL
+"2369878","2014-03-12","2014-05-26","Quimioterapia intravenosa","Cisplatino","Vinorelbina",NULL
+"2369878","2014-07-21","2016-06-06","Inmunoterapia","Pembrolizumab",NULL,NULL
+"2369878","2016-07-26",NULL,"Terapia oral dirigida","Crizotinib",NULL,NULL
+"2372473","2016-08-02","2018-02-09","Terapia oral dirigida","Afatinib",NULL,NULL
+"2375171","2015-06-12","2015-08-14","Quimioterapia neoadyuvante","Cisplatino","Vinorelbina",NULL
+"2378188","2014-05-28","2014-06-18","Terapia oral dirigida","Afatinib",NULL,NULL
+"2378188","2014-09-16","2016-02-24","Terapia oral dirigida","Erlotinib",NULL,NULL
+"2378780","2019-12-20","2020-02-21","Quimioterapia intravenosa","Cisplatino","Pemetrexed",NULL
+"2399178","2015-05-05","2015-07-01","Quimioterapia-Radioterapia secuencial","Vinorelbina",NULL,NULL
+"2405706","2020-05-15","2020-07-24","Quimioterapia intravenosa y oral","Carboplatino","Vinorelbina",NULL
+"2405918","2018-10-10","2018-12-21","Quimioterapia adyuvante","Cisplatino","Vinorelbina",NULL
+"2423874","2017-03-28","2017-07-14","Terapia oral dirigida","Crizotinib",NULL,NULL
+"2423874","2017-10-03","2018-04-24","Terapia oral dirigida","Alectinib",NULL,NULL
+"2426990","2014-12-15","2015-02-15","Quimioterapia intravenosa","Carboplatino","Paclitaxel",NULL
+"2428845","2012-02-10","2012-12-13","Quimioterapia intravenosa y oral","Carboplatino","Pemetrexed","Gefitinib"
+"2428845","2013-02-04","2013-05-20","Quimioterapia intravenosa y oral","Gefitinib","Carboplatino","Pemetrexed"
+"2428845","2013-09-09","2013-12-11","Terapia oral dirigida","Afatinib",NULL,NULL
+"2428845","2014-01-03","2014-04-04","Quimioterapia intravenosa","Cisplatino","Vinorelbina",NULL
+"2428845","2015-01-12","2015-07-31","Otros","Afatinib","Bevacizumab",NULL
+"2429612","2018-03-07","2018-04-18","Quimioterapia neoadyuvante","Carboplatino","Paclitaxel","Nivolumab"
+"2429612","2018-07-30","2019-04-01","Quimioterapia adyuvante","Nivolumab",NULL,NULL
+"2432630","2015-03-23","2015-06-03","Quimioterapia-Radioterapia secuencial","Cisplatino","Vinorelbina",NULL
+"2432645","2019-04-17","2019-06-26","Quimioterapia intravenosa","Carboplatino","Vinorelbina",NULL
+"2433853","2014-03-15","2014-06-02","Quimioterapia intravenosa","Cisplatino","Vinorelbina",NULL
+"2433853","2014-06-11","2014-08-13","Terapia oral dirigida","Erlotinib",NULL,NULL
+"2434316","2014-04-30","2015-04-28","Terapia oral dirigida","Erlotinib",NULL,NULL
+"2438329","2018-11-12","2019-01-28","Quimioterapia intravenosa y oral","Carboplatino","Vinorelbina",NULL
+"2438329","2019-06-28","2019-09-06","Inmunoterapia","Nivolumab",NULL,NULL
+"2438329","2019-09-20","2019-11-26","Quimioterapia intravenosa","Docetaxel",NULL,NULL
+"2440039","2014-07-25","2015-01-02","Quimioterapia intravenosa","Carboplatino","Pemetrexed",NULL
+"2440039","2015-01-22","2015-03-05","Terapia oral dirigida","Erlotinib",NULL,NULL
+"2440039","2015-04-23","2015-06-12","Quimioterapia intravenosa","Docetaxel",NULL,NULL
+"2448674","2015-05-22","2015-05-22","Quimioterapia intravenosa","Pemetrexed","Carboplatino",NULL
+"2454551",NULL,"2014-04-28","Quimioterapia intravenosa","Cisplatino","Pemetrexed",NULL
+"2454551","2014-10-21","2015-02-27","Quimioterapia intravenosa","Paclitaxel",NULL,NULL
+"2454551","2015-07-03","2015-10-21","Inmunoterapia","Nivolumab",NULL,NULL
+"2454551","2015-12-16","2016-04-11","Quimioterapia intravenosa","Gemcitabina","Otro",NULL
+"2454623","2015-05-29","2015-07-17","Quimioterapia neoadyuvante","Cisplatino","Vinorelbina",NULL
+"2462990","2017-08-23","2017-10-25","Quimioterapia intravenosa","Carboplatino","Pemetrexed",NULL
+"2463013","2015-05-27","2015-08-20","Quimioterapia intravenosa","Carboplatino","Pemetrexed",NULL
+"2463013","2015-10-08","2016-01-11","Quimioterapia intravenosa","Docetaxel",NULL,NULL
+"2463233","2015-06-08","2015-08-11","Quimioterapia neoadyuvante","Cisplatino","Vinorelbina",NULL
+"2463284","2015-06-12","2015-08-13","Quimioterapia neoadyuvante","Cisplatino","Vinorelbina",NULL
+"2470771","2015-01-15","2015-03-31","Quimioterapia neoadyuvante","Carboplatino","Paclitaxel",NULL
+"2470771","2015-07-01","2015-10-06","Quimioterapia adyuvante","Carboplatino","Paclitaxel",NULL
+"2470771","2015-10-15","2016-01-18","Inmunoterapia","Nivolumab",NULL,NULL
+"2470771","2016-02-29","2016-04-18","Quimioterapia intravenosa","Docetaxel","Custirsen(OGX-011)",NULL
+"2470771","2016-06-06","2016-07-29","Quimioterapia intravenosa","Capmatinib",NULL,NULL
+"2473276","2015-07-01","2015-09-16","Quimioterapia intravenosa","Carboplatino","Pemetrexed","Demcizumab vs Placebo"
+"2473276","2015-11-17","2015-11-17","Quimioterapia intravenosa y oral","Docetaxel","Nintedanib",NULL
+"2474607","2015-06-12","2016-07-13","Terapia oral dirigida","Erlotinib",NULL,NULL
+"2476995","2015-08-31","2015-08-31","Quimioterapia neoadyuvante","Cisplatino","Docetaxel",NULL
+"2478715","2015-10-14","2015-11-24","Quimioterapia-Radioterapia concomitante","Paclitaxel",NULL,NULL
+"2485067","2015-06-24","2015-06-24","Quimioterapia intravenosa","Carboplatino","Vinorelbina",NULL
+"2500131","2020-05-15","2020-07-17","Quimioterapia intravenosa + inmunoterapia","Carboplatino","Pemetrexed","Pembrolizumab"
+"2500687","2015-07-14","2015-09-29","Quimioterapia neoadyuvante","Cisplatino","Vinorelbina",NULL
+"2500687","2015-11-02","2015-12-07","Quimioterapia-Radioterapia secuencial","Carboplatino","Paclitaxel",NULL
+"2500687","2016-10-14","2018-09-27","Inmunoterapia","Nivolumab","Ipilimumab",NULL
+"2500687","2019-04-01","2019-04-23","Quimioterapia intravenosa","Carboplatino","Gemcitabina",NULL
+"2500687","2019-05-28","2019-06-04","Quimioterapia oral","Vinorelbina",NULL,NULL
+"2504491","2015-09-07","2015-10-29","Quimioterapia-Radioterapia concomitante","Carboplatino","Paclitaxel",NULL
+"2518602","2015-07-03","2015-09-08","Terapia oral dirigida","Gefitinib",NULL,NULL
+"2518602","2015-10-19","2016-02-03","Quimioterapia adyuvante","Cisplatino","Vinorelbina",NULL
+"2525076",NULL,"2014-02-15","Quimioterapia adyuvante","Cisplatino","Vinorelbina",NULL
+"2525076",NULL,"2014-11-15","Quimioterapia intravenosa","Cisplatino","Gemcitabina",NULL
+"2525076","2015-09-04","2015-11-13","Inmunoterapia","Nivolumab",NULL,NULL
+"2547868","2015-07-10","2015-09-16","Quimioterapia neoadyuvante","Carboplatino","Pemetrexed",NULL
+"2550884","2015-04-08","2015-07-13","Quimioterapia intravenosa","Carboplatino","Paclitaxel",NULL
+"2562452","2015-06-08","2015-09-07","Quimioterapia neoadyuvante","Carboplatino","Paclitaxel",NULL
+"2575118","2017-03-15","2017-05-03","Quimioterapia neoadyuvante","Cisplatino","Vinorelbina",NULL
+"2577435","2016-03-01","2016-03-01","Quimioterapia intravenosa","Carboplatino","Pemetrexed",NULL
+"2577622","2019-01-23","2019-04-08","Quimioterapia intravenosa","Cisplatino","Vinorelbina",NULL
+"2577964","2016-01-19","2016-04-14","Quimioterapia neoadyuvante","Cisplatino","Gemcitabina",NULL
+"2578301","2016-03-01","2016-06-01","Quimioterapia intravenosa","Cisplatino","Pemetrexed",NULL
+"2585710","2016-01-11","2016-04-25","Quimioterapia intravenosa","Carboplatino","Pemetrexed",NULL
+"2589674","2016-01-20","2016-03-08","Quimioterapia neoadyuvante","Carboplatino","Vinorelbina",NULL
+"2589674","2016-09-07","2017-12-12","Terapia oral dirigida","Afatinib",NULL,NULL
+"2592196","2017-02-02","2017-05-01","Quimioterapia adyuvante","Carboplatino","Paclitaxel",NULL
+"2592196","2017-09-08","2017-10-13","Quimioterapia-Radioterapia concomitante","Paclitaxel",NULL,NULL
+"2597139","2016-02-15","2016-06-27","Inmunoterapia","Nivolumab","Ipilimumab",NULL
+"2603790","2016-02-08","2016-03-07","Inmunoterapia","Durvalumab (MEDI4736)",NULL,NULL
+"2603790",NULL,NULL,"Quimioterapia intravenosa","Cisplatino","Gemcitabina",NULL
+"2609713","2016-03-22","2016-04-11","Quimioterapia intravenosa","Pemetrexed",NULL,NULL
+"2611280","2016-04-07","2016-06-21","Quimioterapia neoadyuvante","Cisplatino","Vinorelbina",NULL
+"2624605","2016-03-14","2016-05-09","Quimioterapia neoadyuvante","Cisplatino","Vinorelbina",NULL
+"2624605","2016-07-11","2016-08-08","Quimioterapia-Radioterapia concomitante","Carboplatino","Paclitaxel",NULL
+"2624605","2017-04-24",NULL,"Terapia oral dirigida","Afatinib",NULL,NULL
+"2626911","2016-11-10","2017-01-12","Quimioterapia intravenosa","Carboplatino","Pemetrexed",NULL
+"2627112","2016-03-14","2016-06-07","Quimioterapia intravenosa + inmunoterapia","Nivolumab","Carboplatino","Gemcitabina"
+"2627112","2017-02-15","2017-06-30","Quimioterapia intravenosa","Carboplatino","Paclitaxel",NULL
+"2635534","2018-10-15","2018-11-27","Quimioterapia-Radioterapia concomitante","Paclitaxel",NULL,NULL
+"2646936","2016-09-27","2016-12-15","Quimioterapia intravenosa","Cisplatino","Pemetrexed",NULL
+"2646936","2018-05-31","2018-08-07","Inmunoterapia","Nivolumab",NULL,NULL
+"2660917","2016-07-13","2016-10-27","Quimioterapia intravenosa","Carboplatino","Paclitaxel",NULL
+"2660917","2017-01-03","2017-02-07","Quimioterapia-Radioterapia concomitante","Paclitaxel",NULL,NULL
+"2663686","2016-06-02","2016-07-14","Quimioterapia intravenosa","Carboplatino","Pemetrexed",NULL
+"2665804","2016-05-23","2016-07-29","Quimioterapia neoadyuvante","Cisplatino","Vinorelbina",NULL
+"2670938","2016-05-23","2016-08-08","Quimioterapia neoadyuvante","Cisplatino","Vinorelbina",NULL
+"2670938","2017-01-01","2017-05-01","Quimioterapia intravenosa","Carboplatino","Paclitaxel",NULL
+"2675936","2016-05-10","2016-07-29","Quimioterapia intravenosa","Cisplatino","Gemcitabina",NULL
+"2679028","2016-06-01","2018-05-24","Inmunoterapia","Nivolumab",NULL,NULL
+"2682136","2016-06-02","2016-07-14","Quimioterapia neoadyuvante","Cisplatino","Vinorelbina",NULL
+"2682136","2017-06-27","2017-09-13","Inmunoterapia","Nivolumab","Ipilimumab",NULL
+"2695162","2016-06-01","2016-07-15","Inmunoterapia","Nivolumab","Ipilimumab",NULL
+"2695183","2017-11-13",NULL,"Quimioterapia adyuvante","Carboplatino","Pemetrexed",NULL
+"2701156","2012-04-27","2012-06-28","Quimioterapia adyuvante","Cisplatino","Pemetrexed",NULL
+"2701156","2013-07-12",NULL,"Terapia oral dirigida","Gefitinib",NULL,NULL
+"2701156","2016-06-08","2018-05-21","Terapia oral dirigida","Osimertinib",NULL,NULL
+"2701442","2016-08-24","2016-09-20","Inmunoterapia","Nivolumab",NULL,NULL
+"2703543","2016-08-26","2016-10-28","Quimioterapia adyuvante","Carboplatino","Paclitaxel",NULL
+"2705833","2016-06-07","2016-11-02","Inmunoterapia","Nivolumab","Ipilimumab",NULL
+"2705833","2016-10-01",NULL,"Quimioterapia intravenosa","Carboplatino","Pemetrexed",NULL
+"2705833",NULL,NULL,"Quimioterapia intravenosa y oral","Docetaxel","Nintedanib",NULL
+"2714174","2016-03-01","2017-01-05","Quimioterapia adyuvante","Gefitinib",NULL,NULL
+"2715923","2017-08-17","2018-02-09","Terapia oral dirigida","Erlotinib",NULL,NULL
+"2715923","2018-02-14","2018-04-23","Quimioterapia intravenosa","Carboplatino","Pemetrexed",NULL
+"2716420","2016-07-18","2017-04-26","Terapia oral dirigida","Gefitinib",NULL,NULL
+"2716420","2017-05-04","2017-07-05","Quimioterapia intravenosa","Cisplatino","Pemetrexed",NULL
+"2716420","2017-12-18","2018-11-06","Inmunoterapia","Nivolumab","Daratumumab",NULL
+"2716420","2019-04-10","2020-11-10","Terapia oral dirigida","Afatinib",NULL,NULL
+"2717182","2016-04-29","2016-07-15","Quimioterapia neoadyuvante","Cisplatino","Vinorelbina",NULL
+"2717182","2016-12-20","2017-02-01","Quimioterapia-Radioterapia concomitante","Paclitaxel",NULL,NULL
+"2717319","2016-11-11","2017-01-13","Quimioterapia intravenosa","Carboplatino","Paclitaxel",NULL
+"2719125","2016-08-09","2016-08-09","Quimioterapia intravenosa","Carboplatino","Pemetrexed",NULL
+"2719731",NULL,NULL,"Quimioterapia neoadyuvante","Cisplatino","Gemcitabina","Vinorelbina"
+"2721175","2016-09-13","2016-09-13","Inmunoterapia","Nivolumab","Ipilimumab",NULL
+"2725809","2016-12-19","2017-06-16","Terapia oral dirigida","Erlotinib",NULL,NULL
+"2725809","2017-10-30","2017-11-29","Terapia oral dirigida","Afatinib",NULL,NULL
+"2726236","2017-02-23","2019-02-08","Inmunoterapia","Nivolumab","Ipilimumab",NULL
+"2733201","2013-07-15","2019-10-23","Terapia oral dirigida","Erlotinib",NULL,NULL
+"2734962","2018-06-04","2018-08-06","Quimioterapia intravenosa","Carboplatino","Pemetrexed",NULL
+"2737181","2017-06-27","2017-08-08","Quimioterapia intravenosa","Carboplatino","Pemetrexed",NULL
+"2737483",NULL,"2016-12-15","Quimioterapia intravenosa","Cisplatino","Gemcitabina",NULL
+"2737782","2017-04-19","2017-06-14","Quimioterapia neoadyuvante","Cisplatino","Vinorelbina",NULL
+"2737782","2017-07-11","2017-08-16","Quimioterapia-Radioterapia concomitante","Carboplatino","Paclitaxel",NULL
+"2737782","2018-12-20","2019-05-17","Quimioterapia adyuvante","Atezolizumab","Otro","Otro"
+"2737782","2019-05-28","2019-07-31","Quimioterapia intravenosa","Carboplatino","Pemetrexed",NULL
+"2737782","2020-07-15","2020-08-05","Quimioterapia intravenosa y oral","Docetaxel","Nintedanib",NULL
+"2737989","2020-05-19",NULL,"Terapia oral dirigida","Osimertinib",NULL,NULL
+"2742997","2019-05-09","2019-05-30","Quimioterapia-Radioterapia concomitante","Paclitaxel",NULL,NULL
+"2744160","2017-04-27","2017-06-08","Quimioterapia neoadyuvante","Nivolumab","Carboplatino","Paclitaxel"
+"2745590","2020-10-22","2020-12-28","Quimioterapia intravenosa","Carboplatino","Pemetrexed",NULL
+"2745741","2017-07-20",NULL,"Terapia oral dirigida","Erlotinib",NULL,NULL
+"2746105","2017-11-27","2018-10-08","Terapia oral dirigida","Erlotinib",NULL,NULL
+"2746105","2018-10-08","2018-12-14","Terapia oral dirigida","Osimertinib",NULL,NULL
+"2749007","2017-07-05","2017-10-20","Quimioterapia-Radioterapia secuencial","Carboplatino","Paclitaxel",NULL
+"2749007","2018-02-08","2019-02-01","Inmunoterapia","Durvalumab (MEDI4736)",NULL,NULL
+"2750614","2016-09-26","2017-06-14","Terapia oral dirigida","Afatinib",NULL,NULL
+"2750614","2017-06-16","2018-02-27","Terapia oral dirigida","Osimertinib",NULL,NULL
+"2750614","2018-04-13","2018-06-25","Quimioterapia intravenosa","Cisplatino","Pemetrexed",NULL
+"2750614","2018-09-27","2019-02-05","Quimioterapia intravenosa","Docetaxel",NULL,NULL
+"2750614","2019-04-26","2019-12-23","Terapia oral dirigida","Erlotinib",NULL,NULL
+"2750614","2020-01-08","2020-03-20","Quimioterapia intravenosa","Carboplatino","Vinorelbina",NULL
+"2750614","2020-08-19","2020-08-19","Quimioterapia intravenosa","Gemcitabina",NULL,NULL
+"2755133","2016-10-24","2017-01-08","Quimioterapia intravenosa","Carboplatino","Gemcitabina",NULL
+"2755133","2017-06-26","2017-06-26","Quimioterapia intravenosa","Pemetrexed",NULL,NULL
+"2756226",NULL,NULL,"Quimioterapia intravenosa","Carboplatino","Paclitaxel",NULL
+"2756226",NULL,NULL,"Quimioterapia intravenosa","Cisplatino","Pemetrexed",NULL
+"2756226","2017-07-18","2017-08-29","Inmunoterapia","Nivolumab","Ipilimumab","Otro"
+"2758342","2019-04-12","2019-07-15","Quimioterapia intravenosa","Carboplatino","Etopósido VP16",NULL
+"2758457","2014-12-15","2015-02-02","Quimioterapia intravenosa","Ciclofosfamida","Pemetrexed",NULL
+"2758457","2017-04-24","2017-09-04","Terapia oral dirigida","Crizotinib",NULL,NULL
+"2758457","2017-09-15","2017-09-15","Quimioterapia intravenosa","Docetaxel",NULL,NULL
+"2758503","2018-03-07","2018-05-09","Quimioterapia intravenosa","Carboplatino","Pemetrexed","Otro"
+"2758503","2018-09-03","2019-02-15","Quimioterapia intravenosa y oral","Docetaxel","Nintedanib",NULL
+"2758503","2019-04-08","2019-07-08","Inmunoterapia","Nivolumab",NULL,NULL
+"2758941","2017-08-22","2017-10-23","Quimioterapia intravenosa + inmunoterapia","Carboplatino","Pemetrexed","Nivolumab"
+"2759310","2018-07-11","2018-10-02","Quimioterapia intravenosa","Carboplatino","Etopósido VP16",NULL
+"2760459","2020-10-23","2021-01-04","Quimioterapia intravenosa","Carboplatino","Vinorelbina",NULL
+"2760928","2017-10-30","2018-06-28","Terapia oral dirigida","Erlotinib",NULL,NULL
+"2760928","2018-06-28","2018-11-06","Terapia oral dirigida","Osimertinib",NULL,NULL
+"2761303","2018-06-28","2018-08-10","Quimioterapia neoadyuvante","Vinorelbina","Carboplatino",NULL
+"2761303","2018-10-02","2018-11-06","Quimioterapia-Radioterapia concomitante","Paclitaxel",NULL,NULL
+"2761303","2019-11-08","2019-12-27","Quimioterapia intravenosa","Gemcitabina","Carboplatino",NULL
+"2761763","2017-10-02","2017-12-04","Quimioterapia intravenosa","Carboplatino","Paclitaxel",NULL
+"2761763","2018-01-18","2018-02-01","Inmunoterapia","Nivolumab","Daratumumab",NULL
+"2761763","2018-03-07","2018-04-17","Quimioterapia intravenosa y oral","Nintedanib","Docetaxel",NULL
+"2761876","2017-08-29","2017-11-20","Quimioterapia intravenosa y oral","Carboplatino","Etopósido VP16",NULL
+"2763499","2020-01-15","2020-04-15","Quimioterapia intravenosa","Carboplatino","Pemetrexed",NULL
+"2763843","2017-09-18","2017-12-11","Quimioterapia intravenosa y oral","Carboplatino","Etopósido VP16",NULL
+"2763933","2015-02-15","2017-09-26","Terapia oral dirigida","Afatinib",NULL,NULL
+"2763933","2017-09-26",NULL,"Terapia oral dirigida","Osimertinib",NULL,NULL
+"2764070","2017-10-04","2017-12-11","Quimioterapia intravenosa + inmunoterapia","Pembrolizumab","Carboplatino","Paclitaxel"
+"2764070","2019-01-02","2019-02-13","Quimioterapia intravenosa","Gemcitabina",NULL,NULL
+"2765011","2017-10-17","2018-01-09","Quimioterapia intravenosa y oral","Carboplatino","Etopósido VP16",NULL
+"2765011","2018-04-24","2018-07-04","Quimioterapia intravenosa","Paclitaxel",NULL,NULL
+"2765487","2017-11-08","2017-12-21","Quimioterapia neoadyuvante","Carboplatino","Paclitaxel",NULL
+"2765487","2019-06-05","2019-06-21","Quimioterapia intravenosa","Vinorelbina",NULL,NULL
+"2765886","2017-12-18","2018-01-09","Quimioterapia adyuvante","Carboplatino","Vinorelbina",NULL
+"2765886","2018-03-01","2018-04-05","Quimioterapia-Radioterapia concomitante","Paclitaxel",NULL,NULL
+"2765886","2018-08-14","2018-11-20","Inmunoterapia","Nivolumab",NULL,NULL
+"2767552","2018-02-06","2018-04-18","Quimioterapia intravenosa","Carboplatino","Vinorelbina",NULL
+"2767552","2018-06-25","2018-07-30","Quimioterapia-Radioterapia concomitante","Paclitaxel",NULL,NULL
+"2767552","2020-01-27","2020-02-10","Inmunoterapia","Nivolumab",NULL,NULL
+"2767776","2017-12-18","2017-12-18","Quimioterapia intravenosa","Carboplatino","Pemetrexed",NULL
+"2768869","2018-12-21","2019-03-15","Quimioterapia intravenosa","Carboplatino","Etopósido VP16",NULL
+"2768869","2019-07-29","2019-10-03","Quimioterapia intravenosa","Cisplatino","Vincristina","Doxorrubicina"
+"2769464","2017-12-07","2018-02-02","Quimioterapia neoadyuvante","Vinorelbina","Cisplatino",NULL
+"2769464","2018-04-11","2018-05-30","Quimioterapia-Radioterapia adyuvante","Paclitaxel",NULL,NULL
+"2769464","2018-12-14","2019-03-07","Inmunoterapia","Nivolumab",NULL,NULL
+"2770936","2017-12-26","2018-02-26","Quimioterapia intravenosa","Carboplatino","Paclitaxel",NULL
+"2770936","2018-06-07","2018-09-13","Inmunoterapia","Nivolumab",NULL,NULL
+"2770936","2019-11-18","2020-03-04","Quimioterapia intravenosa y oral","Pembrolizumab vs placebo","Otro",NULL
+"2772714","2018-08-16","2018-11-07","Quimioterapia intravenosa","Carboplatino","Etopósido VP16",NULL
+"2773014","2018-01-12","2018-03-16","Quimioterapia intravenosa","Cisplatino","Pemetrexed",NULL
+"2773014","2018-05-07","2019-06-03","Inmunoterapia","Daratumumab","Nivolumab",NULL
+"2773014","2019-09-12","2019-11-22","Quimioterapia intravenosa","Otro","Docetaxel",NULL
+"2774331","2018-04-05","2018-06-07","Quimioterapia intravenosa","Carboplatino","Paclitaxel",NULL
+"2774331","2019-06-05","2020-01-15","Inmunoterapia","Nivolumab",NULL,NULL
+"2777040","2018-02-21","2018-04-30","Quimioterapia intravenosa","Carboplatino","Pemetrexed",NULL
+"2777040","2018-10-05","2020-10-13","Inmunoterapia","Pembrolizumab",NULL,NULL
+"2777603","2016-03-21",NULL,"Quimioterapia intravenosa","Cisplatino","Pemetrexed",NULL
+"2777603","2017-05-12",NULL,"Inmunoterapia","Nivolumab",NULL,NULL
+"2777603","2017-12-15","2017-12-15","Quimioterapia intravenosa y oral","Docetaxel","Nintedanib",NULL
+"2777603","2018-12-20","2019-01-31","Quimioterapia-Radioterapia concomitante","Carboplatino","Paclitaxel",NULL
+"2778985","2019-05-20","2019-07-29","Quimioterapia intravenosa","Carboplatino","Pemetrexed",NULL
+"2782768","2018-04-27","2018-07-04","Quimioterapia intravenosa","Carboplatino","Paclitaxel",NULL
+"2782768","2018-10-01","2020-02-18","Inmunoterapia","Nivolumab",NULL,NULL
+"2783519","2020-08-05","2020-10-30","Quimioterapia intravenosa","Carboplatino","Etopósido VP16",NULL
+"2783940","2018-05-03","2018-11-02","Terapia oral dirigida","Crizotinib",NULL,NULL
+"2785277","2013-05-15","2013-12-15","Quimioterapia adyuvante","Carboplatino","Paclitaxel",NULL
+"2785277","2017-07-15","2017-09-15","Quimioterapia adyuvante","Carboplatino","Paclitaxel",NULL
+"2785277","2018-04-18","2019-09-16","Terapia oral dirigida","Afatinib",NULL,NULL
+"2789299","2018-05-24","2018-08-16","Quimioterapia intravenosa","Carboplatino","Etopósido VP16",NULL
+"2789786",NULL,NULL,"Quimioterapia intravenosa","Carboplatino","Pemetrexed",NULL
+"2793070","2018-08-07","2019-11-11","Terapia oral dirigida","Afatinib",NULL,NULL
+"2793070","2019-11-27","2019-12-18","Quimioterapia intravenosa","Carboplatino","Pemetrexed",NULL
+"2793070","2020-02-17","2020-03-30","Quimioterapia intravenosa y oral","Docetaxel","Nintedanib",NULL
+"2793070","2020-06-09","2020-09-01","Quimioterapia intravenosa","Vinorelbina",NULL,NULL
+"2797537","2019-03-26","2019-05-28","Quimioterapia intravenosa","Carboplatino","Pemetrexed",NULL
+"2797776","2020-11-04","2020-12-30","Quimioterapia adyuvante","Cisplatino","Vinorelbina",NULL
+"2797776","2021-02-02","2021-03-09","Quimioterapia-Radioterapia concomitante","Carboplatino","Paclitaxel",NULL
+"2798486","2012-06-22","2012-08-03","Quimioterapia intravenosa","Carboplatino","Paclitaxel",NULL
+"2798486","2012-08-14","2012-09-28","Quimioterapia-Radioterapia concomitante","Carboplatino","Paclitaxel",NULL
+"2798486","2019-06-17","2019-07-29","Quimioterapia intravenosa","Carboplatino","Pemetrexed",NULL
+"2800873","2019-03-15","2019-05-24","Quimioterapia intravenosa","Cisplatino","Vinorelbina",NULL
+"2801481","2020-01-07","2020-03-10","Quimioterapia intravenosa + inmunoterapia","Carboplatino","Pembrolizumab","Pemetrexed"
+"2803612","2018-10-30","2019-01-08","Quimioterapia intravenosa","Cisplatino","Pemetrexed",NULL
+"2803612","2019-10-15","2019-11-20","Quimioterapia-Radioterapia concomitante","Paclitaxel",NULL,NULL
+"2803612","2020-09-09","2020-10-21","Inmunoterapia","Pembrolizumab",NULL,NULL
+"2805046","2018-11-12","2018-12-26","Quimioterapia neoadyuvante","Cisplatino","Pemetrexed","Nivolumab"
+"2806467","2019-01-15","2019-04-05","Quimioterapia adyuvante","Cisplatino","Vinorelbina",NULL
+"2807165","2016-08-17","2017-02-15","Quimioterapia intravenosa + inmunoterapia","Cisplatino","Pemetrexed","Pembrolizumab vs placebo"
+"2807165","2017-11-08","2018-10-05","Inmunoterapia","Pembrolizumab",NULL,NULL
+"2807165","2018-11-27","2019-07-22","Terapia oral dirigida","Alectinib",NULL,NULL
+"2807165","2019-07-31","2021-06-22","Terapia oral dirigida","Brigatinib",NULL,NULL
+"2810701","2019-02-05","2019-04-15","Quimioterapia intravenosa","Carboplatino","Pemetrexed",NULL
+"2810701","2020-05-29","2020-08-07","Quimioterapia intravenosa + inmunoterapia","Carboplatino","Pemetrexed","Pembrolizumab"
+"2811038","2019-01-22","2019-03-25","Quimioterapia neoadyuvante","Carboplatino","Vinorelbina",NULL
+"2811038","2019-05-23","2019-07-04","Quimioterapia-Radioterapia concomitante","Carboplatino","Paclitaxel",NULL
+"2811257","2019-01-29","2019-04-10","Quimioterapia intravenosa","Carboplatino","Vinorelbina",NULL
+"2811447",NULL,"2018-06-07","Quimioterapia adyuvante","Carboplatino","Gemcitabina",NULL
+"2812009","2019-02-25","2019-05-10","Quimioterapia-Radioterapia neoadyuvante","Cisplatino","Pemetrexed",NULL
+"2812009","2019-07-08","2019-08-12","Quimioterapia-Radioterapia concomitante","Carboplatino","Paclitaxel",NULL
+"2812085","2019-01-22","2019-03-05","Quimioterapia neoadyuvante","Nivolumab","Pemetrexed","Carboplatino"
+"2812882","2019-03-04","2019-04-08","Quimioterapia-Radioterapia concomitante","Carboplatino","Paclitaxel",NULL
+"2812882","2019-11-06","2020-01-27","Quimioterapia intravenosa","Carboplatino","Vinorelbina",NULL
+"2812882","2020-03-13","2020-04-03","Inmunoterapia","Nivolumab",NULL,NULL
+"2815387","2019-03-13","2020-02-15","Terapia oral dirigida","Dabrafenib","Trametinib",NULL
+"2815387","2020-03-04","2020-05-15","Quimioterapia intravenosa","Cisplatino","Pemetrexed",NULL
+"2815387","2020-07-27","2020-08-17","Quimioterapia intravenosa","Docetaxel","Nintedanib",NULL
+"2817044","2019-03-26","2020-05-29","Terapia oral dirigida","Alectinib",NULL,NULL
+"2817687","2019-05-24","2019-08-26","Quimioterapia adyuvante","Carboplatino","Etopósido VP16",NULL
+"2819509","2017-12-15","2018-06-15","Terapia oral dirigida","Afatinib",NULL,NULL
+"2819509","2018-07-15","2018-08-15","Terapia oral dirigida","Gefitinib",NULL,NULL
+"2819509","2018-08-18","2019-02-05","Terapia oral dirigida","Erlotinib",NULL,NULL
+"2819894","2019-05-22","2019-07-24","Quimioterapia intravenosa + inmunoterapia","Carboplatino","Pemetrexed","Pembrolizumab"
+"2819955","2019-04-29","2019-04-29","Quimioterapia intravenosa y oral","Carboplatino","Gefitinib",NULL
+"2822207","2019-05-31","2019-06-24","Quimioterapia-Radioterapia concomitante","Cisplatino","Vinorelbina",NULL
+"2822404","2015-06-02",NULL,"Quimioterapia-Radioterapia secuencial","Carboplatino","Pemetrexed","Bevacizumab"
+"2825213","2019-05-31","2019-12-11","Inmunoterapia","Pembrolizumab","Otro",NULL
+"2825213","2020-01-31","2020-04-14","Quimioterapia intravenosa","Carboplatino","Paclitaxel",NULL
+"2825213","2020-11-04","2020-11-24","Inmunoterapia","Pembrolizumab",NULL,NULL
+"2825948","2019-05-27","2019-07-22","Quimioterapia neoadyuvante","Carboplatino","Vinorelbina",NULL
+"2831180","2019-09-17",NULL,"Terapia oral dirigida","Osimertinib",NULL,NULL
+"2834441","2018-09-15",NULL,"Quimioterapia intravenosa","Cisplatino","Pemetrexed",NULL
+"2834441","2019-01-15",NULL,"Inmunoterapia","Atezolizumab",NULL,NULL
+"2834441","2019-05-15","2019-06-24","Quimioterapia intravenosa y oral","Docetaxel","Nintedanib",NULL
+"2834441","2019-07-31","2019-09-11","Inmunoterapia","Otro","Otro",NULL
+"2834441","2019-09-18","2019-11-04","Quimioterapia intravenosa","Gemcitabina",NULL,NULL
+"2834954","2019-06-24","2019-06-24","Quimioterapia intravenosa","Carboplatino","Pemetrexed",NULL
+"2838962","2019-10-10","2019-11-20","Quimioterapia neoadyuvante","Paclitaxel","Carboplatino",NULL
+"2840633","2018-08-23","2018-10-15","Quimioterapia intravenosa","Cisplatino","Paclitaxel",NULL
+"2840633","2018-10-30","2019-08-01","Inmunoterapia","Nivolumab",NULL,NULL
+"2840900","2019-07-22","2019-09-23","Quimioterapia intravenosa y oral","Cisplatino","Etopósido VP16",NULL
+"2841784","2019-01-02","2019-03-11","Quimioterapia-Radioterapia concomitante","Carboplatino","Paclitaxel",NULL
+"2842467","2019-05-20","2019-07-22","Quimioterapia intravenosa","Cisplatino","Etopósido VP16",NULL
+"2845340","2019-11-29","2020-02-21","Quimioterapia intravenosa y oral","Carboplatino","Etopósido VP16",NULL
+"2845808","2018-06-15","2018-08-15","Quimioterapia intravenosa","Carboplatino","Gemcitabina",NULL
+"2845808","2019-05-15","2019-09-15","Quimioterapia intravenosa","Carboplatino","Paclitaxel",NULL
+"2849776","2020-01-21","2020-03-18","Quimioterapia neoadyuvante","Carboplatino","Vinorelbina",NULL
+"2853879","2020-02-10","2020-03-23","Quimioterapia neoadyuvante","Carboplatino","Paclitaxel",NULL
+"2853879","2020-05-25","2020-06-16","Quimioterapia-Radioterapia concomitante","Carboplatino","Paclitaxel",NULL
+"2855764","2020-04-15","2020-05-26","Quimioterapia neoadyuvante","Carboplatino","Paclitaxel",NULL
+"2856596","2019-10-17","2020-01-14","Quimioterapia-Radioterapia concomitante","Carboplatino","Paclitaxel",NULL
+"2856772","2020-08-11","2020-09-16","Quimioterapia-Radioterapia secuencial","Carboplatino","Paclitaxel",NULL
+"2857956","2020-11-23","2021-01-25","Inmunoterapia","Pembrolizumab",NULL,NULL
+"2859383","2020-04-07","2020-06-08","Quimioterapia intravenosa + inmunoterapia","Carboplatino","Paclitaxel","Pembrolizumab"
+"2859383","2020-09-15","2020-11-16","Quimioterapia intravenosa","Docetaxel",NULL,NULL
+"2859383","2020-12-01","2021-01-27","Quimioterapia intravenosa","Gemcitabina",NULL,NULL
+"2859383","2021-02-10","2021-03-10","Quimioterapia intravenosa","Vinorelbina",NULL,NULL
+"2862628","2020-04-29","2020-09-11","Inmunoterapia","Nivolumab",NULL,NULL
+"2863657","2020-02-07","2020-04-08","Inmunoterapia","Pembrolizumab",NULL,NULL
+"2863778","2020-05-25","2020-06-15","Quimioterapia intravenosa","Carboplatino","Pemetrexed",NULL
+"2864272","2020-07-22","2020-09-02","Quimioterapia intravenosa + inmunoterapia","Carboplatino","Pemetrexed","Pembrolizumab"
+"2864348","2020-05-27","2020-06-26","Quimioterapia intravenosa","Carboplatino","Etopósido VP16",NULL
+"2867151","2020-07-24","2020-10-23","Quimioterapia neoadyuvante","Carboplatino","Paclitaxel","Nivolumab"
+"2870435","2020-08-18","2020-09-08","Inmunoterapia","Pembrolizumab",NULL,NULL
+"2870435","2020-09-18","2020-11-23","Quimioterapia intravenosa + inmunoterapia","Carboplatino","Pemetrexed","Pembrolizumab"
+"2871180","2020-09-07","2020-09-28","Quimioterapia intravenosa y oral","Carboplatino","Etopósido VP16",NULL
+"2871180","2020-11-06","2020-11-27","Quimioterapia intravenosa","Docetaxel",NULL,NULL
+"2871180","2020-12-11","2020-12-14","Inmunoterapia","Nivolumab",NULL,NULL
+"2871574","2020-03-15",NULL,"Quimioterapia intravenosa","Carboplatino","Pemetrexed",NULL
