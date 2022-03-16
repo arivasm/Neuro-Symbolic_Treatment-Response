@@ -60,54 +60,6 @@ def load_ddi(asymmetric_ddi, input_data):
     return set_asymmetric_ddi, comorbidity_drug, set_DDIs
 
 
-def build_treatment(frame_ddi, list_cui, classification, th):
-    treatment_x = []
-    obj_drug = random.choice(list_cui)
-    treatment_x.append(obj_drug)
-    n_ddi = 0
-    if classification == "Toxicity":
-        classification = ddiTypeToxicity
-    else:
-        classification = ddiTypeEffectiveness
-    while (n_ddi / 45) < th:
-        tox_ddi = frame_ddi.loc[(frame_ddi.objectDrug == obj_drug) & (frame_ddi.Effect_Impact.isin(classification))]
-        if tox_ddi.shape[0] == 0:
-            treatment_x = []
-            obj_drug = random.choice(list_cui)
-            treatment_x.append(obj_drug)
-        else:
-            precip_drug = random.choice(tox_ddi.precipitantDrug.unique())
-            if precip_drug not in treatment_x:
-                treatment_x.append(precip_drug)
-                obj_drug = precip_drug
-            if set(tox_ddi.precipitantDrug.unique()).issubset(set(treatment_x)):
-                treatment_x = []
-                obj_drug = random.choice(list_cui)
-                treatment_x.append(obj_drug)
-
-            set_frame_ddi = frame_ddi.loc[frame_ddi.precipitantDrug.isin(treatment_x)]
-            set_frame_ddi = set_frame_ddi.loc[set_frame_ddi.objectDrug.isin(treatment_x)]
-            set_frame_ddi = set_frame_ddi.loc[set_frame_ddi.Effect_Impact.isin(classification)]
-            set_frame_ddi.drop_duplicates(keep='first', inplace=True, ignore_index=True)
-            n_ddi = (set_frame_ddi.shape[0] - (len(treatment_x) - 1)) + (len(treatment_x) * (len(treatment_x) - 1) / 2)
-            # n_ddi = set_frame_ddi.shape[0]
-        if len(treatment_x) > 10:
-            treatment_x = []
-            obj_drug = random.choice(list_cui)
-            treatment_x.append(obj_drug)
-    treatment_x = completing_treatment(treatment_x, list_cui)
-    return treatment_x
-
-
-def completing_treatment(treatment_x, list_cui):
-    while len(treatment_x) < 10:
-        drug = random.choice(list_cui)
-        if drug in treatment_x:
-            continue
-        treatment_x.append(drug)
-    return treatment_x
-
-
 pyDatalog.create_terms('rdf_star_triple, inferred_rdf_star_triple, wedge, A, B, C, T, T2')
 
 
