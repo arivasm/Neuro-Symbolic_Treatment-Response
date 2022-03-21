@@ -121,18 +121,23 @@ def create_treatment(drug_no_onco, treatment):
     return treatment
 
 
-def preprocess_treatment(df_treatment):
+def preprocess_treatment(df_treatment, non_onco_drug):
     set_drugs = set()
+    index_remove = []
     # == sort cancer treatment and remove duplicate ==
     for i in range(df_treatment.shape[0]):
         # == write the number of drug of the treatment
         drugs = df_treatment.drug_name[i]
+        #if len(drugs) == 2 and len(set(drugs).intersection(non_onco_drug)) > 0:
+        #    index_remove.append(i)
+        #    continue
         # print(drugs, i)
         drugs.sort()
         df_treatment.at[i, 'n_drugs'] = len(drugs)
         df_treatment.at[i, 'drug_name'] = drugs
         set_drugs.update(set(drugs))
 
+    #df_treatment.drop(index_remove, inplace=True)
     df_treatment = df_treatment.loc[df_treatment['n_drugs'] > 1]
     df_treatment = df_treatment.sort_values(by=['n_drugs'], ascending=False)
     df_treatment = df_treatment[['drug_name', 'n_drugs']]
@@ -175,19 +180,20 @@ def create_turtle_file(treatment):
     graph_ttl = """@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix ex: <http://example/#> .
 @prefix treatment_drug: <http://example/Treatment_Drug#> .
-ex:higher_toxicity\trdf:type\tex:HigherToxicity .
-ex:lower_effectiveness\trdf:type\tex:LowerEffectiveness .\n"""
+@prefix ddi: <http://example/DrugDrugInteraction#> .
+ex:higher_toxicity	rdf:type	ex:HigherToxicity .
+ex:lower_effectiveness	rdf:type	ex:LowerEffectiveness .\n"""
     graph_ttl = """"""
     treatment_class = """"""
 
     graph_ttl = graph_ttl + """<http://example/Treatment/""" + treatment.name + """>\trdf:type\tex:Treatment .\n"""
 
     if treatment.effective:
-        graph_ttl = graph_ttl + """<http://example/Treatment/""" + treatment.name + """>\tex:hasClassificationEffective\tex:effective .\n"""
+        graph_ttl = graph_ttl + """<http://example/Treatment/""" + treatment.name + """>\tex:hasClassificationEffect\tex:effective .\n"""
     if treatment.decrease_effectiveness:
         graph_ttl = graph_ttl + """<http://example/Treatment/""" + treatment.name + """>\tex:hasClassificationEffect\tex:decrease_effectiveness .\n"""
     if treatment.effective_2:
-        treatment_class = treatment_class + """<http://example/Treatment/""" + treatment.name + """>\tex:hasClassificationEffective\tex:effective .\n"""
+        treatment_class = treatment_class + """<http://example/Treatment/""" + treatment.name + """>\tex:hasClassificationEffect\tex:effective .\n"""
     if treatment.decrease_effectiveness_2:
         treatment_class = treatment_class + """<http://example/Treatment/""" + treatment.name + """>\tex:hasClassificationEffect\tex:decrease_effectiveness .\n"""
 
@@ -218,8 +224,16 @@ def get_ddi_triples(treatment, g):
     for index, row in g.iterrows():
         graph_ttl = graph_ttl + """ddi:""" + treatment.name + row['precipitantDrug'] + row[
             'objectDrug'] + """\trdf:type\tex:DDI .\n"""
+        # == adding effect and impact of a DDI
         graph_ttl = graph_ttl + """ddi:""" + treatment.name + row['precipitantDrug'] + row[
-            'objectDrug'] + """\tex:related_to\t<http://example/Treatment/""" + treatment.name + """> .\n"""
+            'objectDrug'] + """\trdf:ddiEffect\tex:""" + row['Effect_Impact'] + """ .\n"""
+
+        graph_ttl = graph_ttl + """<http://example/Treatment/""" + treatment.name + """>\tex:related_to\tddi:""" + \
+                    treatment.name + row['precipitantDrug'] + row['objectDrug'] + """ .\n"""
+
+        # graph_ttl = graph_ttl + """ddi:""" + treatment.name + row['precipitantDrug'] + row[
+        #    'objectDrug'] + """\tex:related_to\t<http://example/Treatment/""" + treatment.name + """> .\n"""
+
         graph_ttl = graph_ttl + """ddi:""" + treatment.name + row['precipitantDrug'] + row[
             'objectDrug'] + """\tex:precipitant_drug\t<http://example/Drug/""" + row['precipitantDrug'] + """> .\n"""
         graph_ttl = graph_ttl + """ddi:""" + treatment.name + row['precipitantDrug'] + row[
@@ -247,12 +261,13 @@ def main(*args):
     drugBank_id_name = pd.read_csv('../store_data/drug/drugBank_id_name.csv', delimiter=",")
 
     drug_no_onco = preprocessing_nonOncological_drugs(drug_no_onco)
+    non_onco_drug = list(drug_no_onco.drug_name.unique())
     if args[1] == 'positive':
         treatment = preprocessing_oncological_drugs(positive_treatment)
     else:
         treatment = preprocessing_oncological_drugs(negative_treatment)
     treatment = create_treatment(drug_no_onco, treatment)
-    df_treatment, set_drugs = preprocess_treatment(treatment)
+    df_treatment, set_drugs = preprocess_treatment(treatment, non_onco_drug)
     drugBank_id = get_drugbank_id(set_drugs, drugBank_id_name)
     generate_kg_treatment(df_treatment, drugBank_id, ddi, int(args[0]), args[1])
     # generate_kg_treatment(df_treatment, drugBank_id, ddi, 524, 'positive')
