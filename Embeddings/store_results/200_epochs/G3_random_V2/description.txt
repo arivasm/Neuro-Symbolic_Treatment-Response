@@ -1,0 +1,4 @@
+creating random links between nodes related to treatment of class effective to the treatments class decrease effect.
+The idea is make treatment of class decrease effective equal to the treatment of class effective.
+All the relations (one hop) of treatment classs effective are create to the treatment class decrease effective.
+(we are not reporting this KG3, it's just for experiment and to observe the results!)
