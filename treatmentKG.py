@@ -225,8 +225,8 @@ def get_ddi_triples(treatment, g):
         graph_ttl = graph_ttl + """ddi:""" + treatment.name + row['precipitantDrug'] + row[
             'objectDrug'] + """\trdf:type\tex:DDI .\n"""
         # == adding effect and impact of a DDI
-        graph_ttl = graph_ttl + """ddi:""" + treatment.name + row['precipitantDrug'] + row[
-            'objectDrug'] + """\trdf:ddiEffect\tex:""" + row['Effect_Impact'] + """ .\n"""
+        #graph_ttl = graph_ttl + """ddi:""" + treatment.name + row['precipitantDrug'] + row[
+        #    'objectDrug'] + """\trdf:ddiEffect\tex:""" + row['Effect_Impact'] + """ .\n"""
 
         graph_ttl = graph_ttl + """<http://example/Treatment/""" + treatment.name + """>\tex:related_to\tddi:""" + \
                     treatment.name + row['precipitantDrug'] + row['objectDrug'] + """ .\n"""
