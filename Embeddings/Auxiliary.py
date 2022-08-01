@@ -18,17 +18,11 @@ from rdflib import Graph
 from rdflib.plugins.sparql.processor import SPARQLResult
 
 
-def load_dataset(name):
-    triple_data = open(name).read().strip()
-    data = np.array([triple.split(' ')[:-1] for triple in triple_data.split('\n')])  # removing ' .'
-    triple = []
-    for t in data:
-        t[2] = ' '.join(t[2:])
-        t = t[:3]
-        triple.append(t)
-    triple = np.array(triple)
-    tf_data = TriplesFactory.from_labeled_triples(triples=triple)
-    return tf_data, triple
+def load_dataset(path, name):
+    triple_data = open(path + name).read().strip()
+    data = np.array([triple.split('\t') for triple in triple_data.split('\n')])
+    tf_data = TriplesFactory.from_labeled_triples(triples=data)
+    return tf_data, triple_data
 
 
 def create_model(tf_training, tf_testing, embedding, n_epoch, training_loops, path):
@@ -150,11 +144,11 @@ def get_learned_embeddings(model):
     return entity_embedding_tensor, relation_embedding_tensor
 
 
-def create_dataframe_predicted_entities(entity_embedding_tensor, predicted_heads, training):
+def create_dataframe_predicted_entities(entity_embedding_tensor, entity, training):
     df = pd.DataFrame(entity_embedding_tensor.cpu().detach().numpy())
     df['target'] = list(training.entity_to_id)
-    new_df = df.loc[df.target.isin(list(predicted_heads.head_label))]
-    return new_df.iloc[:, :-1], new_df
+    new_df = df.loc[df.target.isin(list(entity))]
+    return new_df.iloc[:, :-1], new_df, df
 
 
 def elbow_KMeans(matrix, k_min, k_max, n):
