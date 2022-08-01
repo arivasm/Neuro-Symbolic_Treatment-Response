@@ -1,2 +1,0 @@
-model;epochs;k_fold;path;graph_name
-distmult,TransH,RotatE;200;5;G2/;GXXtreatment.ttl
