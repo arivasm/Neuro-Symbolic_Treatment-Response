@@ -1,0 +1,2 @@
+model;epochs;k_fold;path;graph_name
+TransH;200;5;G2/;GXXtreatment.ttl
