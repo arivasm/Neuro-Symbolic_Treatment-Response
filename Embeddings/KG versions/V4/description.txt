@@ -1,0 +1,4 @@
+the node that represents the DDI is represented by DB_id of precipitant drug and the object drug.
+In the previoud version, V3.1, the treatment ID was also considered in the nodes of DDI.
+
+Now, a DDI node can be linked to different treatments. we have less nodes.

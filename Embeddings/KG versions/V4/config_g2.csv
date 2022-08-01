@@ -1,0 +1,2 @@
+model;epochs;k_fold;path;graph_name
+TransH,RotatE,TransE,TransD,HolE,TransR,ERMLP,QuatE,RESCAL,SE,UM;200;5;G2/;GXXtreatment.ttl

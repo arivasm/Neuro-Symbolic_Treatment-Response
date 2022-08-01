@@ -12,18 +12,26 @@ import torch
 
 
 def select_graph(n):
-    th_dec_eff = 9.6551724138  # means 524
-    th_eff = 90.3448275862  # means 56
+    # th_dec_eff = 9.6551724138  # means 524
+    # th_eff = 90.3448275862  # means 56
 
-    # th_dec_eff = 9.861932938856016 # means 457
-    # th_eff = 90.13806706114398 # means 50
+    # th_lowEffect = 30.645161290322577 # means 430
+    # th_effective = 69.35483870967742 # means 190
+    th_lowEffect = 27.19266055 # means 399
+    th_effective = 72.80733945 # means 149
+    #n_sample = 124
+    #n_sample_effective = [38, 34, 40, 35, 43]
+    #n_sample_lowEffect = [n_sample - x for x in n_sample_effective]
+    #th_effective = [1 - x / n_sample for x in n_sample_effective]
+    #th_lowEffect = [1 - x / n_sample for x in n_sample_lowEffect]
+    
     if n == 1:
         file_name = 'config_g1.csv'
     elif n == 2:
         file_name = 'config_g2.csv'
     else:
         file_name = 'config_g3.csv'
-    return file_name, n, th_dec_eff, th_eff
+    return file_name, n, th_lowEffect, th_effective
 
 
 # # Load Train data
@@ -39,6 +47,13 @@ def create_model(tf_training, tf_testing, embedding, n_epoch, path, fold):
         training=tf_training,
         testing=tf_testing,
         model=embedding,  # 'TransE',  #'RotatE'
+        # stopper='early',
+        # stopper_kwargs=dict(frequency=5, patience=2, relative_delta=0.002),
+        # training_loop='sLCWA',
+        # negative_sampler='bernoulli',
+        negative_sampler_kwargs=dict(
+        filtered=True,
+        ),
         # Training configuration
         training_kwargs=dict(
             num_epochs=n_epoch,
@@ -86,7 +101,7 @@ def load_testset_classes(path, name):
     r['o'] = r['o'].str.replace(' .', '')
     r_tox = r.loc[r.o == 'ex:effective']
     head_tox = list(r_tox.head_label)
-    r_eff = r.loc[r.o == 'ex:decrease_effectiveness']
+    r_eff = r.loc[r.o == 'ex:low_effect']
     head_eff = list(r_eff.head_label)
     return head_tox, head_eff
 
@@ -151,6 +166,7 @@ def reset_index(predicted_heads):
 def main(*args):
     file_name, n, th_dec_eff, th_eff = select_graph(int(args[0]))
     models, epochs, k, path, graph_name = get_config(file_name)
+    #models = ['TransE','TransH','RotatE','TransD', 'HolE', 'TransR', 'ERMLP', 'QuatE', 'RESCAL', 'SE', 'UM']
     for m in models:
         precision = 0
         recall = 0
@@ -159,36 +175,26 @@ def main(*args):
             tf_training, triple_train = load_dataset(path, 'train_' + str(i + 1) + '.ttl')
             tf_testing, triple_test = load_dataset(path, 'test_' + str(i + 1) + '.ttl')
             model, results = create_model(tf_training, tf_testing, m, epochs, path, i + 1)
-            # model = torch.load(path + m + str(i + 1) + '/trained_model.pkl')
-            predicted_heads_eff = predict_heads(model, 'ex:hasClassificationEffect', 'ex:effective',
-                                                tf_training)  # tf_testing  tf_training
-            predicted_heads_dec_eff = predict_heads(model, 'ex:hasClassificationEffect', 'ex:decrease_effectiveness',
-                                                    tf_training)  # tf_training  tf_testing
-            predicted_heads_eff = filter_prediction(predicted_heads_eff, '<http://example/Treatment/treatment')
-            predicted_heads_dec_eff = filter_prediction(predicted_heads_dec_eff, '<http://example/Treatment/treatment')
+            #model = torch.load(path + m + str(i + 1) + '/trained_model.pkl') # , map_location='cpu'
+            predicted_heads_eff = predict_heads(model, 'ex:belong_to', 'ex:effective', tf_testing) #tf_training
+            predicted_heads_dec_eff = predict_heads(model, 'ex:belong_to', 'ex:low_effect',tf_testing)
 
-            head_eff, head_dec_eff = load_testset_classes(path, 'test_' + str(i + 1) + '.ttl')  # graph_name
-            predicted_heads_eff = adding_testset(predicted_heads_eff, head_eff)
-            predicted_heads_dec_eff = adding_testset(predicted_heads_dec_eff, head_dec_eff)
-
-            # predicted_heads_eff = reset_index(predicted_heads_eff)
-            # predicted_heads_dec_eff = reset_index(predicted_heads_dec_eff)
-            # display(predicted_heads_eff)
-
-            # inflection_index = get_inflection_point(predicted_heads_tox.score.values)
-            threshold, threshold_index = get_threshold(predicted_heads_eff, th_eff)
-            precision_eff, tp = get_precision(predicted_heads_eff, threshold_index)
-            recall_eff = get_recall(predicted_heads_eff, tp)
-            f_measure_eff = get_f_measure(precision_eff, recall_eff)
-            print(precision_eff, recall_eff, f_measure_eff, tp)
-
-            # inflection_index = get_inflection_point(predicted_heads_eff.score.values)
             threshold, threshold_index = get_threshold(predicted_heads_dec_eff, th_dec_eff)
             precision_dec_eff, tp = get_precision(predicted_heads_dec_eff, threshold_index)
             recall_dec_eff = get_recall(predicted_heads_dec_eff, tp)
-            f_measure_dec_eff = get_f_measure(precision_dec_eff, recall_dec_eff)
-            print(precision_dec_eff, recall_dec_eff, f_measure_dec_eff, tp)
-
+            f_measure_dec_eff = 0
+            if (precision_dec_eff + recall_dec_eff) > 0:
+                f_measure_dec_eff = get_f_measure(precision_dec_eff, recall_dec_eff)
+            
+            
+            threshold, threshold_index = get_threshold(predicted_heads_eff, th_eff)
+            precision_eff, tp = get_precision(predicted_heads_eff, threshold_index)
+            recall_eff = get_recall(predicted_heads_eff, tp)
+            f_measure_eff = 0
+            if (precision_eff + recall_eff) > 0:
+                f_measure_eff = get_f_measure(precision_eff, recall_eff)
+            
+            
             precision += (precision_eff + precision_dec_eff) / 2
             recall += (recall_eff + recall_dec_eff) / 2
             f_measure += (f_measure_eff + f_measure_dec_eff) / 2
@@ -197,8 +203,7 @@ def main(*args):
         avg_precision = precision / k
         avg_recall = recall / k
         avg_f_measure = f_measure / k
-        line = m + ';' + str(th_dec_eff) + ';' + str(th_eff) + ';' + str(avg_precision) + ';' + str(
-            avg_recall) + ';' + str(avg_f_measure) + '\n'
+        line = m + ';' + str(avg_precision) + ';' + str(avg_recall) + ';' + str(avg_f_measure) + '\n'
         save_statistics(path, line)
         print(line)
 
@@ -206,5 +211,3 @@ def main(*args):
 if __name__ == '__main__':
     main(*sys.argv[1:])
 
-# if __name__ == '__main__':
-#    main()
