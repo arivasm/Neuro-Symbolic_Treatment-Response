@@ -6,3 +6,6 @@ We present a novel approach based on the integration of Neuro-Symbolic AI system
 
 ## Running Neuro-Symbolic IA System
 - Descriptive_Analysis_Treatment_Response.ipynb: Shows a descriptive analysis of the treatment-response in the KG.
+- Analysis_DDIs_by_Treatment_Response.ipynb: Shows a detailed analysis of the distribution and density of DDIs by treatment-response in the benchmarks.
+- Statistics_TKG.ipynb: presents the metrics to measure size, diversity, and sparsity in Knowledge Graph.
+- deductive_system.py: presents the symbolic system implemented by a deductive database in datalog for the problem of treatment-response.
