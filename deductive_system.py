@@ -238,41 +238,6 @@ def capture_knowledge(union, comorbidity_drug, set_DDIs):
     return g1, g2, union, graph_ddi
 
 
-def capture_knowledge_v1(union, comorbidity_drug, set_DDIs):
-    plot_graph = union[['EffectorDrugLabel', 'AffectedDrugLabel', 'Effect_Impact']]
-    # plot_ddi.drop_duplicates(keep='first', inplace=True)
-    graph_ddi, remove_ddi = get_graph_enriched(plot_graph, comorbidity_drug, set_DDIs)  # plot_ddi
-
-    # removing DDIs from G1 that our deductive system can deduce
-    print(remove_ddi.shape[0])
-    init_g1 = union.merge(remove_ddi, how='outer', indicator=True).loc[lambda x: x['_merge'] == 'left_only'].drop(
-        "_merge",
-        1).reset_index()
-    init_g1.drop(columns=['index'], inplace=True)
-
-    init_g1['Class'] = ''
-    init_g1.loc[init_g1.Effect_Impact.isin(ddiTypeToxicity), "Class"] = 'HigherToxicity'
-    init_g1.loc[init_g1.Effect_Impact.isin(ddiTypeEffectiveness), "Class"] = 'LowerEffectiveness'
-    g1 = init_g1[['objectDrug', 'AffectedDrugLabel', 'Class']]
-    g1.drop_duplicates(keep='first', inplace=True)
-    graph_ddi['Class'] = ''
-    graph_ddi.loc[graph_ddi.Effect_Impact.isin(ddiTypeToxicity), "Class"] = 'HigherToxicity'
-    graph_ddi.loc[graph_ddi.Effect_Impact.isin(ddiTypeEffectiveness), "Class"] = 'LowerEffectiveness'
-
-    graph_ddi['precipitantDrug'] = ''
-    graph_ddi['objectDrug'] = ''
-    precipitant = dict(zip(union.precipitantDrug, union.EffectorDrugLabel))
-    object_d = dict(zip(union.objectDrug, union.AffectedDrugLabel))
-    for key, value in precipitant.items():
-        graph_ddi.loc[graph_ddi.EffectorDrugLabel == value, 'precipitantDrug'] = key
-    for key, value in object_d.items():
-        graph_ddi.loc[graph_ddi.AffectedDrugLabel == value, 'objectDrug'] = key
-
-    g2 = graph_ddi[['AffectedDrugLabel', 'Class']]
-    g2.drop_duplicates(keep='first', inplace=True)
-    return g1, g2, init_g1, graph_ddi
-
-
 def discovering_knowledge(adverse_event, union, set_dsd_label, comorbidity_drug):
     plot_ddi = union[['EffectorDrugLabel', 'AffectedDrugLabel', 'Effect_Impact']]
     plot_ddi.drop_duplicates(keep='first', inplace=True)
