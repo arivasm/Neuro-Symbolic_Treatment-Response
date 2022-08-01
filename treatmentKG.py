@@ -17,12 +17,6 @@ class Treatment:
     def set_effective(self):
         self.effective = True
 
-    def set_decrease_effectiveness_2(self):
-        self.decrease_effectiveness_2 = True
-
-    def set_effective_2(self):
-        self.effective_2 = True
-
     def set_name(self, name):
         self.name = name
 
@@ -37,8 +31,6 @@ class Treatment:
         self.name = ''
         self.effective = False
         self.decrease_effectiveness = False
-        self.effective_2 = False
-        self.decrease_effectiveness_2 = False
         self.treatment = []
         self.num_ddi_deduced = ''
         self.classified_drug = ''
@@ -128,7 +120,7 @@ def preprocess_treatment(df_treatment, non_onco_drug):
     for i in range(df_treatment.shape[0]):
         # == write the number of drug of the treatment
         drugs = df_treatment.drug_name[i]
-        #if len(drugs) == 2 and len(set(drugs).intersection(non_onco_drug)) > 0:
+        # if len(drugs) == 2 and len(set(drugs).intersection(non_onco_drug)) > 0:
         #    index_remove.append(i)
         #    continue
         # print(drugs, i)
@@ -137,7 +129,7 @@ def preprocess_treatment(df_treatment, non_onco_drug):
         df_treatment.at[i, 'drug_name'] = drugs
         set_drugs.update(set(drugs))
 
-    #df_treatment.drop(index_remove, inplace=True)
+    # df_treatment.drop(index_remove, inplace=True)
     df_treatment = df_treatment.loc[df_treatment['n_drugs'] > 1]
     df_treatment = df_treatment.sort_values(by=['n_drugs'], ascending=False)
     df_treatment = df_treatment[['drug_name', 'n_drugs']]
@@ -146,7 +138,16 @@ def preprocess_treatment(df_treatment, non_onco_drug):
     return df_treatment, set_drugs
 
 
+def get_set_drug(df_treatment):
+    set_drugs = set()
+    for i in range(df_treatment.shape[0]):
+        drugs = df_treatment.drug_name[i]
+        set_drugs.update(set(drugs))
+    return set_drugs
+
+
 def generate_kg_treatment(df_treatment, drugBank_id, ddi, init, treatment_class):
+    add_node = set()
     for i in range(df_treatment.shape[0]):
         list_d = df_treatment.drug_name[i]
         input_data = drugBank_id.loc[drugBank_id.DrugName.isin(list_d)].DrugBankID.values
@@ -158,17 +159,17 @@ def generate_kg_treatment(df_treatment, drugBank_id, ddi, init, treatment_class)
         t.set_value_treatment(input_data, g1, g2, g1_classified, g2_classified)
         if treatment_class == 'positive':
             t.set_effective()
-            t.set_effective_2()
         else:
             # == treatment_class == 'negative':
             t.set_decrease_effectiveness()
-            t.set_decrease_effectiveness_2()
 
         t.set_name('treatment' + str(init + i))
 
-        graph_ttl, graph_2_ttl = create_turtle_file(t)
+        graph_ttl, graph_2_ttl, add_node = create_turtle_file(t, add_node)
         save_ttl_file(graph_ttl, 'G1.ttl')
         save_ttl_file(graph_2_ttl, 'G2.ttl')
+
+    save_ttl_file(add_triple_tddi_to_g1(add_node), 'G1.ttl')
 
 
 def get_drugbank_id(set_drugs, drugBank_id_name):
@@ -176,7 +177,7 @@ def get_drugbank_id(set_drugs, drugBank_id_name):
     return pd.merge(drugBank_id_name, drug_treatment, on='DrugName')
 
 
-def create_turtle_file(treatment):
+def create_turtle_file_v1(treatment, add_node):
     graph_ttl = """@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix ex: <http://example/#> .
 @prefix treatment_drug: <http://example/Treatment_Drug#> .
@@ -184,61 +185,134 @@ def create_turtle_file(treatment):
 ex:higher_toxicity	rdf:type	ex:HigherToxicity .
 ex:lower_effectiveness	rdf:type	ex:LowerEffectiveness .\n"""
     graph_ttl = """"""
-    treatment_class = """"""
 
-    graph_ttl = graph_ttl + """<http://example/Treatment/""" + treatment.name + """>\trdf:type\tex:Treatment .\n"""
+    # graph_ttl = graph_ttl + """<http://example/Treatment/""" + treatment.name + """>\trdf:type\tex:Treatment .\n"""
 
     if treatment.effective:
-        graph_ttl = graph_ttl + """<http://example/Treatment/""" + treatment.name + """>\tex:hasClassificationEffect\tex:effective .\n"""
+        graph_ttl = graph_ttl + """<http://example/Treatment/""" + treatment.name + """>\tex:belong_to\tex:effective .\n"""
+        graph_ttl = graph_ttl + """<http://example/Treatment/""" + treatment.name + """>\tex:no_belong_to\tex:low_effect .\n"""
     if treatment.decrease_effectiveness:
-        graph_ttl = graph_ttl + """<http://example/Treatment/""" + treatment.name + """>\tex:hasClassificationEffect\tex:decrease_effectiveness .\n"""
-    if treatment.effective_2:
-        treatment_class = treatment_class + """<http://example/Treatment/""" + treatment.name + """>\tex:hasClassificationEffect\tex:effective .\n"""
-    if treatment.decrease_effectiveness_2:
-        treatment_class = treatment_class + """<http://example/Treatment/""" + treatment.name + """>\tex:hasClassificationEffect\tex:decrease_effectiveness .\n"""
+        graph_ttl = graph_ttl + """<http://example/Treatment/""" + treatment.name + """>\tex:belong_to\tex:low_effect .\n"""
+        graph_ttl = graph_ttl + """<http://example/Treatment/""" + treatment.name + """>\tex:no_belong_to\tex:effective .\n"""
 
     drug_list = treatment.treatment
     for d in drug_list:
-        treatment_drug = treatment.name + '_' + d
-        graph_ttl = graph_ttl + """<http://example/Drug/""" + d + """>\trdf:type\tex:Drug .\n"""
-        graph_ttl = graph_ttl + """treatment_drug:""" + treatment_drug + """\trdf:type\tex:Treatment_Drug .\n"""
-        graph_ttl = graph_ttl + """treatment_drug:""" + treatment_drug + """\tex:related_to\t<http://example/Treatment/""" + treatment.name + """> .\n"""
-        graph_ttl = graph_ttl + """treatment_drug:""" + treatment_drug + """\tex:related_to\t<http://example/Drug/""" + d + """> .\n"""
-        cls = treatment.classified_drug.loc[treatment.classified_drug.objectDrug == d].Class.values
-        for c in cls:
-            if c == 'HigherToxicity':
-                graph_ttl = graph_ttl + """treatment_drug:""" + treatment_drug + """\tex:hasHighToxicity\tex:higher_toxicity .\n"""
-            else:
-                graph_ttl = graph_ttl + """treatment_drug:""" + treatment_drug + """\tex:hasLowerEffect\tex:lower_effectiveness .\n"""
+        # treatment_drug = treatment.name + '_' + d
+        # graph_ttl = graph_ttl + """<http://example/Drug/""" + d + """>\trdf:type\tex:Drug .\n"""
+        graph_ttl = graph_ttl + """<http://example/Drug/""" + d + """>\tex:part_of\t<http://example/Treatment/""" + treatment.name + """> .\n"""
+        # graph_ttl = graph_ttl + """treatment_drug:""" + treatment_drug + """\trdf:type\tex:Treatment_Drug .\n"""
+        # graph_ttl = graph_ttl + """treatment_drug:""" + treatment_drug + """\tex:related_to\t<http://example/Treatment/""" + treatment.name + """> .\n"""
+        # graph_ttl = graph_ttl + """treatment_drug:""" + treatment_drug + """\tex:related_to\t<http://example/Drug/""" + d + """> .\n"""
+        # cls = treatment.classified_drug.loc[treatment.classified_drug.objectDrug == d].Class.values
+        # for c in cls:
+        #     if c == 'HigherToxicity':
+        #         graph_ttl = graph_ttl + """treatment_drug:""" + treatment_drug + """\tex:hasHighToxicity\tex:higher_toxicity .\n"""
+        #     else:
+        #         graph_ttl = graph_ttl + """treatment_drug:""" + treatment_drug + """\tex:hasLowerEffect\tex:lower_effectiveness .\n"""
 
-    ddi_g1 = get_ddi_triples(treatment, treatment.g1_classified)
-    ddi_g2 = get_ddi_triples(treatment, treatment.g2_classified)
+    ddi_g1, treatment_ddi_g1 = get_ddi_triples(treatment, treatment.g1_classified)
+    ddi_g2, treatment_ddi_g2 = get_ddi_triples(treatment, treatment.g2_classified)
+    add_node.update(treatment_ddi_g2 - treatment_ddi_g1)
 
-    graph_2_ttl = graph_ttl + treatment_class + ddi_g2
-    graph_ttl = graph_ttl + ddi_g1
-    return graph_ttl, graph_2_ttl
+    graph_2_ttl = graph_ttl + ddi_g2
+    graph_ttl = graph_ttl + ddi_g1 # + add_triple_tddi_to_g1(add_node)
+    return graph_ttl, graph_2_ttl, add_node
+
+
+def get_ddi_triples_v1(treatment, g):
+    graph_ttl = ''
+    set_treatment_ddi = set()
+    for index, row in g.iterrows():
+        # t_ddi = """ddi:""" + treatment.name + row['precipitantDrug'] + row['objectDrug']
+        t_ddi = """ddi:""" + row['precipitantDrug'] + row['objectDrug']
+
+        # graph_ttl = graph_ttl + t_ddi + """\trdf:type\tex:DDI .\n"""
+        # == adding effect and impact of a DDI
+        graph_ttl = graph_ttl + t_ddi + """\tex:ddiEffect\tex:""" + row['Effect_Impact'] + """ .\n"""
+
+        graph_ttl = graph_ttl + """<http://example/Treatment/""" + treatment.name + """>\tex:hasInteraction\t""" + t_ddi + """ .\n"""
+        # graph_ttl = graph_ttl + """<http://example/Treatment/""" + treatment.name + """>\tex:related_to\td""" + t_ddi + """ .\n"""
+        # graph_ttl = graph_ttl + t_ddi + """\tex:related_to\t<http://example/Treatment/""" + treatment.name + """> .\n"""
+
+        graph_ttl = graph_ttl + t_ddi + """\tex:precipitant_drug\t<http://example/Drug/""" + row['precipitantDrug'] + """> .\n"""
+        graph_ttl = graph_ttl + t_ddi + """\tex:object_drug\t<http://example/Drug/""" + row['objectDrug'] + """> .\n"""
+
+        set_treatment_ddi.add(t_ddi)
+    return graph_ttl, set_treatment_ddi
+
+
+def create_turtle_file(treatment, add_node):
+    graph_ttl = """@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ex: <http://example/#> .
+@prefix treatment_drug: <http://example/Treatment_Drug#> .
+@prefix ddi: <http://example/DrugDrugInteraction#> .
+ex:higher_toxicity	rdf:type	ex:HigherToxicity .
+ex:lower_effectiveness	rdf:type	ex:LowerEffectiveness .\n"""
+    graph_ttl = """"""
+
+    if treatment.effective:
+        graph_ttl = graph_ttl + """<http://example/Treatment/""" + treatment.name + """>\tex:belong_to\tex:effective .\n"""
+        graph_ttl = graph_ttl + """<http://example/Treatment/""" + treatment.name + """>\tex:no_belong_to\tex:low_effect .\n"""
+
+        graph_ttl = graph_ttl + """ex:effective\tex:belong_to\t<http://example/Treatment/""" + treatment.name + """> .\n"""
+        graph_ttl = graph_ttl + """ex:low_effect\tex:no_belong_to\t<http://example/Treatment/""" + treatment.name + """> .\n"""
+
+    if treatment.decrease_effectiveness:
+        graph_ttl = graph_ttl + """<http://example/Treatment/""" + treatment.name + """>\tex:belong_to\tex:low_effect .\n"""
+        graph_ttl = graph_ttl + """<http://example/Treatment/""" + treatment.name + """>\tex:no_belong_to\tex:effective .\n"""
+
+        graph_ttl = graph_ttl + """ex:low_effect\tex:belong_to\t<http://example/Treatment/""" + treatment.name + """> .\n"""
+        graph_ttl = graph_ttl + """ex:effective\tex:no_belong_to\t<http://example/Treatment/""" + treatment.name + """> .\n"""
+
+    drug_list = treatment.treatment
+    for d in drug_list:
+        graph_ttl = graph_ttl + """<http://example/Drug/""" + d + """>\tex:part_of\t<http://example/Treatment/""" + treatment.name + """> .\n"""
+        graph_ttl = graph_ttl + """<http://example/Treatment/""" + treatment.name + """>\tex:part_of\t<http://example/Drug/""" + d + """> .\n"""
+
+    ddi_g1, treatment_ddi_g1 = get_ddi_triples(treatment, treatment.g1_classified)
+    ddi_g2, treatment_ddi_g2 = get_ddi_triples(treatment, treatment.g2_classified)
+    add_node.update(treatment_ddi_g2 - treatment_ddi_g1)
+
+    graph_2_ttl = graph_ttl + ddi_g2
+    graph_ttl = graph_ttl + ddi_g1 # + add_triple_tddi_to_g1(add_node)
+    return graph_ttl, graph_2_ttl, add_node
 
 
 def get_ddi_triples(treatment, g):
     graph_ttl = ''
+    set_treatment_ddi = set()
     for index, row in g.iterrows():
-        graph_ttl = graph_ttl + """ddi:""" + treatment.name + row['precipitantDrug'] + row[
-            'objectDrug'] + """\trdf:type\tex:DDI .\n"""
+        # t_ddi = """ddi:""" + treatment.name + row['precipitantDrug'] + row['objectDrug']
+        t_ddi = """ddi:""" + row['precipitantDrug'] + row['objectDrug']
+
         # == adding effect and impact of a DDI
-        #graph_ttl = graph_ttl + """ddi:""" + treatment.name + row['precipitantDrug'] + row[
-        #    'objectDrug'] + """\trdf:ddiEffect\tex:""" + row['Effect_Impact'] + """ .\n"""
+        graph_ttl = graph_ttl + t_ddi + """\tex:ddiEffect\tex:""" + row['Effect_Impact'] + """ .\n"""
+        graph_ttl = graph_ttl + """ex:""" + row['Effect_Impact'] + """\tex:ddiEffect\t""" + t_ddi + """ .\n"""
 
-        graph_ttl = graph_ttl + """<http://example/Treatment/""" + treatment.name + """>\tex:related_to\tddi:""" + \
-                    treatment.name + row['precipitantDrug'] + row['objectDrug'] + """ .\n"""
+        graph_ttl = graph_ttl + """<http://example/Treatment/""" + treatment.name + """>\tex:hasInteraction\t""" + t_ddi + """ .\n"""
+        graph_ttl = graph_ttl + t_ddi + """\tex:hasInteraction\t<http://example/Treatment/""" + treatment.name + """> .\n"""
 
-        # graph_ttl = graph_ttl + """ddi:""" + treatment.name + row['precipitantDrug'] + row[
-        #    'objectDrug'] + """\tex:related_to\t<http://example/Treatment/""" + treatment.name + """> .\n"""
+        graph_ttl = graph_ttl + t_ddi + """\tex:precipitant_drug\t<http://example/Drug/""" + row['precipitantDrug'] + """> .\n"""
+        graph_ttl = graph_ttl + t_ddi + """\tex:object_drug\t<http://example/Drug/""" + row['objectDrug'] + """> .\n"""
 
-        graph_ttl = graph_ttl + """ddi:""" + treatment.name + row['precipitantDrug'] + row[
-            'objectDrug'] + """\tex:precipitant_drug\t<http://example/Drug/""" + row['precipitantDrug'] + """> .\n"""
-        graph_ttl = graph_ttl + """ddi:""" + treatment.name + row['precipitantDrug'] + row[
-            'objectDrug'] + """\tex:object_drug\t<http://example/Drug/""" + row['objectDrug'] + """> .\n"""
-    return graph_ttl
+        graph_ttl = graph_ttl + """<http://example/Drug/""" + row['precipitantDrug'] + """>\tex:precipitant_drug\t""" + t_ddi + """ .\n"""
+        graph_ttl = graph_ttl + """<http://example/Drug/""" + row['objectDrug'] + """>\tex:object_drug\t""" + t_ddi + """.\n"""
+
+        set_treatment_ddi.add(t_ddi)
+    return graph_ttl, set_treatment_ddi
+
+
+def add_triple_tddi_to_g1(add_node):
+    add_node = list(add_node)
+    rdf_triple = ''
+    w = len(add_node)
+    if w % 2 != 0:
+        w -= 1
+        rdf_triple = add_node[0] + """\tex:part_of\t""" + add_node[w] + """ .\n"""
+    for i in range(0, w, 2):
+        rdf_triple = rdf_triple + add_node[i] + """\tex:part_of\t""" + add_node[i + 1] + """ .\n"""
+
+    return rdf_triple
 
 
 def save_ttl_file(graph_ttl, name):

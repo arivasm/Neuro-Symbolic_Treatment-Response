@@ -10,6 +10,7 @@ from scipy.ndimage import gaussian_filter1d
 import math
 import matplotlib.pyplot as plt
 import matplotlib.colors as colors
+import matplotlib.colors as mcolors
 from sklearn.cluster import KMeans
 from yellowbrick.cluster import KElbowVisualizer
 from sklearn.decomposition import PCA
@@ -200,14 +201,14 @@ def plot_treatment(new_df, predicted_heads_tox, predicted_heads_eff, n):
     effect = list(predicted_heads_eff.loc[predicted_heads_eff.in_training == True].head_label)
     # new_df['cls'] = 'safe'
     new_df.loc[new_df.target.isin(toxicity), 'cls'] = 'effective'
-    new_df.loc[new_df.target.isin(effect), 'cls'] = 'decrease_effectiveness'
+    new_df.loc[new_df.target.isin(effect), 'cls'] = 'low-effect'
     X = new_df.iloc[:, :-2].copy()
 
     # define and map colors
     col = list(colors.cnames.values())
-    # col = col[:2]
-    col = [col[9], col[3]]
-    index = ['effective', 'decrease_effectiveness']
+    # col = [col[9], col[3]]
+    col = [mcolors.CSS4_COLORS['brown'], mcolors.CSS4_COLORS['lightcoral']]
+    index = ['effective', 'low-effect']
     color_dictionary = dict(zip(index, col))
     new_df['c'] = new_df.cls.map(color_dictionary)
     #####PLOT#####
@@ -216,7 +217,7 @@ def plot_treatment(new_df, predicted_heads_tox, predicted_heads_eff, n):
     # plot data
     pca = PCA(n_components=2).fit(X)
     pca_c = pca.transform(X)
-    plt.scatter(pca_c[:, 0], pca_c[:, 1], c=new_df.c, alpha=0.6, s=50)
+    plt.scatter(pca_c[:, 0], pca_c[:, 1], c=new_df.c, s=50)  # alpha=0.6,
 
     # create a list of legend elemntes
     ## markers / records
@@ -225,8 +226,14 @@ def plot_treatment(new_df, predicted_heads_tox, predicted_heads_eff, n):
     # plot legend
     plt.legend(handles=legend_elements, loc='upper right', fontsize=16)
     # title and labels
-    plt.title('Treatments in KG ' + str(n), loc='left', fontsize=22)
-    plt.savefig(fname='Plots/PCA_KG_' + str(n) + ".png", format='png', bbox_inches='tight', dpi=300, transparent=True)
+    if n == 1:
+        plt.title('Treatments in ' + '${\cal{T\_KG}}_{basic}$', loc='left', fontsize=22)
+    elif n == 2:
+        plt.title('Treatments in ' + '$\cal{T\_KG}$', loc='left', fontsize=22)
+    else:
+        plt.title('Treatments in ' + '${\cal{T\_KG}}_{random}$', loc='left', fontsize=22)
+    #plt.savefig(fname='Plots/PCA_KG_' + str(n) + ".png", format='png', bbox_inches='tight', dpi=300, transparent=True)
+    #plt.savefig(fname='Plots/PCA_KG_' + str(n) + ".pdf", format='pdf', bbox_inches='tight')
     plt.show()
 
 

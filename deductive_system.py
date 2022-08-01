@@ -15,8 +15,6 @@ from scipy.stats import wilcoxon, kruskal
 import random
 
 
-
-
 def store_pharmacokinetic_ddi(effect):
     if effect in ['Excretion_rate', 'Excretory_function', 'excretion_rate']:
         effect = 'excretion'
@@ -177,10 +175,13 @@ def get_graph_enriched(plot_ddi, comorbidity_drug, set_DDIs):
     #                                         adverse_event,
     #                                         plot_treatment=True, graph_enriched=False)
     graph_ddi = pd.concat([plot_ddi, indirect_ddi])
-    # graph_ddi = pd.concat([set_DDIs, indirect_ddi])
     graph_ddi.drop_duplicates(keep='first', inplace=True)
 
-    #return ((graph_ddi.shape[0] - plot_ddi.shape[0]) / graph_ddi.shape[0]) * 100, graph_ddi, text_derived_ddi
+    # if plot_ddi.shape[0] == 0:
+    #     return graph_ddi, plot_ddi
+    # remove_ddi = pd.merge(indirect_ddi, plot_ddi, how='inner')
+
+    # return ((graph_ddi.shape[0] - plot_ddi.shape[0]) / graph_ddi.shape[0]) * 100, graph_ddi, text_derived_ddi
     return graph_ddi, text_derived_ddi
 
 
@@ -213,8 +214,7 @@ def capture_knowledge(union, comorbidity_drug, set_DDIs):
     plot_graph = union[['EffectorDrugLabel', 'AffectedDrugLabel', 'Effect_Impact']]
     # plot_ddi.drop_duplicates(keep='first', inplace=True)
     graph_ddi, text_derived_ddi = get_graph_enriched(plot_graph, comorbidity_drug, set_DDIs)  # plot_ddi
-    # print('Num.DDIs Initial: ', plot_ddi.shape[0], 'Num.DDIs Enriched: ', graph_ddi.shape[0])
-    # return (graph_ddi.shape[0] - plot_ddi.shape[0])
+
     union['Class'] = ''
     union.loc[union.Effect_Impact.isin(ddiTypeToxicity), "Class"] = 'HigherToxicity'
     union.loc[union.Effect_Impact.isin(ddiTypeEffectiveness), "Class"] = 'LowerEffectiveness'
@@ -236,6 +236,41 @@ def capture_knowledge(union, comorbidity_drug, set_DDIs):
     g2 = graph_ddi[['AffectedDrugLabel', 'Class']]
     g2.drop_duplicates(keep='first', inplace=True)
     return g1, g2, union, graph_ddi
+
+
+def capture_knowledge_v1(union, comorbidity_drug, set_DDIs):
+    plot_graph = union[['EffectorDrugLabel', 'AffectedDrugLabel', 'Effect_Impact']]
+    # plot_ddi.drop_duplicates(keep='first', inplace=True)
+    graph_ddi, remove_ddi = get_graph_enriched(plot_graph, comorbidity_drug, set_DDIs)  # plot_ddi
+
+    # removing DDIs from G1 that our deductive system can deduce
+    print(remove_ddi.shape[0])
+    init_g1 = union.merge(remove_ddi, how='outer', indicator=True).loc[lambda x: x['_merge'] == 'left_only'].drop(
+        "_merge",
+        1).reset_index()
+    init_g1.drop(columns=['index'], inplace=True)
+
+    init_g1['Class'] = ''
+    init_g1.loc[init_g1.Effect_Impact.isin(ddiTypeToxicity), "Class"] = 'HigherToxicity'
+    init_g1.loc[init_g1.Effect_Impact.isin(ddiTypeEffectiveness), "Class"] = 'LowerEffectiveness'
+    g1 = init_g1[['objectDrug', 'AffectedDrugLabel', 'Class']]
+    g1.drop_duplicates(keep='first', inplace=True)
+    graph_ddi['Class'] = ''
+    graph_ddi.loc[graph_ddi.Effect_Impact.isin(ddiTypeToxicity), "Class"] = 'HigherToxicity'
+    graph_ddi.loc[graph_ddi.Effect_Impact.isin(ddiTypeEffectiveness), "Class"] = 'LowerEffectiveness'
+
+    graph_ddi['precipitantDrug'] = ''
+    graph_ddi['objectDrug'] = ''
+    precipitant = dict(zip(union.precipitantDrug, union.EffectorDrugLabel))
+    object_d = dict(zip(union.objectDrug, union.AffectedDrugLabel))
+    for key, value in precipitant.items():
+        graph_ddi.loc[graph_ddi.EffectorDrugLabel == value, 'precipitantDrug'] = key
+    for key, value in object_d.items():
+        graph_ddi.loc[graph_ddi.AffectedDrugLabel == value, 'objectDrug'] = key
+
+    g2 = graph_ddi[['AffectedDrugLabel', 'Class']]
+    g2.drop_duplicates(keep='first', inplace=True)
+    return g1, g2, init_g1, graph_ddi
 
 
 def discovering_knowledge(adverse_event, union, set_dsd_label, comorbidity_drug):
