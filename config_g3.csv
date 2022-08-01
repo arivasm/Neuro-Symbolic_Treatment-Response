@@ -1,0 +1,2 @@
+model;epochs;k_fold;path;graph_name
+RotatE;200;5;G3/;GXXtreatment.ttl
