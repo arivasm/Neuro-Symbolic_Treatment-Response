@@ -1,4 +1,4 @@
-# Neuro-Symbolic_Treatment-Response
+# Neuro-Symbolic IA System Architecture
 
 ![Neuro-Symbolic IA System Architecture](/images/Architecture.png "Neuro-Symbolic IA System Architecture")
 
