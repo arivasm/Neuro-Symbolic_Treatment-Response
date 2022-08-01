@@ -25,26 +25,6 @@ def load_dataset(path, name):
     return tf_data, triple_data
 
 
-def create_model(tf_training, tf_testing, embedding, n_epoch, training_loops, path):
-    results = pipeline(
-        training=tf_training,
-        testing=tf_testing,
-        model=embedding,
-        # Training configuration
-        training_kwargs=dict(
-            num_epochs=n_epoch,
-            use_tqdm_batch=False,
-        ),
-        # Runtime configuration
-        random_seed=1235,
-        device='gpu',
-        training_loop=training_loops,
-    )
-    model = results.model
-    results.save_to_directory(path + embedding)
-    return model, results
-
-
 def filter_prediction(predicted_heads_df, constraint):
     predicted_heads_df = predicted_heads_df[predicted_heads_df.head_label.str.contains(constraint)]
     predicted_heads_df = reset_index(predicted_heads_df)
